@@ -1,11 +1,6 @@
 {
-  "model_version": "2.0-fcs-results",
-  "fcs_team_count": 128,
-  "fcs_games_count": 656,
-  "all_d1_games_count": 1158,
-  "non_d1_games_count": 67,
   "season": 2026,
-  "generated_at": "2026-11-04T15:05:48.148641+00:00",
+  "generated_at": "2026-11-04T06:00:00+00:00",
   "latest_game": "2026-11-04T01:00:00+00:00",
   "games_count": 624,
   "team_count": 138,
@@ -15,65 +10,65 @@
   "conferences": [
     {
       "conference": "Big Ten",
-      "weighted_wins": 26.752885766610962,
-      "context": 0.9999999999999999
+      "weighted_wins": 26.40463111506776,
+      "context": 1.0
     },
     {
       "conference": "SEC",
-      "weighted_wins": 25.014417981951734,
-      "context": 0.9153919866633738
+      "weighted_wins": 25.098769391161742,
+      "context": 0.9305018521557217
     },
     {
       "conference": "Big 12",
-      "weighted_wins": 20.132680506122846,
-      "context": 0.7425104676968206
+      "weighted_wins": 20.123681582724036,
+      "context": 0.7518377696294645
     },
     {
       "conference": "ACC",
-      "weighted_wins": 14.415038223091706,
-      "context": 0.5481351309362119
+      "weighted_wins": 14.507944480633812,
+      "context": 0.5584750749819573
     },
     {
       "conference": "American Athletic",
-      "weighted_wins": 12.418087331900873,
-      "context": 0.4644285527404039
+      "weighted_wins": 12.438820623282908,
+      "context": 0.4711504566797817
     },
     {
       "conference": "Sun Belt",
-      "weighted_wins": 10.911093912308834,
-      "context": 0.4041628557493763
+      "weighted_wins": 11.002016950191463,
+      "context": 0.4127486362288698
     },
     {
       "conference": "Mountain West",
-      "weighted_wins": 8.104671595657779,
-      "context": 0.2995954043018114
+      "weighted_wins": 8.185405228282448,
+      "context": 0.306459224828084
     },
     {
       "conference": "FBS Independents",
-      "weighted_wins": 8.059431626040233,
-      "context": 0.2931679211767552
+      "weighted_wins": 8.046587896460242,
+      "context": 0.2965611946333418
     },
     {
       "conference": "Pac-12",
-      "weighted_wins": 7.8396791200059734,
-      "context": 0.2874743855400199
+      "weighted_wins": 7.822104406992521,
+      "context": 0.29058786650227353
     },
     {
       "conference": "Mid-American",
-      "weighted_wins": 5.5868381685358095,
-      "context": 0.20862125295279155
+      "weighted_wins": 5.612664444849618,
+      "context": 0.21225346505307813
     },
     {
       "conference": "Conference USA",
-      "weighted_wins": 5.056977618916526,
-      "context": 0.19344589899518616
+      "weighted_wins": 5.0015493674834985,
+      "context": 0.19382922436956163
     }
   ],
   "sensitivity": [
     {
       "parameter": "quality_weight",
       "factor": 0.8,
-      "top25_overlap": 23,
+      "top25_overlap": 24,
       "number_one": "Miami"
     },
     {
@@ -119,544 +114,7 @@
       "number_one": "Miami"
     }
   ],
-  "fcs_coverage": {
-    "source": "ESPN season-specific FCS membership and individual regular-season schedules",
-    "source_url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/81/teams?limit=1000",
-    "schedule_url_template": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/{}/schedule?season=2026&seasontype=2",
-    "fcs_team_count": 128,
-    "schedule_games": 847,
-    "completed_games": 656,
-    "reciprocal_schedule_checks": true,
-    "excluded_games": [
-      {
-        "game_id": 401866625,
-        "status": "STATUS_POSTPONED"
-      },
-      {
-        "game_id": 401868016,
-        "status": "STATUS_CANCELED"
-      },
-      {
-        "game_id": 401874036,
-        "status": "STATUS_CANCELED"
-      }
-    ],
-    "teams": [
-      {
-        "id": "107",
-        "team": "Holy Cross"
-      },
-      {
-        "id": "108",
-        "team": "Harvard"
-      },
-      {
-        "id": "110242",
-        "team": "West Florida"
-      },
-      {
-        "id": "119",
-        "team": "Towson"
-      },
-      {
-        "id": "13",
-        "team": "Cal Poly"
-      },
-      {
-        "id": "147",
-        "team": "Montana State"
-      },
-      {
-        "id": "149",
-        "team": "Montana"
-      },
-      {
-        "id": "155",
-        "team": "North Dakota"
-      },
-      {
-        "id": "159",
-        "team": "Dartmouth"
-      },
-      {
-        "id": "160",
-        "team": "New Hampshire"
-      },
-      {
-        "id": "163",
-        "team": "Princeton"
-      },
-      {
-        "id": "171",
-        "team": "Columbia"
-      },
-      {
-        "id": "172",
-        "team": "Cornell"
-      },
-      {
-        "id": "2000",
-        "team": "Abilene Christian"
-      },
-      {
-        "id": "2010",
-        "team": "Alabama A&M"
-      },
-      {
-        "id": "2011",
-        "team": "Alabama State"
-      },
-      {
-        "id": "2016",
-        "team": "Alcorn State"
-      },
-      {
-        "id": "2029",
-        "team": "Arkansas-Pine Bluff"
-      },
-      {
-        "id": "2046",
-        "team": "Austin Peay"
-      },
-      {
-        "id": "2065",
-        "team": "Bethune-Cookman"
-      },
-      {
-        "id": "2083",
-        "team": "Bucknell"
-      },
-      {
-        "id": "2086",
-        "team": "Butler"
-      },
-      {
-        "id": "2097",
-        "team": "Campbell"
-      },
-      {
-        "id": "2110",
-        "team": "Central Arkansas"
-      },
-      {
-        "id": "2115",
-        "team": "Central Connecticut"
-      },
-      {
-        "id": "2127",
-        "team": "Charleston Southern"
-      },
-      {
-        "id": "2130",
-        "team": "Chicago State"
-      },
-      {
-        "id": "2142",
-        "team": "Colgate"
-      },
-      {
-        "id": "2166",
-        "team": "Davidson"
-      },
-      {
-        "id": "2168",
-        "team": "Dayton"
-      },
-      {
-        "id": "2169",
-        "team": "Delaware State"
-      },
-      {
-        "id": "2181",
-        "team": "Drake"
-      },
-      {
-        "id": "2184",
-        "team": "Duquesne"
-      },
-      {
-        "id": "219",
-        "team": "Pennsylvania"
-      },
-      {
-        "id": "2193",
-        "team": "East Tennessee State"
-      },
-      {
-        "id": "2197",
-        "team": "Eastern Illinois"
-      },
-      {
-        "id": "2198",
-        "team": "Eastern Kentucky"
-      },
-      {
-        "id": "2210",
-        "team": "Elon"
-      },
-      {
-        "id": "222",
-        "team": "Villanova"
-      },
-      {
-        "id": "2230",
-        "team": "Fordham"
-      },
-      {
-        "id": "2241",
-        "team": "Gardner-Webb"
-      },
-      {
-        "id": "225",
-        "team": "Brown"
-      },
-      {
-        "id": "2261",
-        "team": "Hampton"
-      },
-      {
-        "id": "227",
-        "team": "Rhode Island"
-      },
-      {
-        "id": "2277",
-        "team": "Houston Christian"
-      },
-      {
-        "id": "2287",
-        "team": "Illinois State"
-      },
-      {
-        "id": "2296",
-        "team": "Jackson State"
-      },
-      {
-        "id": "231",
-        "team": "Furman"
-      },
-      {
-        "id": "2320",
-        "team": "Lamar"
-      },
-      {
-        "id": "2329",
-        "team": "Lehigh"
-      },
-      {
-        "id": "233",
-        "team": "South Dakota"
-      },
-      {
-        "id": "2341",
-        "team": "Long Island University"
-      },
-      {
-        "id": "236",
-        "team": "Chattanooga"
-      },
-      {
-        "id": "2368",
-        "team": "Marist"
-      },
-      {
-        "id": "2377",
-        "team": "McNeese"
-      },
-      {
-        "id": "2382",
-        "team": "Mercer"
-      },
-      {
-        "id": "2385",
-        "team": "Mercyhurst"
-      },
-      {
-        "id": "2400",
-        "team": "Mississippi Valley State"
-      },
-      {
-        "id": "2405",
-        "team": "Monmouth"
-      },
-      {
-        "id": "2413",
-        "team": "Morehead State"
-      },
-      {
-        "id": "2415",
-        "team": "Morgan State"
-      },
-      {
-        "id": "2428",
-        "team": "North Carolina Central"
-      },
-      {
-        "id": "2441",
-        "team": "New Haven"
-      },
-      {
-        "id": "2447",
-        "team": "Nicholls"
-      },
-      {
-        "id": "2448",
-        "team": "North Carolina A&T"
-      },
-      {
-        "id": "2450",
-        "team": "Norfolk State"
-      },
-      {
-        "id": "2453",
-        "team": "North Alabama"
-      },
-      {
-        "id": "2458",
-        "team": "Northern Colorado"
-      },
-      {
-        "id": "2460",
-        "team": "Northern Iowa"
-      },
-      {
-        "id": "2464",
-        "team": "Northern Arizona"
-      },
-      {
-        "id": "2466",
-        "team": "Northwestern State"
-      },
-      {
-        "id": "2502",
-        "team": "Portland State"
-      },
-      {
-        "id": "2504",
-        "team": "Prairie View A&M"
-      },
-      {
-        "id": "2506",
-        "team": "Presbyterian"
-      },
-      {
-        "id": "2523",
-        "team": "Robert Morris"
-      },
-      {
-        "id": "2529",
-        "team": "Sacred Heart"
-      },
-      {
-        "id": "253",
-        "team": "Southern Utah"
-      },
-      {
-        "id": "2535",
-        "team": "Samford"
-      },
-      {
-        "id": "2545",
-        "team": "SE Louisiana"
-      },
-      {
-        "id": "2546",
-        "team": "Southeast Missouri State"
-      },
-      {
-        "id": "2569",
-        "team": "South Carolina State"
-      },
-      {
-        "id": "257",
-        "team": "Richmond"
-      },
-      {
-        "id": "2571",
-        "team": "South Dakota State"
-      },
-      {
-        "id": "2582",
-        "team": "Southern"
-      },
-      {
-        "id": "2617",
-        "team": "Stephen F. Austin"
-      },
-      {
-        "id": "2619",
-        "team": "Stony Brook"
-      },
-      {
-        "id": "2627",
-        "team": "Tarleton State"
-      },
-      {
-        "id": "2630",
-        "team": "UT Martin"
-      },
-      {
-        "id": "2634",
-        "team": "Tennessee State"
-      },
-      {
-        "id": "2635",
-        "team": "Tennessee Tech"
-      },
-      {
-        "id": "2640",
-        "team": "Texas Southern"
-      },
-      {
-        "id": "2643",
-        "team": "The Citadel"
-      },
-      {
-        "id": "2674",
-        "team": "Valparaiso"
-      },
-      {
-        "id": "2678",
-        "team": "VMI"
-      },
-      {
-        "id": "2681",
-        "team": "Wagner"
-      },
-      {
-        "id": "2692",
-        "team": "Weber State"
-      },
-      {
-        "id": "2698",
-        "team": "West Georgia"
-      },
-      {
-        "id": "2710",
-        "team": "Western Illinois"
-      },
-      {
-        "id": "2717",
-        "team": "Western Carolina"
-      },
-      {
-        "id": "2729",
-        "team": "William & Mary"
-      },
-      {
-        "id": "2747",
-        "team": "Wofford"
-      },
-      {
-        "id": "2754",
-        "team": "Youngstown State"
-      },
-      {
-        "id": "2755",
-        "team": "Grambling"
-      },
-      {
-        "id": "2771",
-        "team": "Merrimack"
-      },
-      {
-        "id": "2803",
-        "team": "Bryant"
-      },
-      {
-        "id": "2815",
-        "team": "Lindenwood"
-      },
-      {
-        "id": "282",
-        "team": "Indiana State"
-      },
-      {
-        "id": "2837",
-        "team": "East Texas A&M"
-      },
-      {
-        "id": "284",
-        "team": "Stonehill"
-      },
-      {
-        "id": "2900",
-        "team": "St. Thomas"
-      },
-      {
-        "id": "2916",
-        "team": "Incarnate Word"
-      },
-      {
-        "id": "292",
-        "team": "UT Rio Grande Valley"
-      },
-      {
-        "id": "301",
-        "team": "San Diego"
-      },
-      {
-        "id": "302",
-        "team": "UC Davis"
-      },
-      {
-        "id": "304",
-        "team": "Idaho State"
-      },
-      {
-        "id": "3101",
-        "team": "Utah Tech"
-      },
-      {
-        "id": "311",
-        "team": "Maine"
-      },
-      {
-        "id": "322",
-        "team": "Lafayette"
-      },
-      {
-        "id": "331",
-        "team": "Eastern Washington"
-      },
-      {
-        "id": "399",
-        "team": "UAlbany"
-      },
-      {
-        "id": "43",
-        "team": "Yale"
-      },
-      {
-        "id": "46",
-        "team": "Georgetown"
-      },
-      {
-        "id": "47",
-        "team": "Howard"
-      },
-      {
-        "id": "50",
-        "team": "Florida A&M"
-      },
-      {
-        "id": "56",
-        "team": "Stetson"
-      },
-      {
-        "id": "70",
-        "team": "Idaho"
-      },
-      {
-        "id": "79",
-        "team": "Southern Illinois"
-      },
-      {
-        "id": "93",
-        "team": "Murray State"
-      }
-    ]
-  },
-  "recent_espn_checks": 0,
-  "refresh_mode": "frozen",
+  "recent_espn_checks": 69,
+  "refresh_mode": "live",
   "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/schedules/csv/cfb_schedules_2026.csv"
 }
