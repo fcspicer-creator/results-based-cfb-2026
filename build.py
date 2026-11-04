@@ -141,6 +141,43 @@ def calculate(df,old,now):
         r['conference_context_points']=sum(g['conference_context_points'] for g in r['games'])
     return dict(model_version='2.5-fbs-opponent-unbeaten-bonus',all_teams=combined,subdivision_calibration=out.attrs['subdivision_calibration'],fcs_teams=fcsrows,fcs_team_count=len(fcs_out),fcs_games_count=len(fcs_done),all_d1_games_count=len(done),non_d1_games_count=int((~done.home_division.isin(['fbs','fcs'])|~done.away_division.isin(['fbs','fcs'])).sum()),season=SEASON,generated_at=now.isoformat(),latest_game=max(g['date'] for g in ledger),games_count=ng,team_count=len(out),postseason_2025_games=post,week=week,prior_weight=prior_weight,teams=teamrows,conferences=[{'conference':c,'weighted_wins':float(v),'context':contexts[c]} for c,v in sorted(confs.items(),key=lambda z:-z[1])],sensitivity=checks),out,ledger
 
+def conference_comparison(data):
+    teams={t['team']:t for t in data['all_teams']}
+    def group(t):
+     c=t['conference'];return 'SWAC' if c.startswith('SWAC') else 'FCS Independents' if c.startswith('FCS Independent') else c
+    rows={}
+    for t in teams.values():
+     c=group(t)
+     if c not in rows:rows[c]=dict(conference=c,division=t['division'].upper(),teams=0,team_score=0,win_points=0,loss_penalties=0,wins=0,losses=0,non_d1_wins=0,non_d1_losses=0,head_to_head={})
+     r=rows[c];r['teams']+=1;r['team_score']+=t['score']
+     for g in t['games']:
+      other=teams.get(g['opponent']);oc=group(other) if other else 'Non–Division I'
+      if oc==c:continue
+      h=r['head_to_head'].setdefault(oc,dict(wins=0,losses=0,points=0))
+      win=g['result']=='W';h['wins' if win else 'losses']+=1;h['points']+=g['game_points']
+      if other:
+       r['wins' if win else 'losses']+=1;r['win_points' if win else 'loss_penalties']+=abs(g['game_points'])
+      else:r['non_d1_wins' if win else 'non_d1_losses']+=1
+    for r in rows.values():
+     r['average_resume']=r['team_score']/r['teams'];r['outside_resume']=(r['win_points']-r['loss_penalties'])/r['teams'];r['independent']='Independent' in r['conference']
+    confs=[r for r in rows.values() if not r['independent']]
+    for key in ['average_resume','outside_resume']:
+     lo=min(r[key] for r in confs);hi=max(r[key] for r in confs)
+     for r in rows.values():r[key+'_scaled']=100*(r[key]-lo)/(hi-lo) if hi!=lo else 50
+    for r in rows.values():r['comparison_score']=(r['average_resume_scaled']+r['outside_resume_scaled'])/2
+    confs.sort(key=lambda r:(-r['comparison_score'],r['conference']))
+    for i,r in enumerate(confs,1):r['rank']=i
+    ind=[r for r in rows.values() if r['independent']]
+    for r in ind:r['rank']=None
+    report=confs+sorted(ind,key=lambda r:-r['comparison_score'])
+    for c in report:
+     for other,h in c['head_to_head'].items():
+      if other == 'Non–Division I':continue
+      reverse=rows[other]['head_to_head'][c['conference']]
+      assert h['wins']==reverse['losses'] and h['losses']==reverse['wins']
+    assert sum(c['teams'] for c in report)==len(teams)
+    return report
+
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--refresh',action='store_true');ap.add_argument('--snapshot',action='store_true');ap.add_argument('--as-of',help='ISO UTC time for reproducible offline build');args=ap.parse_args()
     now=datetime.fromisoformat(args.as_of) if args.as_of else datetime.now(timezone.utc)
@@ -158,6 +195,7 @@ def main():
         df,coverage=fcs.collect(df,fetch)
         df=normalize(df)
     data,out,ledger=calculate(df,old,now)
+    data['conference_comparison']=conference_comparison(data)
     data['fcs_coverage']=coverage
     data['recent_espn_checks']=reconciled;data['refresh_mode']='live' if args.refresh else 'frozen';data['source_url']=SOURCE
     # Only write outputs after all checks succeed. Failed Actions runs preserve the live site.
