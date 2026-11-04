@@ -114,7 +114,7 @@
       "number_one": "Miami"
     }
   ],
-  "recent_espn_checks": 69,
-  "refresh_mode": "live",
+  "recent_espn_checks": 0,
+  "refresh_mode": "frozen",
   "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/schedules/csv/cfb_schedules_2026.csv"
 }
