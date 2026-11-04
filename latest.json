@@ -127,6 +127,2273 @@
       "number_one": "Miami"
     }
   ],
+  "conference_comparison": [
+    {
+      "conference": "SEC",
+      "division": "FBS",
+      "teams": 16,
+      "team_score": 325.87972958656394,
+      "win_points": 181.03718160385958,
+      "loss_penalties": 6.429709044590812,
+      "wins": 38,
+      "losses": 2,
+      "non_d1_wins": 0,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "MVFC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 4.395059775770251
+        },
+        "Sun Belt": {
+          "wins": 5,
+          "losses": 0,
+          "points": 25.017431666852666
+        },
+        "OVC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.018622429121036
+        },
+        "Conference USA": {
+          "wins": 4,
+          "losses": 0,
+          "points": 16.715672501319116
+        },
+        "Pac-12": {
+          "wins": 1,
+          "losses": 0,
+          "points": 5.803249861759873
+        },
+        "Big Ten": {
+          "wins": 2,
+          "losses": 1,
+          "points": 10.296405023473854
+        },
+        "American Athletic": {
+          "wins": 5,
+          "losses": 0,
+          "points": 27.500668579342655
+        },
+        "ACC": {
+          "wins": 5,
+          "losses": 0,
+          "points": 26.812822273146253
+        },
+        "Southland": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.1397507351922496
+        },
+        "SWAC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.219106164598953
+        },
+        "Big 12": {
+          "wins": 3,
+          "losses": 1,
+          "points": 14.326150659969555
+        },
+        "Southern": {
+          "wins": 2,
+          "losses": 0,
+          "points": 6.037244858242072
+        },
+        "Coastal Athletic": {
+          "wins": 2,
+          "losses": 0,
+          "points": 6.908831387594556
+        },
+        "Mid-American": {
+          "wins": 1,
+          "losses": 0,
+          "points": 4.122752829304986
+        },
+        "Mountain West": {
+          "wins": 2,
+          "losses": 0,
+          "points": 10.472100026961781
+        },
+        "UAC": {
+          "wins": 2,
+          "losses": 0,
+          "points": 6.821603786618942
+        }
+      },
+      "average_resume": 20.367483099160246,
+      "outside_resume": 10.912967034954297,
+      "independent": false,
+      "average_resume_scaled": 100.0,
+      "outside_resume_scaled": 100.0,
+      "comparison_score": 100.0,
+      "rank": 1
+    },
+    {
+      "conference": "Big Ten",
+      "division": "FBS",
+      "teams": 18,
+      "team_score": 267.4651527339461,
+      "win_points": 193.7212009469623,
+      "loss_penalties": 43.984106676028304,
+      "wins": 43,
+      "losses": 11,
+      "non_d1_wins": 0,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "ACC": {
+          "wins": 1,
+          "losses": 4,
+          "points": -12.11256266198322
+        },
+        "Pac-12": {
+          "wins": 5,
+          "losses": 0,
+          "points": 25.81584852702258
+        },
+        "Mountain West": {
+          "wins": 4,
+          "losses": 0,
+          "points": 15.953301651701578
+        },
+        "American Athletic": {
+          "wins": 3,
+          "losses": 0,
+          "points": 16.19829548182971
+        },
+        "MEAC": {
+          "wins": 2,
+          "losses": 0,
+          "points": 6.2183347482123
+        },
+        "Conference USA": {
+          "wins": 1,
+          "losses": 0,
+          "points": 4.362679859961442
+        },
+        "Sun Belt": {
+          "wins": 2,
+          "losses": 0,
+          "points": 11.936153211924257
+        },
+        "Mid-American": {
+          "wins": 11,
+          "losses": 1,
+          "points": 47.26535957989958
+        },
+        "SEC": {
+          "wins": 1,
+          "losses": 2,
+          "points": -1.098441572861053
+        },
+        "Big 12": {
+          "wins": 2,
+          "losses": 1,
+          "points": 6.33069947530768
+        },
+        "MVFC": {
+          "wins": 5,
+          "losses": 0,
+          "points": 17.016162384516136
+        },
+        "Big Sky": {
+          "wins": 2,
+          "losses": 0,
+          "points": 6.037829507649843
+        },
+        "FBS Independents": {
+          "wins": 1,
+          "losses": 3,
+          "points": -3.4389145050254575
+        },
+        "OVC": {
+          "wins": 2,
+          "losses": 0,
+          "points": 6.233726153657583
+        },
+        "Coastal Athletic": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.018622429121036
+        }
+      },
+      "average_resume": 14.859175151885896,
+      "outside_resume": 8.318727459496333,
+      "independent": false,
+      "average_resume_scaled": 89.84640183185608,
+      "outside_resume_scaled": 92.4982106708397,
+      "comparison_score": 91.17230625134789,
+      "rank": 2
+    },
+    {
+      "conference": "Big 12",
+      "division": "FBS",
+      "teams": 16,
+      "team_score": 220.93997858254264,
+      "win_points": 168.7892997009206,
+      "loss_penalties": 34.519478777826414,
+      "wins": 40,
+      "losses": 8,
+      "non_d1_wins": 0,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "Big Sky": {
+          "wins": 4,
+          "losses": 0,
+          "points": 13.569242913895346
+        },
+        "SEC": {
+          "wins": 1,
+          "losses": 3,
+          "points": -7.414138877237697
+        },
+        "Pac-12": {
+          "wins": 6,
+          "losses": 0,
+          "points": 28.62403210951077
+        },
+        "FBS Independents": {
+          "wins": 1,
+          "losses": 0,
+          "points": 7.545658200733081
+        },
+        "UAC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.373924880566566
+        },
+        "Conference USA": {
+          "wins": 2,
+          "losses": 0,
+          "points": 8.163970011662606
+        },
+        "SWAC": {
+          "wins": 4,
+          "losses": 0,
+          "points": 12.521557730409905
+        },
+        "Sun Belt": {
+          "wins": 5,
+          "losses": 0,
+          "points": 26.649804507952506
+        },
+        "Mountain West": {
+          "wins": 2,
+          "losses": 0,
+          "points": 6.812956736150856
+        },
+        "ACC": {
+          "wins": 3,
+          "losses": 2,
+          "points": 4.976618772103642
+        },
+        "Southern": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.2483033815499054
+        },
+        "Mid-American": {
+          "wins": 2,
+          "losses": 0,
+          "points": 7.9403326808431185
+        },
+        "American Athletic": {
+          "wins": 1,
+          "losses": 1,
+          "points": -0.4661980078508883
+        },
+        "Big Ten": {
+          "wins": 1,
+          "losses": 2,
+          "points": 0.255548192486716
+        },
+        "MVFC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.018622429121036
+        },
+        "OVC": {
+          "wins": 2,
+          "losses": 0,
+          "points": 6.240419372388487
+        },
+        "MEAC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.151044915437629
+        },
+        "Southland": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.0356929079244366
+        },
+        "NEC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.022428065446137
+        }
+      },
+      "average_resume": 13.808748661408915,
+      "outside_resume": 8.391863807693387,
+      "independent": false,
+      "average_resume_scaled": 87.91012510376312,
+      "outside_resume_scaled": 92.70969980301884,
+      "comparison_score": 90.30991245339098,
+      "rank": 3
+    },
+    {
+      "conference": "ACC",
+      "division": "FBS",
+      "teams": 17,
+      "team_score": 144.9963203200122,
+      "win_points": 133.27540224734423,
+      "loss_penalties": 45.63521634639523,
+      "wins": 34,
+      "losses": 12,
+      "non_d1_wins": 0,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "SWAC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.018622429121036
+        },
+        "Mid-American": {
+          "wins": 3,
+          "losses": 0,
+          "points": 13.239390037557525
+        },
+        "Big Ten": {
+          "wins": 4,
+          "losses": 1,
+          "points": 17.17251758098477
+        },
+        "American Athletic": {
+          "wins": 1,
+          "losses": 0,
+          "points": 5.479353640192288
+        },
+        "Patriot": {
+          "wins": 4,
+          "losses": 0,
+          "points": 12.624890498888758
+        },
+        "Big Sky": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.2256850922596394
+        },
+        "Conference USA": {
+          "wins": 3,
+          "losses": 0,
+          "points": 12.684468833393703
+        },
+        "Big 12": {
+          "wins": 2,
+          "losses": 3,
+          "points": -4.069321308819109
+        },
+        "Southern": {
+          "wins": 3,
+          "losses": 0,
+          "points": 10.07771765851634
+        },
+        "Sun Belt": {
+          "wins": 3,
+          "losses": 0,
+          "points": 14.178180720523727
+        },
+        "SEC": {
+          "wins": 0,
+          "losses": 5,
+          "points": -17.728354794921714
+        },
+        "OVC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.076632968363322
+        },
+        "FBS Independents": {
+          "wins": 1,
+          "losses": 2,
+          "points": -1.5003783926638823
+        },
+        "Coastal Athletic": {
+          "wins": 3,
+          "losses": 0,
+          "points": 8.562570617001013
+        },
+        "Mountain West": {
+          "wins": 1,
+          "losses": 1,
+          "points": -1.4532806669501657
+        },
+        "MEAC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.0210556678418152
+        },
+        "UAC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.011812890538874
+        },
+        "NEC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.018622429121036
+        }
+      },
+      "average_resume": 8.529195312941894,
+      "outside_resume": 5.155305052997001,
+      "independent": false,
+      "average_resume_scaled": 78.17819585784312,
+      "outside_resume_scaled": 83.35050948039972,
+      "comparison_score": 80.76435266912142,
+      "rank": 4
+    },
+    {
+      "conference": "Pac-12",
+      "division": "FBS",
+      "teams": 8,
+      "team_score": -4.223875066209491,
+      "win_points": 66.53434955759207,
+      "loss_penalties": 63.02982717497116,
+      "wins": 15,
+      "losses": 17,
+      "non_d1_wins": 0,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "Big Ten": {
+          "wins": 0,
+          "losses": 5,
+          "points": -17.126090546625036
+        },
+        "American Athletic": {
+          "wins": 3,
+          "losses": 2,
+          "points": 11.013895548540233
+        },
+        "MVFC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.6538523629894653
+        },
+        "Mid-American": {
+          "wins": 2,
+          "losses": 1,
+          "points": 5.7942685602619965
+        },
+        "Big 12": {
+          "wins": 0,
+          "losses": 6,
+          "points": -20.55316829789964
+        },
+        "Big Sky": {
+          "wins": 3,
+          "losses": 1,
+          "points": 1.615071812822113
+        },
+        "Mountain West": {
+          "wins": 3,
+          "losses": 0,
+          "points": 14.394170068759216
+        },
+        "SEC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -2.5918519223869962
+        },
+        "Southland": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.3036477513115283
+        },
+        "Sun Belt": {
+          "wins": 1,
+          "losses": 1,
+          "points": 0.865487145137481
+        },
+        "NEC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.135239899710522
+        }
+      },
+      "average_resume": -0.5279843832761864,
+      "outside_resume": 0.43806529782761316,
+      "independent": false,
+      "average_resume_scaled": 61.48287597879105,
+      "outside_resume_scaled": 69.70961864163688,
+      "comparison_score": 65.59624731021397,
+      "rank": 5
+    },
+    {
+      "conference": "American Athletic",
+      "division": "FBS",
+      "teams": 14,
+      "team_score": -7.71147578771814,
+      "win_points": 108.18479925064905,
+      "loss_penalties": 109.41545593562932,
+      "wins": 28,
+      "losses": 25,
+      "non_d1_wins": 0,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "Southland": {
+          "wins": 4,
+          "losses": 0,
+          "points": 12.41137971029108
+        },
+        "Pac-12": {
+          "wins": 2,
+          "losses": 3,
+          "points": -2.70954128472839
+        },
+        "SEC": {
+          "wins": 0,
+          "losses": 5,
+          "points": -17.21517454816672
+        },
+        "Mountain West": {
+          "wins": 2,
+          "losses": 1,
+          "points": 8.120030027416117
+        },
+        "Sun Belt": {
+          "wins": 6,
+          "losses": 5,
+          "points": -1.4676464714150992
+        },
+        "OVC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.0034305604093374
+        },
+        "Big Ten": {
+          "wins": 0,
+          "losses": 3,
+          "points": -11.648506633206855
+        },
+        "Conference USA": {
+          "wins": 3,
+          "losses": 0,
+          "points": 11.473503161977845
+        },
+        "MEAC": {
+          "wins": 2,
+          "losses": 0,
+          "points": 6.186784006405585
+        },
+        "Mid-American": {
+          "wins": 2,
+          "losses": 2,
+          "points": -1.759334046169318
+        },
+        "Coastal Athletic": {
+          "wins": 3,
+          "losses": 0,
+          "points": 9.534579723569728
+        },
+        "SWAC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.0332678460944673
+        },
+        "ACC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -3.9517247949416494
+        },
+        "Big 12": {
+          "wins": 1,
+          "losses": 1,
+          "points": 1.0178073076712222
+        },
+        "Southern": {
+          "wins": 1,
+          "losses": 1,
+          "points": -5.307808750251015
+        },
+        "FBS Independents": {
+          "wins": 0,
+          "losses": 3,
+          "points": -11.951702499936623
+        }
+      },
+      "average_resume": -0.5508196991227242,
+      "outside_resume": -0.0879040489271625,
+      "independent": false,
+      "average_resume_scaled": 61.4407830850444,
+      "outside_resume_scaled": 68.18866765843642,
+      "comparison_score": 64.81472537174041,
+      "rank": 6
+    },
+    {
+      "conference": "Sun Belt",
+      "division": "FBS",
+      "teams": 14,
+      "team_score": -48.55065412865159,
+      "win_points": 100.23250180265883,
+      "loss_penalties": 127.32287050437016,
+      "wins": 27,
+      "losses": 27,
+      "non_d1_wins": 0,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "Conference USA": {
+          "wins": 6,
+          "losses": 3,
+          "points": 10.05447070140962
+        },
+        "NEC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.018622429121036
+        },
+        "Pac-12": {
+          "wins": 1,
+          "losses": 1,
+          "points": -1.1619476209462958
+        },
+        "Southland": {
+          "wins": 3,
+          "losses": 1,
+          "points": 1.8176375349708405
+        },
+        "SEC": {
+          "wins": 0,
+          "losses": 5,
+          "points": -17.23342119239195
+        },
+        "Big 12": {
+          "wins": 0,
+          "losses": 5,
+          "points": -22.630567481875207
+        },
+        "American Athletic": {
+          "wins": 5,
+          "losses": 6,
+          "points": -9.355276829674464
+        },
+        "Big Ten": {
+          "wins": 0,
+          "losses": 2,
+          "points": -7.35666498139561
+        },
+        "OVC": {
+          "wins": 2,
+          "losses": 0,
+          "points": 5.229301046718852
+        },
+        "Coastal Athletic": {
+          "wins": 2,
+          "losses": 0,
+          "points": 6.1148010158198165
+        },
+        "ACC": {
+          "wins": 0,
+          "losses": 3,
+          "points": -13.940420904142707
+        },
+        "Mid-American": {
+          "wins": 1,
+          "losses": 0,
+          "points": 6.330307007948499
+        },
+        "UAC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.018622429121036
+        },
+        "SWAC": {
+          "wins": 2,
+          "losses": 0,
+          "points": 6.101385743742513
+        },
+        "Mountain West": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.269709292147959
+        },
+        "Patriot": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.018622429121036
+        },
+        "FBS Independents": {
+          "wins": 0,
+          "losses": 1,
+          "points": -6.3409671846097355
+        },
+        "MEAC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 2.955417863203408
+        }
+      },
+      "average_resume": -3.4679038663322563,
+      "outside_resume": -1.9350263358365234,
+      "independent": false,
+      "average_resume_scaled": 56.06365080776197,
+      "outside_resume_scaled": 62.84732509598448,
+      "comparison_score": 59.45548795187322,
+      "rank": 7
+    },
+    {
+      "conference": "Mountain West",
+      "division": "FBS",
+      "teams": 10,
+      "team_score": -34.857850471524294,
+      "win_points": 65.65493089698819,
+      "loss_penalties": 91.60217578531193,
+      "wins": 17,
+      "losses": 19,
+      "non_d1_wins": 0,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "Mid-American": {
+          "wins": 4,
+          "losses": 1,
+          "points": 10.0941306855838
+        },
+        "NEC": {
+          "wins": 2,
+          "losses": 0,
+          "points": 6.153862328831558
+        },
+        "SEC": {
+          "wins": 0,
+          "losses": 2,
+          "points": -8.767206626549559
+        },
+        "Conference USA": {
+          "wins": 4,
+          "losses": 1,
+          "points": 13.079388171054376
+        },
+        "Patriot": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.018622429121036
+        },
+        "American Athletic": {
+          "wins": 1,
+          "losses": 2,
+          "points": -3.994127847618016
+        },
+        "FBS Independents": {
+          "wins": 1,
+          "losses": 0,
+          "points": 4.590886199507809
+        },
+        "ACC": {
+          "wins": 1,
+          "losses": 1,
+          "points": -1.1907958248812154
+        },
+        "Pac-12": {
+          "wins": 0,
+          "losses": 3,
+          "points": -16.373878782602056
+        },
+        "Big Sky": {
+          "wins": 2,
+          "losses": 1,
+          "points": -1.0034858106157118
+        },
+        "Big Ten": {
+          "wins": 0,
+          "losses": 4,
+          "points": -12.2392419359855
+        },
+        "Big 12": {
+          "wins": 0,
+          "losses": 2,
+          "points": -8.582585727572305
+        },
+        "SWAC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.0332678460944673
+        },
+        "MVFC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -7.699440523415732
+        },
+        "Sun Belt": {
+          "wins": 0,
+          "losses": 1,
+          "points": -6.066639469276668
+        }
+      },
+      "average_resume": -3.4857850471524294,
+      "outside_resume": -2.594724488832374,
+      "independent": false,
+      "average_resume_scaled": 56.03068999174408,
+      "outside_resume_scaled": 60.93966914491936,
+      "comparison_score": 58.485179568331716,
+      "rank": 8
+    },
+    {
+      "conference": "Ivy",
+      "division": "FCS",
+      "teams": 8,
+      "team_score": -72.14645007168286,
+      "win_points": 51.659601824473874,
+      "loss_penalties": 53.24434212601888,
+      "wins": 17,
+      "losses": 7,
+      "non_d1_wins": 0,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "Coastal Athletic": {
+          "wins": 3,
+          "losses": 4,
+          "points": -20.625942085163683
+        },
+        "Patriot": {
+          "wins": 8,
+          "losses": 3,
+          "points": 1.7097676444413725
+        },
+        "NEC": {
+          "wins": 2,
+          "losses": 0,
+          "points": 6.100424429393361
+        },
+        "FCS Independents": {
+          "wins": 2,
+          "losses": 0,
+          "points": 5.59901916162946
+        },
+        "Pioneer": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.1717973156518076
+        },
+        "MEAC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 2.460193232502674
+        }
+      },
+      "average_resume": -9.018306258960358,
+      "outside_resume": -0.19809253769312551,
+      "independent": false,
+      "average_resume_scaled": 45.832458923485255,
+      "outside_resume_scaled": 67.87003446933517,
+      "comparison_score": 56.851246696410215,
+      "rank": 9
+    },
+    {
+      "conference": "MVFC",
+      "division": "FCS",
+      "teams": 9,
+      "team_score": -104.50950930266681,
+      "win_points": 61.50655252036999,
+      "loss_penalties": 68.38499112611827,
+      "wins": 20,
+      "losses": 13,
+      "non_d1_wins": 1,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "NEC": {
+          "wins": 5,
+          "losses": 0,
+          "points": 15.456077093942138
+        },
+        "SEC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -2.2518194118852657
+        },
+        "Pioneer": {
+          "wins": 5,
+          "losses": 0,
+          "points": 15.227163466617384
+        },
+        "Big Ten": {
+          "wins": 0,
+          "losses": 5,
+          "points": -20.77794402403384
+        },
+        "OVC": {
+          "wins": 5,
+          "losses": 2,
+          "points": -0.7708192016742936
+        },
+        "Big Sky": {
+          "wins": 3,
+          "losses": 1,
+          "points": 1.45973057316459
+        },
+        "Pac-12": {
+          "wins": 0,
+          "losses": 1,
+          "points": -2.8742808359276206
+        },
+        "Non\u2013Division I": {
+          "wins": 1,
+          "losses": 0,
+          "points": 0.05
+        },
+        "Mountain West": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.03637295518289
+        },
+        "UAC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -7.7596252318528425
+        },
+        "Southern": {
+          "wins": 1,
+          "losses": 0,
+          "points": 2.769100117238084
+        },
+        "Conference USA": {
+          "wins": 0,
+          "losses": 1,
+          "points": -6.1313093528113285
+        },
+        "Big 12": {
+          "wins": 0,
+          "losses": 1,
+          "points": -4.261084753708179
+        }
+      },
+      "average_resume": -11.612167700296313,
+      "outside_resume": -0.7642709561942524,
+      "independent": false,
+      "average_resume_scaled": 41.05113096737488,
+      "outside_resume_scaled": 66.23281049877616,
+      "comparison_score": 53.641970733075524,
+      "rank": 10
+    },
+    {
+      "conference": "Mid-American",
+      "division": "FBS",
+      "teams": 13,
+      "team_score": -105.14313409641187,
+      "win_points": 74.67476374299852,
+      "loss_penalties": 131.33907203955778,
+      "wins": 21,
+      "losses": 30,
+      "non_d1_wins": 0,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "Big Ten": {
+          "wins": 1,
+          "losses": 11,
+          "points": -42.24461809837197
+        },
+        "Conference USA": {
+          "wins": 1,
+          "losses": 2,
+          "points": -4.062746736576716
+        },
+        "Sun Belt": {
+          "wins": 0,
+          "losses": 1,
+          "points": -5.4121251660539125
+        },
+        "NEC": {
+          "wins": 5,
+          "losses": 0,
+          "points": 14.819194187284632
+        },
+        "American Athletic": {
+          "wins": 2,
+          "losses": 2,
+          "points": -2.809801895371317
+        },
+        "Pac-12": {
+          "wins": 1,
+          "losses": 2,
+          "points": -2.8924010662824196
+        },
+        "Coastal Athletic": {
+          "wins": 4,
+          "losses": 0,
+          "points": 13.461656353788484
+        },
+        "ACC": {
+          "wins": 0,
+          "losses": 3,
+          "points": -9.276862870211078
+        },
+        "Patriot": {
+          "wins": 2,
+          "losses": 0,
+          "points": 5.747182622118463
+        },
+        "Big 12": {
+          "wins": 0,
+          "losses": 2,
+          "points": -8.944193907142221
+        },
+        "FBS Independents": {
+          "wins": 1,
+          "losses": 1,
+          "points": -1.8059712556849021
+        },
+        "Mountain West": {
+          "wins": 1,
+          "losses": 4,
+          "points": -13.223604749958984
+        },
+        "OVC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.119337910589401
+        },
+        "SEC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -3.8149460280323
+        },
+        "Southern": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.1485107708695597
+        },
+        "UAC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -5.491540796645018
+        },
+        "SWAC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.018622429121036
+        }
+      },
+      "average_resume": -8.087933392031683,
+      "outside_resume": -4.358792945889173,
+      "independent": false,
+      "average_resume_scaled": 47.54743788395028,
+      "outside_resume_scaled": 55.83849419860745,
+      "comparison_score": 51.692966041278865,
+      "rank": 11
+    },
+    {
+      "conference": "Conference USA",
+      "division": "FBS",
+      "teams": 10,
+      "team_score": -90.80575017700448,
+      "win_points": 57.99237188670938,
+      "loss_penalties": 115.75647995606194,
+      "wins": 16,
+      "losses": 24,
+      "non_d1_wins": 0,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "Sun Belt": {
+          "wins": 3,
+          "losses": 6,
+          "points": -18.510320644814314
+        },
+        "OVC": {
+          "wins": 2,
+          "losses": 0,
+          "points": 5.286341231533613
+        },
+        "Mid-American": {
+          "wins": 2,
+          "losses": 1,
+          "points": 6.284690121595225
+        },
+        "Mountain West": {
+          "wins": 1,
+          "losses": 4,
+          "points": -16.74557579938688
+        },
+        "UAC": {
+          "wins": 2,
+          "losses": 0,
+          "points": 6.144743913204628
+        },
+        "FCS Independents": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.1241909954181724
+        },
+        "SEC": {
+          "wins": 0,
+          "losses": 4,
+          "points": -16.310329281937282
+        },
+        "ACC": {
+          "wins": 0,
+          "losses": 3,
+          "points": -15.66324945017605
+        },
+        "MVFC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 2.986778081695644
+        },
+        "Big 12": {
+          "wins": 0,
+          "losses": 2,
+          "points": -8.652784743143918
+        },
+        "American Athletic": {
+          "wins": 0,
+          "losses": 3,
+          "points": -15.44859387946985
+        },
+        "NEC": {
+          "wins": 3,
+          "losses": 0,
+          "points": 8.92990847820429
+        },
+        "Big Ten": {
+          "wins": 0,
+          "losses": 1,
+          "points": -2.2256000000002696
+        },
+        "Southland": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.0356929079244366
+        }
+      },
+      "average_resume": -9.080575017700449,
+      "outside_resume": -5.776410806935256,
+      "independent": false,
+      "average_resume_scaled": 45.7176774042369,
+      "outside_resume_scaled": 51.739154012978986,
+      "comparison_score": 48.72841570860794,
+      "rank": 12
+    },
+    {
+      "conference": "Big Sky",
+      "division": "FCS",
+      "teams": 13,
+      "team_score": -265.79838964505444,
+      "win_points": 40.42826729999287,
+      "loss_penalties": 108.0122211585578,
+      "wins": 12,
+      "losses": 19,
+      "non_d1_wins": 2,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "Pioneer": {
+          "wins": 5,
+          "losses": 2,
+          "points": 0.4311975848381149
+        },
+        "Mountain West": {
+          "wins": 1,
+          "losses": 2,
+          "points": -6.6130949250009765
+        },
+        "NEC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 2.7457475138299237
+        },
+        "Big 12": {
+          "wins": 0,
+          "losses": 4,
+          "points": -14.115813069170539
+        },
+        "Southland": {
+          "wins": 2,
+          "losses": 1,
+          "points": -1.4684342763633333
+        },
+        "Pac-12": {
+          "wins": 1,
+          "losses": 3,
+          "points": -12.19301071728777
+        },
+        "Southern": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.018622429121036
+        },
+        "ACC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -4.092496743515499
+        },
+        "UAC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -7.884072134171632
+        },
+        "Non\u2013Division I": {
+          "wins": 2,
+          "losses": 0,
+          "points": 0.1
+        },
+        "MVFC": {
+          "wins": 1,
+          "losses": 3,
+          "points": -19.474017113714208
+        },
+        "Big Ten": {
+          "wins": 0,
+          "losses": 2,
+          "points": -7.9385824071300775
+        }
+      },
+      "average_resume": -20.446029972696497,
+      "outside_resume": -5.198765681428071,
+      "independent": false,
+      "average_resume_scaled": 24.767457533491854,
+      "outside_resume_scaled": 53.409536378418885,
+      "comparison_score": 39.08849695595537,
+      "rank": 13
+    },
+    {
+      "conference": "UAC",
+      "division": "FCS",
+      "teams": 8,
+      "team_score": -135.05487794679578,
+      "win_points": 49.487479447298185,
+      "loss_penalties": 118.39260338969176,
+      "wins": 17,
+      "losses": 18,
+      "non_d1_wins": 3,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "SWAC": {
+          "wins": 2,
+          "losses": 0,
+          "points": 6.050590401472624
+        },
+        "Mid-American": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.209139893316135
+        },
+        "Southland": {
+          "wins": 1,
+          "losses": 4,
+          "points": -26.05444230914341
+        },
+        "FCS Independents": {
+          "wins": 2,
+          "losses": 0,
+          "points": 6.120160992744476
+        },
+        "OVC": {
+          "wins": 5,
+          "losses": 1,
+          "points": 6.568718121681023
+        },
+        "SEC": {
+          "wins": 0,
+          "losses": 2,
+          "points": -11.246552485990009
+        },
+        "Pioneer": {
+          "wins": 1,
+          "losses": 1,
+          "points": -4.697904809243903
+        },
+        "NEC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 2.995969997326304
+        },
+        "Big 12": {
+          "wins": 0,
+          "losses": 1,
+          "points": -2.647939722477884
+        },
+        "Big Sky": {
+          "wins": 1,
+          "losses": 0,
+          "points": 2.763853343061658
+        },
+        "Southern": {
+          "wins": 2,
+          "losses": 5,
+          "points": -31.114133033824565
+        },
+        "MVFC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 2.484559875747652
+        },
+        "Non\u2013Division I": {
+          "wins": 3,
+          "losses": 0,
+          "points": 0.15000000000000002
+        },
+        "Conference USA": {
+          "wins": 0,
+          "losses": 2,
+          "points": -11.61653190904364
+        },
+        "ACC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -5.897288820193099
+        },
+        "Sun Belt": {
+          "wins": 0,
+          "losses": 1,
+          "points": -5.823323477826936
+        }
+      },
+      "average_resume": -16.881859743349473,
+      "outside_resume": -8.613140492799197,
+      "independent": false,
+      "average_resume_scaled": 31.337379305849968,
+      "outside_resume_scaled": 43.536153531279176,
+      "comparison_score": 37.436766418564574,
+      "rank": 14
+    },
+    {
+      "conference": "Southland",
+      "division": "FCS",
+      "teams": 10,
+      "team_score": -206.96897358566585,
+      "win_points": 24.440630098243503,
+      "loss_penalties": 91.59698093619598,
+      "wins": 8,
+      "losses": 16,
+      "non_d1_wins": 5,
+      "non_d1_losses": 1,
+      "head_to_head": {
+        "UAC": {
+          "wins": 4,
+          "losses": 1,
+          "points": 6.445482105286221
+        },
+        "SWAC": {
+          "wins": 2,
+          "losses": 1,
+          "points": -1.6970449245904442
+        },
+        "Non\u2013Division I": {
+          "wins": 5,
+          "losses": 1,
+          "points": -8.05
+        },
+        "Sun Belt": {
+          "wins": 1,
+          "losses": 3,
+          "points": -11.137793904714265
+        },
+        "Big Sky": {
+          "wins": 1,
+          "losses": 2,
+          "points": -11.618977898948653
+        },
+        "Pac-12": {
+          "wins": 0,
+          "losses": 1,
+          "points": -5.196750138240127
+        },
+        "SEC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -2.810006945734706
+        },
+        "American Athletic": {
+          "wins": 0,
+          "losses": 4,
+          "points": -20.499680222724173
+        },
+        "Big 12": {
+          "wins": 0,
+          "losses": 1,
+          "points": -5.523291827179181
+        },
+        "Conference USA": {
+          "wins": 0,
+          "losses": 1,
+          "points": -7.704720635526066
+        },
+        "Southern": {
+          "wins": 0,
+          "losses": 1,
+          "points": -7.41356644558106
+        }
+      },
+      "average_resume": -20.696897358566584,
+      "outside_resume": -6.715635083795247,
+      "independent": false,
+      "average_resume_scaled": 24.305027572422233,
+      "outside_resume_scaled": 49.02318948738472,
+      "comparison_score": 36.66410852990347,
+      "rank": 15
+    },
+    {
+      "conference": "Southern",
+      "division": "FCS",
+      "teams": 10,
+      "team_score": -207.7505662690412,
+      "win_points": 40.061884973737804,
+      "loss_penalties": 126.77091885603323,
+      "wins": 13,
+      "losses": 19,
+      "non_d1_wins": 2,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "Coastal Athletic": {
+          "wins": 2,
+          "losses": 2,
+          "points": -7.223196602822211
+        },
+        "UAC": {
+          "wins": 5,
+          "losses": 2,
+          "points": 0.008569961746314192
+        },
+        "Southland": {
+          "wins": 1,
+          "losses": 0,
+          "points": 2.632587205862836
+        },
+        "Pioneer": {
+          "wins": 2,
+          "losses": 1,
+          "points": -1.8079943798266074
+        },
+        "ACC": {
+          "wins": 0,
+          "losses": 3,
+          "points": -16.08078857781493
+        },
+        "Non\u2013Division I": {
+          "wins": 2,
+          "losses": 0,
+          "points": 0.1
+        },
+        "OVC": {
+          "wins": 1,
+          "losses": 1,
+          "points": -5.820997202157365
+        },
+        "Mid-American": {
+          "wins": 0,
+          "losses": 1,
+          "points": -6.877247170695014
+        },
+        "Big 12": {
+          "wins": 0,
+          "losses": 1,
+          "points": -4.095971034090539
+        },
+        "MVFC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -8.091403237786917
+        },
+        "American Athletic": {
+          "wins": 1,
+          "losses": 1,
+          "points": -2.709624466093371
+        },
+        "MEAC": {
+          "wins": 1,
+          "losses": 1,
+          "points": -4.9518264179576725
+        },
+        "SEC": {
+          "wins": 0,
+          "losses": 2,
+          "points": -8.140650092438538
+        },
+        "Patriot": {
+          "wins": 0,
+          "losses": 2,
+          "points": -15.936551290067818
+        },
+        "Big Sky": {
+          "wins": 0,
+          "losses": 1,
+          "points": -7.613940578153617
+        }
+      },
+      "average_resume": -20.77505662690412,
+      "outside_resume": -8.670903388229544,
+      "independent": false,
+      "average_resume_scaled": 24.16095468989427,
+      "outside_resume_scaled": 43.36911997097884,
+      "comparison_score": 33.765037330436556,
+      "rank": 16
+    },
+    {
+      "conference": "SWAC",
+      "division": "FCS",
+      "teams": 12,
+      "team_score": -265.8624146221762,
+      "win_points": 14.48333138076733,
+      "loss_penalties": 114.8084476188207,
+      "wins": 5,
+      "losses": 19,
+      "non_d1_wins": 16,
+      "non_d1_losses": 1,
+      "head_to_head": {
+        "MEAC": {
+          "wins": 1,
+          "losses": 3,
+          "points": -20.661287470289068
+        },
+        "Non\u2013Division I": {
+          "wins": 16,
+          "losses": 1,
+          "points": -7.500000000000001
+        },
+        "OVC": {
+          "wins": 2,
+          "losses": 1,
+          "points": -2.707936300336849
+        },
+        "SEC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -3.2865596180408287
+        },
+        "Big 12": {
+          "wins": 0,
+          "losses": 4,
+          "points": -17.829813921826585
+        },
+        "Pioneer": {
+          "wins": 1,
+          "losses": 0,
+          "points": 2.995969997326304
+        },
+        "UAC": {
+          "wins": 0,
+          "losses": 2,
+          "points": -12.941408634825773
+        },
+        "Southland": {
+          "wins": 1,
+          "losses": 2,
+          "points": -10.452217308269686
+        },
+        "Sun Belt": {
+          "wins": 0,
+          "losses": 2,
+          "points": -12.646770114366825
+        },
+        "Mountain West": {
+          "wins": 0,
+          "losses": 1,
+          "points": -7.664652903213634
+        },
+        "American Athletic": {
+          "wins": 0,
+          "losses": 1,
+          "points": -5.046757800128787
+        },
+        "Mid-American": {
+          "wins": 0,
+          "losses": 1,
+          "points": -7.698345715143567
+        },
+        "ACC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -2.385336448938058
+        }
+      },
+      "average_resume": -22.15520121851468,
+      "outside_resume": -8.360426353171114,
+      "independent": false,
+      "average_resume_scaled": 21.61690055724817,
+      "outside_resume_scaled": 44.26692961453865,
+      "comparison_score": 32.941915085893406,
+      "rank": 17
+    },
+    {
+      "conference": "Patriot",
+      "division": "FCS",
+      "teams": 10,
+      "team_score": -235.943165424783,
+      "win_points": 28.04691098226833,
+      "loss_penalties": 123.21989555703924,
+      "wins": 10,
+      "losses": 19,
+      "non_d1_wins": 0,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "Ivy": {
+          "wins": 3,
+          "losses": 8,
+          "points": -52.06029990266308
+        },
+        "MEAC": {
+          "wins": 3,
+          "losses": 1,
+          "points": 0.19497834021424243
+        },
+        "ACC": {
+          "wins": 0,
+          "losses": 4,
+          "points": -17.838727779142975
+        },
+        "Southern": {
+          "wins": 2,
+          "losses": 0,
+          "points": 5.44859446453423
+        },
+        "Mid-American": {
+          "wins": 0,
+          "losses": 2,
+          "points": -12.009034230933029
+        },
+        "NEC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 2.723453923842661
+        },
+        "FBS Independents": {
+          "wins": 0,
+          "losses": 1,
+          "points": -6.040967184609736
+        },
+        "Pioneer": {
+          "wins": 1,
+          "losses": 0,
+          "points": 2.39825332612236
+        },
+        "Mountain West": {
+          "wins": 0,
+          "losses": 1,
+          "points": -3.514980071054831
+        },
+        "Sun Belt": {
+          "wins": 0,
+          "losses": 1,
+          "points": -6.417235873109389
+        },
+        "Coastal Athletic": {
+          "wins": 0,
+          "losses": 1,
+          "points": -8.057019587971352
+        }
+      },
+      "average_resume": -23.5943165424783,
+      "outside_resume": -9.517298457477091,
+      "independent": false,
+      "average_resume_scaled": 18.964144237700836,
+      "outside_resume_scaled": 40.92159062218526,
+      "comparison_score": 29.94286742994305,
+      "rank": 18
+    },
+    {
+      "conference": "Coastal Athletic",
+      "division": "FCS",
+      "teams": 13,
+      "team_score": -311.1960844299584,
+      "win_points": 49.66961303198179,
+      "loss_penalties": 199.08766012661374,
+      "wins": 16,
+      "losses": 30,
+      "non_d1_wins": 2,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "Southern": {
+          "wins": 2,
+          "losses": 2,
+          "points": -7.660031721860252
+        },
+        "Mid-American": {
+          "wins": 0,
+          "losses": 4,
+          "points": -22.176386938229523
+        },
+        "Ivy": {
+          "wins": 4,
+          "losses": 3,
+          "points": -9.509359536091415
+        },
+        "SEC": {
+          "wins": 0,
+          "losses": 2,
+          "points": -7.342236871886032
+        },
+        "MEAC": {
+          "wins": 2,
+          "losses": 7,
+          "points": -49.80726114819838
+        },
+        "NEC": {
+          "wins": 3,
+          "losses": 1,
+          "points": 1.0756804873928085
+        },
+        "American Athletic": {
+          "wins": 0,
+          "losses": 3,
+          "points": -18.841704235309948
+        },
+        "OVC": {
+          "wins": 1,
+          "losses": 0,
+          "points": 2.4846990115746066
+        },
+        "Patriot": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.1957925349071696
+        },
+        "FCS Independents": {
+          "wins": 2,
+          "losses": 2,
+          "points": -9.738444017420475
+        },
+        "Sun Belt": {
+          "wins": 0,
+          "losses": 2,
+          "points": -11.325683476348761
+        },
+        "Non\u2013Division I": {
+          "wins": 2,
+          "losses": 0,
+          "points": 0.1
+        },
+        "Pioneer": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.3686224291210363
+        },
+        "ACC": {
+          "wins": 0,
+          "losses": 3,
+          "points": -16.50538069364638
+        },
+        "Big Ten": {
+          "wins": 0,
+          "losses": 1,
+          "points": -6.63635291863643
+        }
+      },
+      "average_resume": -23.93816034076603,
+      "outside_resume": -11.493695930356305,
+      "independent": false,
+      "average_resume_scaled": 18.330328591618542,
+      "outside_resume_scaled": 35.20642167152759,
+      "comparison_score": 26.768375131573066,
+      "rank": 19
+    },
+    {
+      "conference": "MEAC",
+      "division": "FCS",
+      "teams": 6,
+      "team_score": -121.43767545552865,
+      "win_points": 40.05394281329384,
+      "loss_penalties": 132.23896206229674,
+      "wins": 14,
+      "losses": 19,
+      "non_d1_wins": 9,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "Non\u2013Division I": {
+          "wins": 9,
+          "losses": 0,
+          "points": 0.44999999999999996
+        },
+        "SWAC": {
+          "wins": 3,
+          "losses": 1,
+          "points": 1.1399726145257958
+        },
+        "Southern": {
+          "wins": 1,
+          "losses": 1,
+          "points": -5.6367920282233595
+        },
+        "OVC": {
+          "wins": 0,
+          "losses": 3,
+          "points": -23.85340063143285
+        },
+        "Coastal Athletic": {
+          "wins": 7,
+          "losses": 2,
+          "points": 5.255481380279604
+        },
+        "Big 12": {
+          "wins": 0,
+          "losses": 1,
+          "points": -5.221795256053918
+        },
+        "Patriot": {
+          "wins": 1,
+          "losses": 3,
+          "points": -21.326279800107386
+        },
+        "NEC": {
+          "wins": 1,
+          "losses": 1,
+          "points": -5.816834993421962
+        },
+        "American Athletic": {
+          "wins": 0,
+          "losses": 2,
+          "points": -10.07212445554071
+        },
+        "Big Ten": {
+          "wins": 0,
+          "losses": 2,
+          "points": -8.895580888066867
+        },
+        "Ivy": {
+          "wins": 0,
+          "losses": 1,
+          "points": -7.82329216328581
+        },
+        "Sun Belt": {
+          "wins": 0,
+          "losses": 1,
+          "points": -7.587528585067208
+        },
+        "ACC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -5.673463886467452
+        },
+        "FCS Independents": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.3266194438592342
+        }
+      },
+      "average_resume": -20.23961257592144,
+      "outside_resume": -15.364169874833815,
+      "independent": false,
+      "average_resume_scaled": 25.14795174729218,
+      "outside_resume_scaled": 24.014132258415568,
+      "comparison_score": 24.581042002853874,
+      "rank": 20
+    },
+    {
+      "conference": "Pioneer",
+      "division": "FCS",
+      "teams": 11,
+      "team_score": -298.09704512583767,
+      "win_points": 12.985654784546842,
+      "loss_penalties": 145.1775843750557,
+      "wins": 5,
+      "losses": 19,
+      "non_d1_wins": 12,
+      "non_d1_losses": 3,
+      "head_to_head": {
+        "Non\u2013Division I": {
+          "wins": 12,
+          "losses": 3,
+          "points": -24.3
+        },
+        "UAC": {
+          "wins": 1,
+          "losses": 1,
+          "points": -4.452173893884609
+        },
+        "Big Sky": {
+          "wins": 2,
+          "losses": 5,
+          "points": -32.11469382699114
+        },
+        "FCS Independents": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.011812890538874
+        },
+        "MVFC": {
+          "wins": 0,
+          "losses": 5,
+          "points": -37.99412854826781
+        },
+        "Southern": {
+          "wins": 1,
+          "losses": 2,
+          "points": -12.87067752137555
+        },
+        "NEC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -7.981377570878964
+        },
+        "Patriot": {
+          "wins": 0,
+          "losses": 1,
+          "points": -7.937539528387213
+        },
+        "Ivy": {
+          "wins": 0,
+          "losses": 1,
+          "points": -8.006841957278336
+        },
+        "Coastal Athletic": {
+          "wins": 0,
+          "losses": 1,
+          "points": -8.248266318935935
+        },
+        "OVC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -7.806185248778491
+        },
+        "SWAC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -7.79185806626964
+        }
+      },
+      "average_resume": -27.09973137507615,
+      "outside_resume": -12.017448144591713,
+      "independent": false,
+      "average_resume_scaled": 12.50252771888182,
+      "outside_resume_scaled": 33.691881993293876,
+      "comparison_score": 23.09720485608785,
+      "rank": 21
+    },
+    {
+      "conference": "OVC",
+      "division": "FCS",
+      "teams": 8,
+      "team_score": -211.74751750500735,
+      "win_points": 32.037770753852215,
+      "loss_penalties": 162.61422468356233,
+      "wins": 11,
+      "losses": 26,
+      "non_d1_wins": 2,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "MVFC": {
+          "wins": 2,
+          "losses": 5,
+          "points": -32.220197809813456
+        },
+        "Big 12": {
+          "wins": 0,
+          "losses": 2,
+          "points": -9.348976433100306
+        },
+        "UAC": {
+          "wins": 1,
+          "losses": 5,
+          "points": -35.59201939529291
+        },
+        "Non\u2013Division I": {
+          "wins": 2,
+          "losses": 0,
+          "points": 0.1
+        },
+        "Big Ten": {
+          "wins": 0,
+          "losses": 2,
+          "points": -7.979522635896894
+        },
+        "Pioneer": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.018622429121036
+        },
+        "Coastal Athletic": {
+          "wins": 0,
+          "losses": 1,
+          "points": -7.757019587971351
+        },
+        "Conference USA": {
+          "wins": 0,
+          "losses": 2,
+          "points": -10.528250597727716
+        },
+        "Mid-American": {
+          "wins": 0,
+          "losses": 1,
+          "points": -6.4235204449103955
+        },
+        "FCS Independents": {
+          "wins": 2,
+          "losses": 0,
+          "points": 6.037244858242072
+        },
+        "Sun Belt": {
+          "wins": 0,
+          "losses": 2,
+          "points": -10.616049394699605
+        },
+        "Southern": {
+          "wins": 1,
+          "losses": 1,
+          "points": -4.936827379093961
+        },
+        "MEAC": {
+          "wins": 3,
+          "losses": 0,
+          "points": 8.848490952127378
+        },
+        "ACC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -4.2968735628338575
+        },
+        "American Athletic": {
+          "wins": 0,
+          "losses": 1,
+          "points": -3.3954027779956597
+        },
+        "SWAC": {
+          "wins": 1,
+          "losses": 2,
+          "points": -12.899678780218412
+        },
+        "SEC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -2.486473369646117
+        }
+      },
+      "average_resume": -26.46843968812592,
+      "outside_resume": -16.322056741213764,
+      "independent": false,
+      "average_resume_scaled": 13.666203057577095,
+      "outside_resume_scaled": 21.244200930279316,
+      "comparison_score": 17.455201993928206,
+      "rank": 22
+    },
+    {
+      "conference": "NEC",
+      "division": "FCS",
+      "teams": 8,
+      "team_score": -271.05863355629606,
+      "win_points": 7.79916197564714,
+      "loss_penalties": 197.14831066828026,
+      "wins": 3,
+      "losses": 30,
+      "non_d1_wins": 5,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "MVFC": {
+          "wins": 0,
+          "losses": 5,
+          "points": -34.65446899271411
+        },
+        "Mid-American": {
+          "wins": 0,
+          "losses": 5,
+          "points": -27.296163164323826
+        },
+        "Big Sky": {
+          "wins": 0,
+          "losses": 1,
+          "points": -6.009810385641365
+        },
+        "Non\u2013Division I": {
+          "wins": 5,
+          "losses": 0,
+          "points": 0.25
+        },
+        "Mountain West": {
+          "wins": 0,
+          "losses": 2,
+          "points": -7.684252925561747
+        },
+        "Pac-12": {
+          "wins": 0,
+          "losses": 1,
+          "points": -7.669964351589331
+        },
+        "Coastal Athletic": {
+          "wins": 1,
+          "losses": 3,
+          "points": -20.159717477104465
+        },
+        "MEAC": {
+          "wins": 1,
+          "losses": 1,
+          "points": -5.634893465838351
+        },
+        "Big 12": {
+          "wins": 0,
+          "losses": 1,
+          "points": -6.004845020666035
+        },
+        "Patriot": {
+          "wins": 0,
+          "losses": 1,
+          "points": -8.080047227633749
+        },
+        "Conference USA": {
+          "wins": 0,
+          "losses": 3,
+          "points": -19.972499062206627
+        },
+        "Pioneer": {
+          "wins": 1,
+          "losses": 0,
+          "points": 2.148551574998576
+        },
+        "Ivy": {
+          "wins": 0,
+          "losses": 2,
+          "points": -15.524772950497566
+        },
+        "FCS Independents": {
+          "wins": 0,
+          "losses": 2,
+          "points": -15.751618009163655
+        },
+        "UAC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -7.204258491502771
+        },
+        "Sun Belt": {
+          "wins": 0,
+          "losses": 1,
+          "points": -3.6317861351824594
+        },
+        "ACC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -6.218602608005588
+        }
+      },
+      "average_resume": -33.88232919453701,
+      "outside_resume": -23.66864358657914,
+      "independent": false,
+      "average_resume_scaled": 0.0,
+      "outside_resume_scaled": 0.0,
+      "comparison_score": 0.0,
+      "rank": 23
+    },
+    {
+      "conference": "FBS Independents",
+      "division": "FBS",
+      "teams": 2,
+      "team_score": 27.702993643510954,
+      "win_points": 53.07254184926408,
+      "loss_penalties": 25.36954820575312,
+      "wins": 11,
+      "losses": 5,
+      "non_d1_wins": 0,
+      "non_d1_losses": 0,
+      "head_to_head": {
+        "Big Ten": {
+          "wins": 3,
+          "losses": 1,
+          "points": 10.988339639170576
+        },
+        "American Athletic": {
+          "wins": 3,
+          "losses": 0,
+          "points": 11.283367873035594
+        },
+        "ACC": {
+          "wins": 2,
+          "losses": 1,
+          "points": 5.696804164885061
+        },
+        "Big 12": {
+          "wins": 0,
+          "losses": 1,
+          "points": -2.603500511864203
+        },
+        "Patriot": {
+          "wins": 1,
+          "losses": 0,
+          "points": 3.0624604716127872
+        },
+        "Sun Belt": {
+          "wins": 1,
+          "losses": 0,
+          "points": 4.616280353208868
+        },
+        "Mid-American": {
+          "wins": 1,
+          "losses": 1,
+          "points": -1.1060780187571382
+        },
+        "Mountain West": {
+          "wins": 0,
+          "losses": 1,
+          "points": -4.234680327780581
+        }
+      },
+      "average_resume": 13.851496821755477,
+      "outside_resume": 13.851496821755479,
+      "independent": true,
+      "average_resume_scaled": 87.98892382866032,
+      "outside_resume_scaled": 108.49737688322534,
+      "comparison_score": 98.24315035594283,
+      "rank": null
+    },
+    {
+      "conference": "FCS Independents",
+      "division": "FCS",
+      "teams": 2,
+      "team_score": -76.77374832055553,
+      "win_points": 10.547307469980108,
+      "loss_penalties": 79.12105579053564,
+      "wins": 4,
+      "losses": 11,
+      "non_d1_wins": 2,
+      "non_d1_losses": 1,
+      "head_to_head": {
+        "Coastal Athletic": {
+          "wins": 2,
+          "losses": 2,
+          "points": -10.401814030685522
+        },
+        "Conference USA": {
+          "wins": 0,
+          "losses": 1,
+          "points": -5.987016859954882
+        },
+        "UAC": {
+          "wins": 0,
+          "losses": 2,
+          "points": -10.383081593290036
+        },
+        "NEC": {
+          "wins": 2,
+          "losses": 0,
+          "points": 4.992199762255336
+        },
+        "Ivy": {
+          "wins": 0,
+          "losses": 2,
+          "points": -15.223366000291568
+        },
+        "Non\u2013Division I": {
+          "wins": 2,
+          "losses": 1,
+          "points": -8.2
+        },
+        "OVC": {
+          "wins": 0,
+          "losses": 2,
+          "points": -15.831051938987187
+        },
+        "Pioneer": {
+          "wins": 0,
+          "losses": 1,
+          "points": -7.4606733274434855
+        },
+        "MEAC": {
+          "wins": 0,
+          "losses": 1,
+          "points": -8.278944332158185
+        }
+      },
+      "average_resume": -38.38687416027776,
+      "outside_resume": -34.28687416027776,
+      "independent": true,
+      "average_resume_scaled": -8.303337422356565,
+      "outside_resume_scaled": -30.704846832919962,
+      "comparison_score": -19.504092127638263,
+      "rank": null
+    }
+  ],
   "fcs_coverage": {
     "source": "ESPN season-specific FCS membership and individual regular-season schedules",
     "source_url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/81/teams?limit=1000",
