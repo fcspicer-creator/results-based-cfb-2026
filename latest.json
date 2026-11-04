@@ -1,0 +1,120 @@
+{
+  "season": 2026,
+  "generated_at": "2026-11-04T06:00:00+00:00",
+  "latest_game": "2026-11-04T01:00:00+00:00",
+  "games_count": 624,
+  "team_count": 138,
+  "postseason_2025_games": 46,
+  "week": 10,
+  "prior_weight": 0.026843545600000015,
+  "conferences": [
+    {
+      "conference": "Big Ten",
+      "weighted_wins": 26.40463111506776,
+      "context": 1.0
+    },
+    {
+      "conference": "SEC",
+      "weighted_wins": 25.098769391161742,
+      "context": 0.9305018521557217
+    },
+    {
+      "conference": "Big 12",
+      "weighted_wins": 20.123681582724036,
+      "context": 0.7518377696294645
+    },
+    {
+      "conference": "ACC",
+      "weighted_wins": 14.507944480633812,
+      "context": 0.5584750749819573
+    },
+    {
+      "conference": "American Athletic",
+      "weighted_wins": 12.438820623282908,
+      "context": 0.4711504566797817
+    },
+    {
+      "conference": "Sun Belt",
+      "weighted_wins": 11.002016950191463,
+      "context": 0.4127486362288698
+    },
+    {
+      "conference": "Mountain West",
+      "weighted_wins": 8.185405228282448,
+      "context": 0.306459224828084
+    },
+    {
+      "conference": "FBS Independents",
+      "weighted_wins": 8.046587896460242,
+      "context": 0.2965611946333418
+    },
+    {
+      "conference": "Pac-12",
+      "weighted_wins": 7.822104406992521,
+      "context": 0.29058786650227353
+    },
+    {
+      "conference": "Mid-American",
+      "weighted_wins": 5.612664444849618,
+      "context": 0.21225346505307813
+    },
+    {
+      "conference": "Conference USA",
+      "weighted_wins": 5.0015493674834985,
+      "context": 0.19382922436956163
+    }
+  ],
+  "sensitivity": [
+    {
+      "parameter": "quality_weight",
+      "factor": 0.8,
+      "top25_overlap": 24,
+      "number_one": "Miami"
+    },
+    {
+      "parameter": "quality_weight",
+      "factor": 1.2,
+      "top25_overlap": 24,
+      "number_one": "Miami"
+    },
+    {
+      "parameter": "margin_weight",
+      "factor": 0.8,
+      "top25_overlap": 25,
+      "number_one": "Miami"
+    },
+    {
+      "parameter": "margin_weight",
+      "factor": 1.2,
+      "top25_overlap": 25,
+      "number_one": "Miami"
+    },
+    {
+      "parameter": "bonus_weight",
+      "factor": 0.8,
+      "top25_overlap": 25,
+      "number_one": "Miami"
+    },
+    {
+      "parameter": "bonus_weight",
+      "factor": 1.2,
+      "top25_overlap": 25,
+      "number_one": "Miami"
+    },
+    {
+      "parameter": "conference_weight",
+      "factor": 0.8,
+      "top25_overlap": 25,
+      "number_one": "Miami"
+    },
+    {
+      "parameter": "conference_weight",
+      "factor": 1.2,
+      "top25_overlap": 25,
+      "number_one": "Miami"
+    }
+  ],
+  "recent_espn_checks": 0,
+  "refresh_mode": "frozen",
+  "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/schedules/csv/cfb_schedules_2026.csv"
+}
