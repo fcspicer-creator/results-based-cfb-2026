@@ -1,0 +1,79 @@
+name: Update rankings and publish
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 15 * * 1'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  actions: write
+concurrency:
+  group: rankings-pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check season window
+        id: window
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [[ "$(date -u +%Y-%m-%d)" > "2026-12-07" && "${{ github.event_name }}" == "schedule" ]]; then
+            gh api --method PUT "repos/$GITHUB_REPOSITORY/actions/workflows/publish.yml/disable"
+            echo "active=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "active=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-python@v5
+        if: steps.window.outputs.active == 'true'
+        with:
+          python-version: '3.11'
+      - name: Install calculation dependencies
+        if: steps.window.outputs.active == 'true'
+        run: pip install -r requirements.txt
+      - name: Calculate and validate
+        if: steps.window.outputs.active == 'true'
+        run: |
+          if [[ "${{ github.event_name }}" == "push" ]]; then
+            python build.py --snapshot
+          else
+            python build.py --refresh
+          fi
+      - name: Save public result snapshot
+        if: steps.window.outputs.active == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add games_2026.csv games_2025.csv latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update validated results snapshot'
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+        if: steps.window.outputs.active == 'true'
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.window.outputs.active == 'true'
+        with:
+          path: site
+          retention-days: 1
+      - name: Publish website
+        id: deploy
+        uses: actions/deploy-pages@v4
+        if: steps.window.outputs.active == 'true'
+      - name: End updates after conference championships
+        if: steps.window.outputs.active == 'true' && github.event_name != 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [[ "$(date -u +%Y-%m-%d)" == "2026-12-07" ]]; then
+            gh api --method PUT "repos/$GITHUB_REPOSITORY/actions/workflows/publish.yml/disable"
+          fi
