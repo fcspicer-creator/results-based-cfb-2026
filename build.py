@@ -141,6 +141,14 @@ def calculate(df,old,now):
         r['conference_context_points']=sum(g['conference_context_points'] for g in r['games'])
     return dict(model_version='2.5-fbs-opponent-unbeaten-bonus',all_teams=combined,subdivision_calibration=out.attrs['subdivision_calibration'],fcs_teams=fcsrows,fcs_team_count=len(fcs_out),fcs_games_count=len(fcs_done),all_d1_games_count=len(done),non_d1_games_count=int((~done.home_division.isin(['fbs','fcs'])|~done.away_division.isin(['fbs','fcs'])).sum()),season=SEASON,generated_at=now.isoformat(),latest_game=max(g['date'] for g in ledger),games_count=ng,team_count=len(out),postseason_2025_games=post,week=week,prior_weight=prior_weight,teams=teamrows,conferences=[{'conference':c,'weighted_wins':float(v),'context':contexts[c]} for c,v in sorted(confs.items(),key=lambda z:-z[1])],sensitivity=checks),out,ledger
 
+def conference_rank_bonus(game_points, opponent_rank, team_count):
+    """Current combined rank adds 0–100% win credit; no bonus for a loss."""
+    if game_points <= 0:return 0.0
+    if not 1 <= opponent_rank <= team_count:raise ValueError('Invalid combined opponent rank')
+    percentile=(team_count-opponent_rank)/max(1,team_count-1)
+    return game_points*percentile**2
+
+
 def conference_comparison(data):
     teams={t['team']:t for t in data['all_teams']}
     def group(t):
@@ -148,18 +156,27 @@ def conference_comparison(data):
     rows={}
     for t in teams.values():
      c=group(t)
-     if c not in rows:rows[c]=dict(conference=c,division=t['division'].upper(),teams=0,team_score=0,win_points=0,loss_penalties=0,wins=0,losses=0,non_d1_wins=0,non_d1_losses=0,head_to_head={})
+     if c not in rows:rows[c]=dict(conference=c,division=t['division'].upper(),teams=0,team_score=0,win_points=0,loss_penalties=0,wins=0,losses=0,non_d1_wins=0,non_d1_losses=0,rank_bonus=0,defeated_ranks=[],head_to_head={})
      r=rows[c];r['teams']+=1;r['team_score']+=t['score']
      for g in t['games']:
       other=teams.get(g['opponent']);oc=group(other) if other else 'Non–Division I'
       if oc==c:continue
-      h=r['head_to_head'].setdefault(oc,dict(wins=0,losses=0,points=0))
+      h=r['head_to_head'].setdefault(oc,dict(wins=0,losses=0,points=0,rank_bonus=0,defeated_ranks=[]))
       win=g['result']=='W';h['wins' if win else 'losses']+=1;h['points']+=g['game_points']
       if other:
        r['wins' if win else 'losses']+=1;r['win_points' if win else 'loss_penalties']+=abs(g['game_points'])
+       if win:
+        bonus=conference_rank_bonus(g['game_points'],other['combined_rank'],len(teams))
+        r['rank_bonus']+=bonus;h['rank_bonus']+=bonus;h['points']+=bonus
+        r['defeated_ranks'].append(other['combined_rank']);h['defeated_ranks'].append(other['combined_rank'])
       else:r['non_d1_wins' if win else 'non_d1_losses']+=1
     for r in rows.values():
-     r['average_resume']=r['team_score']/r['teams'];r['outside_resume']=(r['win_points']-r['loss_penalties'])/r['teams'];r['independent']='Independent' in r['conference']
+     r['average_resume']=r['team_score']/r['teams'];r['outside_resume']=(r['win_points']+r['rank_bonus']-r['loss_penalties'])/r['teams'];r['independent']='Independent' in r['conference']
+    for r in rows.values():
+     r['average_defeated_rank']=sum(r['defeated_ranks'])/len(r['defeated_ranks']) if r['defeated_ranks'] else None
+     for h in r['head_to_head'].values():
+      h['average_defeated_rank']=sum(h['defeated_ranks'])/len(h['defeated_ranks']) if h['defeated_ranks'] else None
+     assert abs(sum(h['points'] for name,h in r['head_to_head'].items() if name!='Non–Division I')/r['teams']-r['outside_resume'])<1e-8
     confs=[r for r in rows.values() if not r['independent']]
     for key in ['average_resume','outside_resume']:
      lo=min(r[key] for r in confs);hi=max(r[key] for r in confs)
@@ -196,6 +213,8 @@ def main():
         df=normalize(df)
     data,out,ledger=calculate(df,old,now)
     data['conference_comparison']=conference_comparison(data)
+    data['team_logos']=json.loads((ROOT/'team_logos.json').read_text())
+    data['conference_logos']=json.loads((ROOT/'conference_logos.json').read_text())
     data['fcs_coverage']=coverage
     data['recent_espn_checks']=reconciled;data['refresh_mode']='live' if args.refresh else 'frozen';data['source_url']=SOURCE
     # Only write outputs after all checks succeed. Failed Actions runs preserve the live site.

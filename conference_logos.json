@@ -1,0 +1,117 @@
+{
+  "American Athletic": {
+    "id": "151",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/american.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/151"
+  },
+  "ACC": {
+    "id": "1",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/acc.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/1"
+  },
+  "Big 12": {
+    "id": "4",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/big_12.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/4"
+  },
+  "Big Ten": {
+    "id": "5",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/big_ten.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/5"
+  },
+  "Conference USA": {
+    "id": "12",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/conference_usa.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/12"
+  },
+  "Mid-American": {
+    "id": "15",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/mid_american.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/15"
+  },
+  "Mountain West": {
+    "id": "17",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/mountain_west.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/17"
+  },
+  "Pac-12": {
+    "id": "9",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/pac_12.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/9"
+  },
+  "SEC": {
+    "id": "8",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/sec.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/8"
+  },
+  "Sun Belt": {
+    "id": "37",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/sun_belt.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/37"
+  },
+  "Big Sky": {
+    "id": "20",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/big_sky.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/20"
+  },
+  "Coastal Athletic": {
+    "id": "48",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/caa.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/48"
+  },
+  "Ivy": {
+    "id": "22",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/ivy.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/22"
+  },
+  "MEAC": {
+    "id": "24",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/meac.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/24"
+  },
+  "MVFC": {
+    "id": "21",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/missouri_valley.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/21"
+  },
+  "NEC": {
+    "id": "25",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/northeast.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/25"
+  },
+  "OVC": {
+    "id": "179",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/ovc.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/179"
+  },
+  "Patriot": {
+    "id": "27",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/patriot_league.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/27"
+  },
+  "Pioneer": {
+    "id": "28",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/pioneer.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/28"
+  },
+  "Southern": {
+    "id": "29",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/southern.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/29"
+  },
+  "Southland": {
+    "id": "30",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/southland.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/30"
+  },
+  "SWAC": {
+    "id": "31",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/swac.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/31"
+  },
+  "UAC": {
+    "id": "177",
+    "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/uac.png",
+    "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/177"
+  }
+}
