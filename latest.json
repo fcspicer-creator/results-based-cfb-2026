@@ -139,91 +139,235 @@
       "losses": 2,
       "non_d1_wins": 0,
       "non_d1_losses": 0,
+      "rank_bonus": 72.80848455918827,
+      "defeated_ranks": [
+        55,
+        98,
+        247,
+        160,
+        89,
+        17,
+        18,
+        121,
+        128,
+        52,
+        36,
+        187,
+        51,
+        223,
+        141,
+        134,
+        126,
+        249,
+        180,
+        196,
+        86,
+        68,
+        170,
+        257,
+        229,
+        54,
+        220,
+        21,
+        63,
+        168,
+        175,
+        95,
+        245,
+        164,
+        123,
+        69,
+        125,
+        103
+      ],
       "head_to_head": {
         "MVFC": {
           "wins": 1,
           "losses": 0,
-          "points": 4.395059775770251
+          "points": 7.181424407697163,
+          "rank_bonus": 2.7863646319269115,
+          "defeated_ranks": [
+            55
+          ],
+          "average_defeated_rank": 55.0
         },
         "Sun Belt": {
           "wins": 5,
           "losses": 0,
-          "points": 25.017431666852666
+          "points": 34.54772339501434,
+          "rank_bonus": 9.530291728161671,
+          "defeated_ranks": [
+            98,
+            36,
+            126,
+            229,
+            168
+          ],
+          "average_defeated_rank": 131.4
         },
         "OVC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.018622429121036
+          "points": 3.0341400182547162,
+          "rank_bonus": 0.015517589133680227,
+          "defeated_ranks": [
+            247
+          ],
+          "average_defeated_rank": 247.0
         },
         "Conference USA": {
           "wins": 4,
           "losses": 0,
-          "points": 16.715672501319116
+          "points": 19.462013626229083,
+          "rank_bonus": 2.7463411249099723,
+          "defeated_ranks": [
+            160,
+            196,
+            175,
+            125
+          ],
+          "average_defeated_rank": 164.0
         },
         "Pac-12": {
           "wins": 1,
           "losses": 0,
-          "points": 5.803249861759873
+          "points": 8.392214118350475,
+          "rank_bonus": 2.5889642565906024,
+          "defeated_ranks": [
+            89
+          ],
+          "average_defeated_rank": 89.0
         },
         "Big Ten": {
           "wins": 2,
           "losses": 1,
-          "points": 10.296405023473854
+          "points": 21.283122772287676,
+          "rank_bonus": 10.98671774881382,
+          "defeated_ranks": [
+            17,
+            54
+          ],
+          "average_defeated_rank": 35.5
         },
         "American Athletic": {
           "wins": 5,
           "losses": 0,
-          "points": 27.500668579342655
+          "points": 40.24287181025765,
+          "rank_bonus": 12.74220323091499,
+          "defeated_ranks": [
+            18,
+            121,
+            223,
+            86,
+            123
+          ],
+          "average_defeated_rank": 114.2
         },
         "ACC": {
           "wins": 5,
           "losses": 0,
-          "points": 26.812822273146253
+          "points": 38.7591533687856,
+          "rank_bonus": 11.946331095639342,
+          "defeated_ranks": [
+            128,
+            52,
+            51,
+            180,
+            103
+          ],
+          "average_defeated_rank": 102.8
         },
         "Southland": {
           "wins": 1,
           "losses": 0,
-          "points": 3.1397507351922496
+          "points": 3.418785044032902,
+          "rank_bonus": 0.27903430884065256,
+          "defeated_ranks": [
+            187
+          ],
+          "average_defeated_rank": 187.0
         },
         "SWAC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.219106164598953
+          "points": 3.935354421229194,
+          "rank_bonus": 0.7162482566302406,
+          "defeated_ranks": [
+            141
+          ],
+          "average_defeated_rank": 141.0
         },
         "Big 12": {
           "wins": 3,
           "losses": 1,
-          "points": 14.326150659969555
+          "points": 21.340559868658858,
+          "rank_bonus": 7.014409208689303,
+          "defeated_ranks": [
+            134,
+            63,
+            95
+          ],
+          "average_defeated_rank": 97.33333333333333
         },
         "Southern": {
           "wins": 2,
           "losses": 0,
-          "points": 6.037244858242072
+          "points": 6.068623916601038,
+          "rank_bonus": 0.03137905835896556,
+          "defeated_ranks": [
+            249,
+            245
+          ],
+          "average_defeated_rank": 247.0
         },
         "Coastal Athletic": {
           "wins": 2,
           "losses": 0,
-          "points": 6.908831387594556
+          "points": 9.084071835081271,
+          "rank_bonus": 2.1752404474867157,
+          "defeated_ranks": [
+            68,
+            257
+          ],
+          "average_defeated_rank": 162.5
         },
         "Mid-American": {
           "wins": 1,
           "losses": 0,
-          "points": 4.122752829304986
+          "points": 4.663803595768137,
+          "rank_bonus": 0.5410507664631505,
+          "defeated_ranks": [
+            170
+          ],
+          "average_defeated_rank": 170.0
         },
         "Mountain West": {
           "wins": 2,
           "losses": 0,
-          "points": 10.472100026961781
+          "points": 16.672757756980708,
+          "rank_bonus": 6.2006577300189285,
+          "defeated_ranks": [
+            220,
+            21
+          ],
+          "average_defeated_rank": 120.5
         },
         "UAC": {
           "wins": 2,
           "losses": 0,
-          "points": 6.821603786618942
+          "points": 9.329337163228264,
+          "rank_bonus": 2.507733376609322,
+          "defeated_ranks": [
+            164,
+            69
+          ],
+          "average_defeated_rank": 116.5
         }
       },
       "average_resume": 20.367483099160246,
-      "outside_resume": 10.912967034954297,
+      "outside_resume": 15.463497319903563,
       "independent": false,
+      "average_defeated_rank": 130.07894736842104,
       "average_resume_scaled": 100.0,
       "outside_resume_scaled": 100.0,
       "comparison_score": 100.0,
@@ -240,89 +384,239 @@
       "losses": 11,
       "non_d1_wins": 0,
       "non_d1_losses": 0,
+      "rank_bonus": 64.0265005929662,
+      "defeated_ranks": [
+        142,
+        124,
+        143,
+        34,
+        199,
+        160,
+        139,
+        74,
+        76,
+        152,
+        170,
+        240,
+        81,
+        158,
+        57,
+        129,
+        152,
+        13,
+        239,
+        166,
+        150,
+        56,
+        62,
+        220,
+        225,
+        238,
+        40,
+        207,
+        130,
+        232,
+        147,
+        242,
+        112,
+        189,
+        91,
+        202,
+        77,
+        246,
+        48,
+        150,
+        263,
+        131,
+        199
+      ],
       "head_to_head": {
         "ACC": {
           "wins": 1,
           "losses": 4,
-          "points": -12.11256266198322
+          "points": -11.00339755817139,
+          "rank_bonus": 1.1091651038118324,
+          "defeated_ranks": [
+            142
+          ],
+          "average_defeated_rank": 142.0
         },
         "Pac-12": {
           "wins": 5,
           "losses": 0,
-          "points": 25.81584852702258
+          "points": 38.31772301607561,
+          "rank_bonus": 12.501874489053039,
+          "defeated_ranks": [
+            124,
+            74,
+            13,
+            232,
+            147
+          ],
+          "average_defeated_rank": 118.0
         },
         "Mountain West": {
           "wins": 4,
           "losses": 0,
-          "points": 15.953301651701578
+          "points": 18.15127315414025,
+          "rank_bonus": 2.1979715024386675,
+          "defeated_ranks": [
+            143,
+            139,
+            240,
+            220
+          ],
+          "average_defeated_rank": 185.5
         },
         "American Athletic": {
           "wins": 3,
           "losses": 0,
-          "points": 16.19829548182971
+          "points": 23.63774165309875,
+          "rank_bonus": 7.439446171269037,
+          "defeated_ranks": [
+            34,
+            112,
+            202
+          ],
+          "average_defeated_rank": 116.0
         },
         "MEAC": {
           "wins": 2,
           "losses": 0,
-          "points": 6.2183347482123
+          "points": 6.615830008941741,
+          "rank_bonus": 0.3974952607294413,
+          "defeated_ranks": [
+            199,
+            199
+          ],
+          "average_defeated_rank": 199.0
         },
         "Conference USA": {
           "wins": 1,
           "losses": 0,
-          "points": 4.362679859961442
+          "points": 5.060708637555273,
+          "rank_bonus": 0.6980287775938308,
+          "defeated_ranks": [
+            160
+          ],
+          "average_defeated_rank": 160.0
         },
         "Sun Belt": {
           "wins": 2,
           "losses": 0,
-          "points": 11.936153211924257
+          "points": 17.618528351832573,
+          "rank_bonus": 5.6823751399083156,
+          "defeated_ranks": [
+            76,
+            91
+          ],
+          "average_defeated_rank": 83.5
         },
         "Mid-American": {
           "wins": 11,
           "losses": 1,
-          "points": 47.26535957989958
+          "points": 67.364147861584,
+          "rank_bonus": 20.098788281684435,
+          "defeated_ranks": [
+            152,
+            170,
+            152,
+            150,
+            56,
+            238,
+            40,
+            207,
+            77,
+            48,
+            150
+          ],
+          "average_defeated_rank": 130.9090909090909
         },
         "SEC": {
           "wins": 1,
           "losses": 2,
-          "points": -1.098441572861053
+          "points": 2.54753257345996,
+          "rank_bonus": 3.6459741463210125,
+          "defeated_ranks": [
+            62
+          ],
+          "average_defeated_rank": 62.0
         },
         "Big 12": {
           "wins": 2,
           "losses": 1,
-          "points": 6.33069947530768
+          "points": 10.356165496686137,
+          "rank_bonus": 4.025466021378457,
+          "defeated_ranks": [
+            81,
+            129
+          ],
+          "average_defeated_rank": 105.0
         },
         "MVFC": {
           "wins": 5,
           "losses": 0,
-          "points": 17.016162384516136
+          "points": 21.293281266109112,
+          "rank_bonus": 4.277118881592976,
+          "defeated_ranks": [
+            158,
+            57,
+            130,
+            189,
+            246
+          ],
+          "average_defeated_rank": 156.0
         },
         "Big Sky": {
           "wins": 2,
           "losses": 0,
-          "points": 6.037829507649843
+          "points": 6.093929743008503,
+          "rank_bonus": 0.056100235358659004,
+          "defeated_ranks": [
+            239,
+            242
+          ],
+          "average_defeated_rank": 240.5
         },
         "FBS Independents": {
           "wins": 1,
           "losses": 3,
-          "points": -3.4389145050254575
+          "points": -2.069362923271669,
+          "rank_bonus": 1.3695515817537884,
+          "defeated_ranks": [
+            131
+          ],
+          "average_defeated_rank": 131.0
         },
         "OVC": {
           "wins": 2,
           "losses": 0,
-          "points": 6.233726153657583
+          "points": 6.7604842886272545,
+          "rank_bonus": 0.5267581349696707,
+          "defeated_ranks": [
+            166,
+            225
+          ],
+          "average_defeated_rank": 195.5
         },
         "Coastal Athletic": {
           "wins": 1,
           "losses": 0,
-          "points": 3.018622429121036
+          "points": 3.019009294224092,
+          "rank_bonus": 0.00038686510305573974,
+          "defeated_ranks": [
+            263
+          ],
+          "average_defeated_rank": 263.0
         }
       },
       "average_resume": 14.859175151885896,
-      "outside_resume": 8.318727459496333,
+      "outside_resume": 11.875755270216679,
       "independent": false,
+      "average_defeated_rank": 146.62790697674419,
       "average_resume_scaled": 89.84640183185608,
-      "outside_resume_scaled": 92.4982106708397,
-      "comparison_score": 91.17230625134789,
+      "outside_resume_scaled": 90.81665705202599,
+      "comparison_score": 90.33152944194103,
       "rank": 2
     },
     {
@@ -336,109 +630,269 @@
       "losses": 8,
       "non_d1_wins": 0,
       "non_d1_losses": 0,
+      "rank_bonus": 50.408418163278945,
+      "defeated_ranks": [
+        183,
+        116,
+        147,
+        254,
+        136,
+        8,
+        135,
+        73,
+        234,
+        73,
+        210,
+        99,
+        64,
+        240,
+        232,
+        100,
+        185,
+        111,
+        33,
+        256,
+        184,
+        36,
+        151,
+        218,
+        115,
+        163,
+        207,
+        169,
+        133,
+        198,
+        118,
+        178,
+        200,
+        226,
+        232,
+        96,
+        180,
+        146,
+        233,
+        132
+      ],
       "head_to_head": {
         "Big Sky": {
           "wins": 4,
           "losses": 0,
-          "points": 13.569242913895346
+          "points": 16.90746118087447,
+          "rank_bonus": 3.3382182669791223,
+          "defeated_ranks": [
+            183,
+            254,
+            64,
+            146
+          ],
+          "average_defeated_rank": 161.75
         },
         "SEC": {
           "wins": 1,
           "losses": 3,
-          "points": -7.414138877237697
+          "points": -5.672242116655156,
+          "rank_bonus": 1.7418967605825406,
+          "defeated_ranks": [
+            116
+          ],
+          "average_defeated_rank": 116.0
         },
         "Pac-12": {
           "wins": 6,
           "losses": 0,
-          "points": 28.62403210951077
+          "points": 37.40285539919835,
+          "rank_bonus": 8.77882328968757,
+          "defeated_ranks": [
+            147,
+            136,
+            73,
+            73,
+            232,
+            232
+          ],
+          "average_defeated_rank": 148.83333333333334
         },
         "FBS Independents": {
           "wins": 1,
           "losses": 0,
-          "points": 7.545658200733081
+          "points": 14.697942892418332,
+          "rank_bonus": 7.152284691685252,
+          "defeated_ranks": [
+            8
+          ],
+          "average_defeated_rank": 8.0
         },
         "UAC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.373924880566566
+          "points": 4.198416512825774,
+          "rank_bonus": 0.8244916322592074,
+          "defeated_ranks": [
+            135
+          ],
+          "average_defeated_rank": 135.0
         },
         "Conference USA": {
           "wins": 2,
           "losses": 0,
-          "points": 8.163970011662606
+          "points": 9.45690807261157,
+          "rank_bonus": 1.2929380609489654,
+          "defeated_ranks": [
+            234,
+            132
+          ],
+          "average_defeated_rank": 183.0
         },
         "SWAC": {
           "wins": 4,
           "losses": 0,
-          "points": 12.521557730409905
+          "points": 13.594021928687596,
+          "rank_bonus": 1.0724641982776897,
+          "defeated_ranks": [
+            210,
+            184,
+            169,
+            198
+          ],
+          "average_defeated_rank": 190.25
         },
         "Sun Belt": {
           "wins": 5,
           "losses": 0,
-          "points": 26.649804507952506
+          "points": 37.715933420843804,
+          "rank_bonus": 11.066128912891294,
+          "defeated_ranks": [
+            99,
+            36,
+            151,
+            133,
+            118
+          ],
+          "average_defeated_rank": 107.4
         },
         "Mountain West": {
           "wins": 2,
           "losses": 0,
-          "points": 6.812956736150856
+          "points": 7.0619638301416545,
+          "rank_bonus": 0.2490070939907998,
+          "defeated_ranks": [
+            240,
+            200
+          ],
+          "average_defeated_rank": 220.0
         },
         "ACC": {
           "wins": 3,
           "losses": 2,
-          "points": 4.976618772103642
+          "points": 9.146346614215474,
+          "rank_bonus": 4.169727842111833,
+          "defeated_ranks": [
+            100,
+            115,
+            180
+          ],
+          "average_defeated_rank": 131.66666666666666
         },
         "Southern": {
           "wins": 1,
           "losses": 0,
-          "points": 3.2483033815499054
+          "points": 3.551786734862101,
+          "rank_bonus": 0.3034833533121955,
+          "defeated_ranks": [
+            185
+          ],
+          "average_defeated_rank": 185.0
         },
         "Mid-American": {
           "wins": 2,
           "losses": 0,
-          "points": 7.9403326808431185
+          "points": 9.684670183804043,
+          "rank_bonus": 1.7443375029609256,
+          "defeated_ranks": [
+            111,
+            207
+          ],
+          "average_defeated_rank": 159.0
         },
         "American Athletic": {
           "wins": 1,
           "losses": 1,
-          "points": -0.4661980078508883
+          "points": 1.750940648416793,
+          "rank_bonus": 2.2171386562676814,
+          "defeated_ranks": [
+            96
+          ],
+          "average_defeated_rank": 96.0
         },
         "Big Ten": {
           "wins": 1,
           "losses": 2,
-          "points": 0.255548192486716
+          "points": 5.661424272577218,
+          "rank_bonus": 5.405876080090503,
+          "defeated_ranks": [
+            33
+          ],
+          "average_defeated_rank": 33.0
         },
         "MVFC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.018622429121036
+          "points": 3.0229209302660998,
+          "rank_bonus": 0.004298501145063775,
+          "defeated_ranks": [
+            256
+          ],
+          "average_defeated_rank": 256.0
         },
         "OVC": {
           "wins": 2,
           "losses": 0,
-          "points": 6.240419372388487
+          "points": 6.824209347640919,
+          "rank_bonus": 0.583789975252432,
+          "defeated_ranks": [
+            218,
+            163
+          ],
+          "average_defeated_rank": 190.5
         },
         "MEAC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.151044915437629
+          "points": 3.498523617112944,
+          "rank_bonus": 0.34747870167531497,
+          "defeated_ranks": [
+            178
+          ],
+          "average_defeated_rank": 178.0
         },
         "Southland": {
           "wins": 1,
           "losses": 0,
-          "points": 3.0356929079244366
+          "points": 3.104857858478785,
+          "rank_bonus": 0.06916495055434814,
+          "defeated_ranks": [
+            226
+          ],
+          "average_defeated_rank": 226.0
         },
         "NEC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.022428065446137
+          "points": 3.0692977580523433,
+          "rank_bonus": 0.04686969260620638,
+          "defeated_ranks": [
+            233
+          ],
+          "average_defeated_rank": 233.0
         }
       },
       "average_resume": 13.808748661408915,
-      "outside_resume": 8.391863807693387,
+      "outside_resume": 11.542389942898321,
       "independent": false,
+      "average_defeated_rank": 155.1,
       "average_resume_scaled": 87.91012510376312,
-      "outside_resume_scaled": 92.70969980301884,
-      "comparison_score": 90.30991245339098,
+      "outside_resume_scaled": 89.9633604422557,
+      "comparison_score": 88.93674277300941,
       "rank": 3
     },
     {
@@ -452,104 +906,247 @@
       "losses": 12,
       "non_d1_wins": 0,
       "non_d1_losses": 0,
+      "rank_bonus": 30.204571929178062,
+      "defeated_ranks": [
+        250,
+        137,
+        238,
+        106,
+        96,
+        65,
+        230,
+        154,
+        175,
+        111,
+        87,
+        260,
+        265,
+        205,
+        173,
+        159,
+        99,
+        203,
+        94,
+        114,
+        177,
+        259,
+        119,
+        92,
+        200,
+        212,
+        248,
+        131,
+        217,
+        125,
+        174,
+        251,
+        262,
+        83
+      ],
       "head_to_head": {
         "SWAC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.018622429121036
+          "points": 3.0296265920523995,
+          "rank_bonus": 0.011004162931363266,
+          "defeated_ranks": [
+            250
+          ],
+          "average_defeated_rank": 250.0
         },
         "Mid-American": {
           "wins": 3,
           "losses": 0,
-          "points": 13.239390037557525
+          "points": 16.196910471683488,
+          "rank_bonus": 2.9575204341259616,
+          "defeated_ranks": [
+            137,
+            238,
+            111
+          ],
+          "average_defeated_rank": 162.0
         },
         "Big Ten": {
           "wins": 4,
           "losses": 1,
-          "points": 17.17251758098477
+          "points": 23.66271649772946,
+          "rank_bonus": 6.490198916744689,
+          "defeated_ranks": [
+            106,
+            65,
+            173,
+            177
+          ],
+          "average_defeated_rank": 130.25
         },
         "American Athletic": {
           "wins": 1,
           "losses": 0,
-          "points": 5.479353640192288
+          "points": 7.7342959000934215,
+          "rank_bonus": 2.2549422599011337,
+          "defeated_ranks": [
+            96
+          ],
+          "average_defeated_rank": 96.0
         },
         "Patriot": {
           "wins": 4,
           "losses": 0,
-          "points": 12.624890498888758
+          "points": 14.236767046639825,
+          "rank_bonus": 1.6118765477510673,
+          "defeated_ranks": [
+            230,
+            260,
+            159,
+            119
+          ],
+          "average_defeated_rank": 192.0
         },
         "Big Sky": {
           "wins": 1,
           "losses": 0,
-          "points": 3.2256850922596394
+          "points": 3.8018758191703537,
+          "rank_bonus": 0.5761907269107144,
+          "defeated_ranks": [
+            154
+          ],
+          "average_defeated_rank": 154.0
         },
         "Conference USA": {
           "wins": 3,
           "losses": 0,
-          "points": 12.684468833393703
+          "points": 15.018556710520018,
+          "rank_bonus": 2.3340878771263145,
+          "defeated_ranks": [
+            175,
+            125,
+            174
+          ],
+          "average_defeated_rank": 158.0
         },
         "Big 12": {
           "wins": 2,
           "losses": 3,
-          "points": -4.069321308819109
+          "points": 0.6138623204994342,
+          "rank_bonus": 4.683183629318544,
+          "defeated_ranks": [
+            87,
+            94
+          ],
+          "average_defeated_rank": 90.5
         },
         "Southern": {
           "wins": 3,
           "losses": 0,
-          "points": 10.07771765851634
+          "points": 12.930568740965878,
+          "rank_bonus": 2.852851082449539,
+          "defeated_ranks": [
+            265,
+            114,
+            83
+          ],
+          "average_defeated_rank": 154.0
         },
         "Sun Belt": {
           "wins": 3,
           "losses": 0,
-          "points": 14.178180720523727
+          "points": 18.832947972772434,
+          "rank_bonus": 4.654767252248705,
+          "defeated_ranks": [
+            205,
+            99,
+            92
+          ],
+          "average_defeated_rank": 132.0
         },
         "SEC": {
           "wins": 0,
           "losses": 5,
-          "points": -17.728354794921714
+          "points": -17.728354794921714,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "OVC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.076632968363322
+          "points": 3.2505191378390648,
+          "rank_bonus": 0.17388616947574262,
+          "defeated_ranks": [
+            203
+          ],
+          "average_defeated_rank": 203.0
         },
         "FBS Independents": {
           "wins": 1,
           "losses": 2,
-          "points": -1.5003783926638823
+          "points": -0.35578950102225537,
+          "rank_bonus": 1.144588891641627,
+          "defeated_ranks": [
+            131
+          ],
+          "average_defeated_rank": 131.0
         },
         "Coastal Athletic": {
           "wins": 3,
           "losses": 0,
-          "points": 8.562570617001013
+          "points": 8.704677909912895,
+          "rank_bonus": 0.1421072929118826,
+          "defeated_ranks": [
+            259,
+            212,
+            248
+          ],
+          "average_defeated_rank": 239.66666666666666
         },
         "Mountain West": {
           "wins": 1,
           "losses": 1,
-          "points": -1.4532806669501657
+          "points": -1.2495417565706988,
+          "rank_bonus": 0.2037389103794668,
+          "defeated_ranks": [
+            200
+          ],
+          "average_defeated_rank": 200.0
         },
         "MEAC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.0210556678418152
+          "points": 3.1243458730178664,
+          "rank_bonus": 0.10329020517605123,
+          "defeated_ranks": [
+            217
+          ],
+          "average_defeated_rank": 217.0
         },
         "UAC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.011812890538874
+          "points": 3.021462700440921,
+          "rank_bonus": 0.009649809902046945,
+          "defeated_ranks": [
+            251
+          ],
+          "average_defeated_rank": 251.0
         },
         "NEC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.018622429121036
+          "points": 3.0193101893042464,
+          "rank_bonus": 0.0006877601832102041,
+          "defeated_ranks": [
+            262
+          ],
+          "average_defeated_rank": 262.0
         }
       },
       "average_resume": 8.529195312941894,
-      "outside_resume": 5.155305052997001,
+      "outside_resume": 6.932044578242769,
       "independent": false,
+      "average_defeated_rank": 169.73529411764707,
       "average_resume_scaled": 78.17819585784312,
-      "outside_resume_scaled": 83.35050948039972,
-      "comparison_score": 80.76435266912142,
+      "outside_resume_scaled": 78.16251690169814,
+      "comparison_score": 78.17035637977062,
       "rank": 4
     },
     {
@@ -563,69 +1160,144 @@
       "losses": 17,
       "non_d1_wins": 0,
       "non_d1_losses": 0,
+      "rank_bonus": 25.30983035873569,
+      "defeated_ranks": [
+        22,
+        85,
+        56,
+        107,
+        220,
+        224,
+        139,
+        215,
+        34,
+        156,
+        239,
+        88,
+        231,
+        126,
+        172
+      ],
       "head_to_head": {
         "Big Ten": {
           "wins": 0,
           "losses": 5,
-          "points": -17.126090546625036
+          "points": -17.126090546625036,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "American Athletic": {
           "wins": 3,
           "losses": 2,
-          "points": 11.013895548540233
+          "points": 22.77301751564102,
+          "rank_bonus": 11.75912196710078,
+          "defeated_ranks": [
+            22,
+            215,
+            34
+          ],
+          "average_defeated_rank": 90.33333333333333
         },
         "MVFC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.6538523629894653
+          "points": 5.3584284721229345,
+          "rank_bonus": 1.704576109133469,
+          "defeated_ranks": [
+            85
+          ],
+          "average_defeated_rank": 85.0
         },
         "Mid-American": {
           "wins": 2,
           "losses": 1,
-          "points": 5.7942685602619965
+          "points": 10.166286401158779,
+          "rank_bonus": 4.37201784089678,
+          "defeated_ranks": [
+            56,
+            224
+          ],
+          "average_defeated_rank": 140.0
         },
         "Big 12": {
           "wins": 0,
           "losses": 6,
-          "points": -20.55316829789964
+          "points": -20.55316829789964,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Big Sky": {
           "wins": 3,
           "losses": 1,
-          "points": 1.615071812822113
+          "points": 2.9351184781183575,
+          "rank_bonus": 1.3200466652962437,
+          "defeated_ranks": [
+            107,
+            239,
+            231
+          ],
+          "average_defeated_rank": 192.33333333333334
         },
         "Mountain West": {
           "wins": 3,
           "losses": 0,
-          "points": 14.394170068759216
+          "points": 18.24558674020494,
+          "rank_bonus": 3.8514166714457225,
+          "defeated_ranks": [
+            220,
+            139,
+            88
+          ],
+          "average_defeated_rank": 149.0
         },
         "SEC": {
           "wins": 0,
           "losses": 1,
-          "points": -2.5918519223869962
+          "points": -2.5918519223869962,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Southland": {
           "wins": 1,
           "losses": 0,
-          "points": 3.3036477513115283
+          "points": 3.872877196535729,
+          "rank_bonus": 0.5692294452242007,
+          "defeated_ranks": [
+            156
+          ],
+          "average_defeated_rank": 156.0
         },
         "Sun Belt": {
           "wins": 1,
           "losses": 1,
-          "points": 0.865487145137481
+          "points": 2.204419951036674,
+          "rank_bonus": 1.338932805899193,
+          "defeated_ranks": [
+            126
+          ],
+          "average_defeated_rank": 126.0
         },
         "NEC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.135239899710522
+          "points": 3.5297287534498194,
+          "rank_bonus": 0.3944888537392975,
+          "defeated_ranks": [
+            172
+          ],
+          "average_defeated_rank": 172.0
         }
       },
       "average_resume": -0.5279843832761864,
-      "outside_resume": 0.43806529782761316,
+      "outside_resume": 3.601794092669575,
       "independent": false,
+      "average_defeated_rank": 140.93333333333334,
       "average_resume_scaled": 61.48287597879105,
-      "outside_resume_scaled": 69.70961864163688,
-      "comparison_score": 65.59624731021397,
+      "outside_resume_scaled": 69.63826072939479,
+      "comparison_score": 65.56056835409292,
       "rank": 5
     },
     {
@@ -639,94 +1311,214 @@
       "losses": 25,
       "non_d1_wins": 0,
       "non_d1_losses": 0,
+      "rank_bonus": 23.693599289243455,
+      "defeated_ranks": [
+        204,
+        89,
+        136,
+        71,
+        118,
+        218,
+        71,
+        194,
+        148,
+        182,
+        207,
+        170,
+        155,
+        148,
+        229,
+        214,
+        98,
+        168,
+        229,
+        227,
+        205,
+        211,
+        53,
+        234,
+        228,
+        257,
+        167,
+        194
+      ],
       "head_to_head": {
         "Southland": {
           "wins": 4,
           "losses": 0,
-          "points": 12.41137971029108
+          "points": 13.10628553406642,
+          "rank_bonus": 0.6949058237753392,
+          "defeated_ranks": [
+            204,
+            194,
+            228,
+            194
+          ],
+          "average_defeated_rank": 205.0
         },
         "Pac-12": {
           "wins": 2,
           "losses": 3,
-          "points": -2.70954128472839
+          "points": 0.8743636637129537,
+          "rank_bonus": 3.583904948441342,
+          "defeated_ranks": [
+            89,
+            136
+          ],
+          "average_defeated_rank": 112.5
         },
         "SEC": {
           "wins": 0,
           "losses": 5,
-          "points": -17.21517454816672
+          "points": -17.21517454816672,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Mountain West": {
           "wins": 2,
           "losses": 1,
-          "points": 8.120030027416117
+          "points": 14.80978241269706,
+          "rank_bonus": 6.689752385280945,
+          "defeated_ranks": [
+            71,
+            71
+          ],
+          "average_defeated_rank": 71.0
         },
         "Sun Belt": {
           "wins": 6,
           "losses": 5,
-          "points": -1.4676464714150992
+          "points": 2.870958340072967,
+          "rank_bonus": 4.338604811488061,
+          "defeated_ranks": [
+            118,
+            229,
+            98,
+            168,
+            229,
+            205
+          ],
+          "average_defeated_rank": 174.5
         },
         "OVC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.0034305604093374
+          "points": 3.101969599372429,
+          "rank_bonus": 0.09853903896309167,
+          "defeated_ranks": [
+            218
+          ],
+          "average_defeated_rank": 218.0
         },
         "Big Ten": {
           "wins": 0,
           "losses": 3,
-          "points": -11.648506633206855
+          "points": -11.648506633206855,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Conference USA": {
           "wins": 3,
           "losses": 0,
-          "points": 11.473503161977845
+          "points": 13.17426177181326,
+          "rank_bonus": 1.7007586098354144,
+          "defeated_ranks": [
+            148,
+            148,
+            234
+          ],
+          "average_defeated_rank": 176.66666666666666
         },
         "MEAC": {
           "wins": 2,
           "losses": 0,
-          "points": 6.186784006405585
+          "points": 6.632577582463607,
+          "rank_bonus": 0.44579357605802256,
+          "defeated_ranks": [
+            182,
+            211
+          ],
+          "average_defeated_rank": 196.5
         },
         "Mid-American": {
           "wins": 2,
           "losses": 2,
-          "points": -1.759334046169318
+          "points": -1.057608171483439,
+          "rank_bonus": 0.7017258746858779,
+          "defeated_ranks": [
+            207,
+            170
+          ],
+          "average_defeated_rank": 188.5
         },
         "Coastal Athletic": {
           "wins": 3,
           "losses": 0,
-          "points": 9.534579723569728
+          "points": 10.567104146050236,
+          "rank_bonus": 1.0325244224805075,
+          "defeated_ranks": [
+            155,
+            257,
+            167
+          ],
+          "average_defeated_rank": 193.0
         },
         "SWAC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.0332678460944673
+          "points": 3.150063235996061,
+          "rank_bonus": 0.11679538990159402,
+          "defeated_ranks": [
+            214
+          ],
+          "average_defeated_rank": 214.0
         },
         "ACC": {
           "wins": 0,
           "losses": 1,
-          "points": -3.9517247949416494
+          "points": -3.9517247949416494,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Big 12": {
           "wins": 1,
           "losses": 1,
-          "points": 1.0178073076712222
+          "points": 5.243697327593301,
+          "rank_bonus": 4.225890019922079,
+          "defeated_ranks": [
+            53
+          ],
+          "average_defeated_rank": 53.0
         },
         "Southern": {
           "wins": 1,
           "losses": 1,
-          "points": -5.307808750251015
+          "points": -5.243404361839835,
+          "rank_bonus": 0.06440438841117993,
+          "defeated_ranks": [
+            227
+          ],
+          "average_defeated_rank": 227.0
         },
         "FBS Independents": {
           "wins": 0,
           "losses": 3,
-          "points": -11.951702499936623
+          "points": -11.951702499936623,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         }
       },
       "average_resume": -0.5508196991227242,
-      "outside_resume": -0.0879040489271625,
+      "outside_resume": 1.6044959003045136,
       "independent": false,
+      "average_defeated_rank": 172.32142857142858,
       "average_resume_scaled": 61.4407830850444,
-      "outside_resume_scaled": 68.18866765843642,
-      "comparison_score": 64.81472537174041,
+      "outside_resume_scaled": 64.52588809617896,
+      "comparison_score": 62.98333559061168,
       "rank": 6
     },
     {
@@ -740,104 +1532,229 @@
       "losses": 27,
       "non_d1_wins": 0,
       "non_d1_losses": 0,
+      "rank_bonus": 23.347886356335966,
+      "defeated_ranks": [
+        28,
+        262,
+        124,
+        266,
+        70,
+        75,
+        112,
+        223,
+        132,
+        175,
+        221,
+        259,
+        121,
+        223,
+        191,
+        40,
+        203,
+        261,
+        196,
+        234,
+        186,
+        206,
+        196,
+        240,
+        243,
+        188,
+        217
+      ],
       "head_to_head": {
         "Conference USA": {
           "wins": 6,
           "losses": 3,
-          "points": 10.05447070140962
+          "points": 17.66211694880025,
+          "rank_bonus": 7.607646247390632,
+          "defeated_ranks": [
+            28,
+            132,
+            175,
+            196,
+            234,
+            196
+          ],
+          "average_defeated_rank": 160.16666666666666
         },
         "NEC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.018622429121036
+          "points": 3.0193101893042464,
+          "rank_bonus": 0.0006877601832102041,
+          "defeated_ranks": [
+            262
+          ],
+          "average_defeated_rank": 262.0
         },
         "Pac-12": {
           "wins": 1,
           "losses": 1,
-          "points": -1.1619476209462958
+          "points": 0.33184972906306687,
+          "rank_bonus": 1.4937973500093626,
+          "defeated_ranks": [
+            124
+          ],
+          "average_defeated_rank": 124.0
         },
         "Southland": {
           "wins": 3,
           "losses": 1,
-          "points": 1.8176375349708405
+          "points": 4.060434930951409,
+          "rank_bonus": 2.2427973959805705,
+          "defeated_ranks": [
+            266,
+            75,
+            191
+          ],
+          "average_defeated_rank": 177.33333333333334
         },
         "SEC": {
           "wins": 0,
           "losses": 5,
-          "points": -17.23342119239195
+          "points": -17.23342119239195,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Big 12": {
           "wins": 0,
           "losses": 5,
-          "points": -22.630567481875207
+          "points": -22.630567481875207,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "American Athletic": {
           "wins": 5,
           "losses": 6,
-          "points": -9.355276829674464
+          "points": -3.0516724676926037,
+          "rank_bonus": 6.303604361981861,
+          "defeated_ranks": [
+            70,
+            112,
+            223,
+            121,
+            223
+          ],
+          "average_defeated_rank": 149.8
         },
         "Big Ten": {
           "wins": 0,
           "losses": 2,
-          "points": -7.35666498139561
+          "points": -7.35666498139561,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "OVC": {
           "wins": 2,
           "losses": 0,
-          "points": 5.229301046718852
+          "points": 5.4652613046057015,
+          "rank_bonus": 0.23596025788684905,
+          "defeated_ranks": [
+            221,
+            203
+          ],
+          "average_defeated_rank": 212.0
         },
         "Coastal Athletic": {
           "wins": 2,
           "losses": 0,
-          "points": 6.1148010158198165
+          "points": 6.275629145561966,
+          "rank_bonus": 0.1608281297421508,
+          "defeated_ranks": [
+            259,
+            206
+          ],
+          "average_defeated_rank": 232.5
         },
         "ACC": {
           "wins": 0,
           "losses": 3,
-          "points": -13.940420904142707
+          "points": -13.940420904142707,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Mid-American": {
           "wins": 1,
           "losses": 0,
-          "points": 6.330307007948499
+          "points": 10.934461664238675,
+          "rank_bonus": 4.604154656290175,
+          "defeated_ranks": [
+            40
+          ],
+          "average_defeated_rank": 40.0
         },
         "UAC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.018622429121036
+          "points": 3.019697054407302,
+          "rank_bonus": 0.0010746252862659437,
+          "defeated_ranks": [
+            261
+          ],
+          "average_defeated_rank": 261.0
         },
         "SWAC": {
           "wins": 2,
           "losses": 0,
-          "points": 6.101385743742513
+          "points": 6.643461321934055,
+          "rank_bonus": 0.5420755781915415,
+          "defeated_ranks": [
+            186,
+            188
+          ],
+          "average_defeated_rank": 187.0
         },
         "Mountain West": {
           "wins": 1,
           "losses": 0,
-          "points": 3.269709292147959
+          "points": 3.3011841726248834,
+          "rank_bonus": 0.03147488047692446,
+          "defeated_ranks": [
+            240
+          ],
+          "average_defeated_rank": 240.0
         },
         "Patriot": {
           "wins": 1,
           "losses": 0,
-          "points": 3.018622429121036
+          "points": 3.0413615001784233,
+          "rank_bonus": 0.02273907105738737,
+          "defeated_ranks": [
+            243
+          ],
+          "average_defeated_rank": 243.0
         },
         "FBS Independents": {
           "wins": 0,
           "losses": 1,
-          "points": -6.3409671846097355
+          "points": -6.3409671846097355,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "MEAC": {
           "wins": 1,
           "losses": 0,
-          "points": 2.955417863203408
+          "points": 3.0564639050624525,
+          "rank_bonus": 0.10104604185904424,
+          "defeated_ranks": [
+            217
+          ],
+          "average_defeated_rank": 217.0
         }
       },
       "average_resume": -3.4679038663322563,
-      "outside_resume": -1.9350263358365234,
+      "outside_resume": -0.26732016752681176,
       "independent": false,
+      "average_defeated_rank": 181.1851851851852,
       "average_resume_scaled": 56.06365080776197,
-      "outside_resume_scaled": 62.84732509598448,
-      "comparison_score": 59.45548795187322,
+      "outside_resume_scaled": 59.734705048912936,
+      "comparison_score": 57.89917792833745,
       "rank": 7
     },
     {
@@ -851,89 +1768,181 @@
       "losses": 19,
       "non_d1_wins": 0,
       "non_d1_losses": 0,
+      "rank_bonus": 11.748048953664682,
+      "defeated_ranks": [
+        137,
+        258,
+        174,
+        43,
+        243,
+        224,
+        172,
+        171,
+        131,
+        238,
+        142,
+        237,
+        150,
+        235,
+        160,
+        174,
+        214
+      ],
       "head_to_head": {
         "Mid-American": {
           "wins": 4,
           "losses": 1,
-          "points": 10.0941306855838
+          "points": 12.189009191167044,
+          "rank_bonus": 2.094878505583246,
+          "defeated_ranks": [
+            137,
+            224,
+            238,
+            150
+          ],
+          "average_defeated_rank": 187.25
         },
         "NEC": {
           "wins": 2,
           "losses": 0,
-          "points": 6.153862328831558
+          "points": 6.551102223303697,
+          "rank_bonus": 0.3972398944721383,
+          "defeated_ranks": [
+            258,
+            172
+          ],
+          "average_defeated_rank": 215.0
         },
         "SEC": {
           "wins": 0,
           "losses": 2,
-          "points": -8.767206626549559
+          "points": -8.767206626549559,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Conference USA": {
           "wins": 4,
           "losses": 1,
-          "points": 13.079388171054376
+          "points": 19.516656463330996,
+          "rank_bonus": 6.437268292276621,
+          "defeated_ranks": [
+            174,
+            43,
+            160,
+            174
+          ],
+          "average_defeated_rank": 137.75
         },
         "Patriot": {
           "wins": 1,
           "losses": 0,
-          "points": 3.018622429121036
+          "points": 3.0413615001784233,
+          "rank_bonus": 0.02273907105738737,
+          "defeated_ranks": [
+            243
+          ],
+          "average_defeated_rank": 243.0
         },
         "American Athletic": {
           "wins": 1,
           "losses": 2,
-          "points": -3.994127847618016
+          "points": -3.5309315924909788,
+          "rank_bonus": 0.4631962551270373,
+          "defeated_ranks": [
+            171
+          ],
+          "average_defeated_rank": 171.0
         },
         "FBS Independents": {
           "wins": 1,
           "losses": 0,
-          "points": 4.590886199507809
+          "points": 5.782326583787336,
+          "rank_bonus": 1.1914403842795276,
+          "defeated_ranks": [
+            131
+          ],
+          "average_defeated_rank": 131.0
         },
         "ACC": {
           "wins": 1,
           "losses": 1,
-          "points": -1.1907958248812154
+          "points": -0.234468197723273,
+          "rank_bonus": 0.9563276271579422,
+          "defeated_ranks": [
+            142
+          ],
+          "average_defeated_rank": 142.0
         },
         "Pac-12": {
           "wins": 0,
           "losses": 3,
-          "points": -16.373878782602056
+          "points": -16.373878782602056,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Big Sky": {
           "wins": 2,
           "losses": 1,
-          "points": -1.0034858106157118
+          "points": -0.9353222768065219,
+          "rank_bonus": 0.06816353380918957,
+          "defeated_ranks": [
+            237,
+            235
+          ],
+          "average_defeated_rank": 236.0
         },
         "Big Ten": {
           "wins": 0,
           "losses": 4,
-          "points": -12.2392419359855
+          "points": -12.2392419359855,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Big 12": {
           "wins": 0,
           "losses": 2,
-          "points": -8.582585727572305
+          "points": -8.582585727572305,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "SWAC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.0332678460944673
+          "points": 3.150063235996061,
+          "rank_bonus": 0.11679538990159402,
+          "defeated_ranks": [
+            214
+          ],
+          "average_defeated_rank": 214.0
         },
         "MVFC": {
           "wins": 0,
           "losses": 1,
-          "points": -7.699440523415732
+          "points": -7.699440523415732,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Sun Belt": {
           "wins": 0,
           "losses": 1,
-          "points": -6.066639469276668
+          "points": -6.066639469276668,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         }
       },
       "average_resume": -3.4857850471524294,
-      "outside_resume": -2.594724488832374,
+      "outside_resume": -1.419919593465906,
       "independent": false,
+      "average_defeated_rank": 182.52941176470588,
       "average_resume_scaled": 56.03068999174408,
-      "outside_resume_scaled": 60.93966914491936,
-      "comparison_score": 58.485179568331716,
+      "outside_resume_scaled": 56.78446067140523,
+      "comparison_score": 56.407575331574655,
       "rank": 8
     },
     {
@@ -947,44 +1956,106 @@
       "losses": 7,
       "non_d1_wins": 0,
       "non_d1_losses": 0,
+      "rank_bonus": 5.598671736980307,
+      "defeated_ranks": [
+        248,
+        157,
+        197,
+        101,
+        262,
+        201,
+        252,
+        155,
+        197,
+        201,
+        213,
+        195,
+        219,
+        195,
+        84,
+        260,
+        199
+      ],
       "head_to_head": {
         "Coastal Athletic": {
           "wins": 3,
           "losses": 4,
-          "points": -20.625942085163683
+          "points": -18.655503993850488,
+          "rank_bonus": 1.9704380913131958,
+          "defeated_ranks": [
+            248,
+            101,
+            155
+          ],
+          "average_defeated_rank": 168.0
         },
         "Patriot": {
           "wins": 8,
           "losses": 3,
-          "points": 1.7097676444413725
+          "points": 4.735272857488454,
+          "rank_bonus": 3.025505213047081,
+          "defeated_ranks": [
+            157,
+            197,
+            197,
+            213,
+            195,
+            195,
+            84,
+            260
+          ],
+          "average_defeated_rank": 187.25
         },
         "NEC": {
           "wins": 2,
           "losses": 0,
-          "points": 6.100424429393361
+          "points": 6.10925946722715,
+          "rank_bonus": 0.008835037833788655,
+          "defeated_ranks": [
+            262,
+            252
+          ],
+          "average_defeated_rank": 257.0
         },
         "FCS Independents": {
           "wins": 2,
           "losses": 0,
-          "points": 5.59901916162946
+          "points": 5.9358772030375695,
+          "rank_bonus": 0.3368580414081092,
+          "defeated_ranks": [
+            201,
+            201
+          ],
+          "average_defeated_rank": 201.0
         },
         "Pioneer": {
           "wins": 1,
           "losses": 0,
-          "points": 3.1717973156518076
+          "points": 3.2715694804118622,
+          "rank_bonus": 0.0997721647600547,
+          "defeated_ranks": [
+            219
+          ],
+          "average_defeated_rank": 219.0
         },
         "MEAC": {
           "wins": 1,
           "losses": 0,
-          "points": 2.460193232502674
+          "points": 2.6174564211207514,
+          "rank_bonus": 0.15726318861807767,
+          "defeated_ranks": [
+            199
+          ],
+          "average_defeated_rank": 199.0
         }
       },
       "average_resume": -9.018306258960358,
-      "outside_resume": -0.19809253769312551,
+      "outside_resume": 0.5017414294294129,
       "independent": false,
+      "average_defeated_rank": 196.23529411764707,
       "average_resume_scaled": 45.832458923485255,
-      "outside_resume_scaled": 67.87003446933517,
-      "comparison_score": 56.851246696410215,
+      "outside_resume_scaled": 61.70322906629092,
+      "comparison_score": 53.76784399488809,
       "rank": 9
     },
     {
@@ -998,79 +2069,168 @@
       "losses": 13,
       "non_d1_wins": 1,
       "non_d1_losses": 0,
+      "rank_bonus": 4.478577092895799,
+      "defeated_ranks": [
+        258,
+        172,
+        264,
+        252,
+        225,
+        127,
+        237,
+        242,
+        166,
+        240,
+        225,
+        233,
+        104,
+        239,
+        236,
+        227,
+        163,
+        225,
+        193,
+        193
+      ],
       "head_to_head": {
         "NEC": {
           "wins": 5,
           "losses": 0,
-          "points": 15.456077093942138
+          "points": 16.82289673187765,
+          "rank_bonus": 1.3668196379355089,
+          "defeated_ranks": [
+            258,
+            172,
+            252,
+            127,
+            233
+          ],
+          "average_defeated_rank": 208.4
         },
         "SEC": {
           "wins": 0,
           "losses": 1,
-          "points": -2.2518194118852657
+          "points": -2.2518194118852657,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Pioneer": {
           "wins": 5,
           "losses": 0,
-          "points": 15.227163466617384
+          "points": 16.977932204961075,
+          "rank_bonus": 1.7507687383436932,
+          "defeated_ranks": [
+            264,
+            104,
+            236,
+            193,
+            193
+          ],
+          "average_defeated_rank": 198.0
         },
         "Big Ten": {
           "wins": 0,
           "losses": 5,
-          "points": -20.77794402403384
+          "points": -20.77794402403384,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "OVC": {
           "wins": 5,
           "losses": 2,
-          "points": -0.7708192016742936
+          "points": 0.4042023665310115,
+          "rank_bonus": 1.1750215682053071,
+          "defeated_ranks": [
+            225,
+            166,
+            225,
+            163,
+            225
+          ],
+          "average_defeated_rank": 200.8
         },
         "Big Sky": {
           "wins": 3,
           "losses": 1,
-          "points": 1.45973057316459
+          "points": 1.556493173394708,
+          "rank_bonus": 0.0967626002301181,
+          "defeated_ranks": [
+            237,
+            242,
+            239
+          ],
+          "average_defeated_rank": 239.33333333333334
         },
         "Pac-12": {
           "wins": 0,
           "losses": 1,
-          "points": -2.8742808359276206
+          "points": -2.8742808359276206,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Non\u2013Division I": {
           "wins": 1,
           "losses": 0,
-          "points": 0.05
+          "points": 0.05,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Mountain West": {
           "wins": 1,
           "losses": 0,
-          "points": 3.03637295518289
+          "points": 3.0656016930640386,
+          "rank_bonus": 0.029228737881148225,
+          "defeated_ranks": [
+            240
+          ],
+          "average_defeated_rank": 240.0
         },
         "UAC": {
           "wins": 0,
           "losses": 1,
-          "points": -7.7596252318528425
+          "points": -7.7596252318528425,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Southern": {
           "wins": 1,
           "losses": 0,
-          "points": 2.769100117238084
+          "points": 2.829075927538107,
+          "rank_bonus": 0.05997581030002314,
+          "defeated_ranks": [
+            227
+          ],
+          "average_defeated_rank": 227.0
         },
         "Conference USA": {
           "wins": 0,
           "losses": 1,
-          "points": -6.1313093528113285
+          "points": -6.1313093528113285,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Big 12": {
           "wins": 0,
           "losses": 1,
-          "points": -4.261084753708179
+          "points": -4.261084753708179,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         }
       },
       "average_resume": -11.612167700296313,
-      "outside_resume": -0.7642709561942524,
+      "outside_resume": -0.26665127920582976,
       "independent": false,
+      "average_defeated_rank": 211.05,
       "average_resume_scaled": 41.05113096737488,
-      "outside_resume_scaled": 66.23281049877616,
-      "comparison_score": 53.641970733075524,
+      "outside_resume_scaled": 59.736417164990506,
+      "comparison_score": 50.393774066182694,
       "rank": 10
     },
     {
@@ -1084,99 +2244,208 @@
       "losses": 30,
       "non_d1_wins": 0,
       "non_d1_losses": 0,
+      "rank_bonus": 17.52808246608232,
+      "defeated_ranks": [
+        43,
+        192,
+        127,
+        202,
+        124,
+        67,
+        215,
+        101,
+        209,
+        197,
+        131,
+        157,
+        88,
+        177,
+        179,
+        192,
+        176,
+        165,
+        161,
+        241,
+        209
+      ],
       "head_to_head": {
         "Big Ten": {
           "wins": 1,
           "losses": 11,
-          "points": -42.24461809837197
+          "points": -41.73368143138529,
+          "rank_bonus": 0.5109366669866772,
+          "defeated_ranks": [
+            177
+          ],
+          "average_defeated_rank": 177.0
         },
         "Conference USA": {
           "wins": 1,
           "losses": 2,
-          "points": -4.062746736576716
+          "points": 0.1357222400618454,
+          "rank_bonus": 4.198468976638561,
+          "defeated_ranks": [
+            43
+          ],
+          "average_defeated_rank": 43.0
         },
         "Sun Belt": {
           "wins": 0,
           "losses": 1,
-          "points": -5.4121251660539125
+          "points": -5.4121251660539125,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "NEC": {
           "wins": 5,
           "losses": 0,
-          "points": 14.819194187284632
+          "points": 16.460741393605296,
+          "rank_bonus": 1.641547206320662,
+          "defeated_ranks": [
+            192,
+            127,
+            209,
+            192,
+            209
+          ],
+          "average_defeated_rank": 185.8
         },
         "American Athletic": {
           "wins": 2,
           "losses": 2,
-          "points": -2.809801895371317
+          "points": -2.5304727606798716,
+          "rank_bonus": 0.2793291346914447,
+          "defeated_ranks": [
+            202,
+            215
+          ],
+          "average_defeated_rank": 208.5
         },
         "Pac-12": {
           "wins": 1,
           "losses": 2,
-          "points": -2.8924010662824196
+          "points": -1.4408762694704689,
+          "rank_bonus": 1.4515247968119507,
+          "defeated_ranks": [
+            124
+          ],
+          "average_defeated_rank": 124.0
         },
         "Coastal Athletic": {
           "wins": 4,
           "losses": 0,
-          "points": 13.461656353788484
+          "points": 17.740120424134194,
+          "rank_bonus": 4.278464070345709,
+          "defeated_ranks": [
+            67,
+            101,
+            179,
+            165
+          ],
+          "average_defeated_rank": 128.0
         },
         "ACC": {
           "wins": 0,
           "losses": 3,
-          "points": -9.276862870211078
+          "points": -9.276862870211078,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Patriot": {
           "wins": 2,
           "losses": 0,
-          "points": 5.747182622118463
+          "points": 6.397128406610012,
+          "rank_bonus": 0.649945784491549,
+          "defeated_ranks": [
+            197,
+            157
+          ],
+          "average_defeated_rank": 177.0
         },
         "Big 12": {
           "wins": 0,
           "losses": 2,
-          "points": -8.944193907142221
+          "points": -8.944193907142221,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "FBS Independents": {
           "wins": 1,
           "losses": 1,
-          "points": -1.8059712556849021
+          "points": -0.7068925685413623,
+          "rank_bonus": 1.09907868714354,
+          "defeated_ranks": [
+            131
+          ],
+          "average_defeated_rank": 131.0
         },
         "Mountain West": {
           "wins": 1,
           "losses": 4,
-          "points": -13.223604749958984
+          "points": -10.685780332017497,
+          "rank_bonus": 2.5378244179414855,
+          "defeated_ranks": [
+            88
+          ],
+          "average_defeated_rank": 88.0
         },
         "OVC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.119337910589401
+          "points": 3.4791333833665337,
+          "rank_bonus": 0.3597954727771327,
+          "defeated_ranks": [
+            176
+          ],
+          "average_defeated_rank": 176.0
         },
         "SEC": {
           "wins": 0,
           "losses": 1,
-          "points": -3.8149460280323
+          "points": -3.8149460280323,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Southern": {
           "wins": 1,
           "losses": 0,
-          "points": 3.1485107708695597
+          "points": 3.642812390646518,
+          "rank_bonus": 0.4943016197769583,
+          "defeated_ranks": [
+            161
+          ],
+          "average_defeated_rank": 161.0
         },
         "UAC": {
           "wins": 0,
           "losses": 1,
-          "points": -5.491540796645018
+          "points": -5.491540796645018,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "SWAC": {
           "wins": 1,
           "losses": 0,
-          "points": 3.018622429121036
+          "points": 3.045488061277685,
+          "rank_bonus": 0.026865632156648597,
+          "defeated_ranks": [
+            241
+          ],
+          "average_defeated_rank": 241.0
         }
       },
       "average_resume": -8.087933392031683,
-      "outside_resume": -4.358792945889173,
+      "outside_resume": -3.010478910036687,
       "independent": false,
+      "average_defeated_rank": 159.66666666666666,
       "average_resume_scaled": 47.54743788395028,
-      "outside_resume_scaled": 55.83849419860745,
-      "comparison_score": 51.692966041278865,
+      "outside_resume_scaled": 52.71319482205594,
+      "comparison_score": 50.13031635300311,
       "rank": 11
     },
     {
@@ -1190,84 +2459,171 @@
       "losses": 24,
       "non_d1_wins": 0,
       "non_d1_losses": 0,
+      "rank_bonus": 9.197288286603554,
+      "defeated_ranks": [
+        221,
+        152,
+        151,
+        222,
+        99,
+        201,
+        151,
+        256,
+        143,
+        77,
+        233,
+        258,
+        258,
+        176,
+        261,
+        226
+      ],
       "head_to_head": {
         "Sun Belt": {
           "wins": 3,
           "losses": 6,
-          "points": -18.510320644814314
+          "points": -14.86771749807226,
+          "rank_bonus": 3.6426031467420543,
+          "defeated_ranks": [
+            151,
+            99,
+            151
+          ],
+          "average_defeated_rank": 133.66666666666666
         },
         "OVC": {
           "wins": 2,
           "losses": 0,
-          "points": 5.286341231533613
+          "points": 5.70986427032909,
+          "rank_bonus": 0.4235230387954776,
+          "defeated_ranks": [
+            221,
+            176
+          ],
+          "average_defeated_rank": 198.5
         },
         "Mid-American": {
           "wins": 2,
           "losses": 1,
-          "points": 6.284690121595225
+          "points": 10.10734024236593,
+          "rank_bonus": 3.8226501207707058,
+          "defeated_ranks": [
+            152,
+            77
+          ],
+          "average_defeated_rank": 114.5
         },
         "Mountain West": {
           "wins": 1,
           "losses": 4,
-          "points": -16.74557579938688
+          "points": -15.836061676314358,
+          "rank_bonus": 0.9095141230725219,
+          "defeated_ranks": [
+            143
+          ],
+          "average_defeated_rank": 143.0
         },
         "UAC": {
           "wins": 2,
           "losses": 0,
-          "points": 6.144743913204628
+          "points": 6.232001111551569,
+          "rank_bonus": 0.08725719834693998,
+          "defeated_ranks": [
+            222,
+            261
+          ],
+          "average_defeated_rank": 241.5
         },
         "FCS Independents": {
           "wins": 1,
           "losses": 0,
-          "points": 3.1241909954181724
+          "points": 3.3121540706142105,
+          "rank_bonus": 0.18796307519603814,
+          "defeated_ranks": [
+            201
+          ],
+          "average_defeated_rank": 201.0
         },
         "SEC": {
           "wins": 0,
           "losses": 4,
-          "points": -16.310329281937282
+          "points": -16.310329281937282,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "ACC": {
           "wins": 0,
           "losses": 3,
-          "points": -15.66324945017605
+          "points": -15.66324945017605,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "MVFC": {
           "wins": 1,
           "losses": 0,
-          "points": 2.986778081695644
+          "points": 2.991031236671359,
+          "rank_bonus": 0.004253154975714694,
+          "defeated_ranks": [
+            256
+          ],
+          "average_defeated_rank": 256.0
         },
         "Big 12": {
           "wins": 0,
           "losses": 2,
-          "points": -8.652784743143918
+          "points": -8.652784743143918,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "American Athletic": {
           "wins": 0,
           "losses": 3,
-          "points": -15.44859387946985
+          "points": -15.44859387946985,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "NEC": {
           "wins": 3,
           "losses": 0,
-          "points": 8.92990847820429
+          "points": 8.98026795635404,
+          "rank_bonus": 0.050359478149752175,
+          "defeated_ranks": [
+            233,
+            258,
+            258
+          ],
+          "average_defeated_rank": 249.66666666666666
         },
         "Big Ten": {
           "wins": 0,
           "losses": 1,
-          "points": -2.2256000000002696
+          "points": -2.2256000000002696,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Southland": {
           "wins": 1,
           "losses": 0,
-          "points": 3.0356929079244366
+          "points": 3.104857858478785,
+          "rank_bonus": 0.06916495055434814,
+          "defeated_ranks": [
+            226
+          ],
+          "average_defeated_rank": 226.0
         }
       },
       "average_resume": -9.080575017700449,
-      "outside_resume": -5.776410806935256,
+      "outside_resume": -4.856681978274901,
       "independent": false,
+      "average_defeated_rank": 192.8125,
       "average_resume_scaled": 45.7176774042369,
-      "outside_resume_scaled": 51.739154012978986,
-      "comparison_score": 48.72841570860794,
+      "outside_resume_scaled": 47.987571939353685,
+      "comparison_score": 46.8526246717953,
       "rank": 12
     },
     {
@@ -1281,74 +2637,145 @@
       "losses": 19,
       "non_d1_wins": 2,
       "non_d1_losses": 0,
+      "rank_bonus": 5.607773349138543,
+      "defeated_ranks": [
+        93,
+        143,
+        127,
+        156,
+        236,
+        265,
+        147,
+        208,
+        266,
+        208,
+        264,
+        158
+      ],
       "head_to_head": {
         "Pioneer": {
           "wins": 5,
           "losses": 2,
-          "points": 0.4311975848381149
+          "points": 2.292563474001744,
+          "rank_bonus": 1.8613658891636293,
+          "defeated_ranks": [
+            93,
+            236,
+            208,
+            208,
+            264
+          ],
+          "average_defeated_rank": 201.8
         },
         "Mountain West": {
           "wins": 1,
           "losses": 2,
-          "points": -6.6130949250009765
+          "points": -5.576783649521725,
+          "rank_bonus": 1.0363112754792514,
+          "defeated_ranks": [
+            143
+          ],
+          "average_defeated_rank": 143.0
         },
         "NEC": {
           "wins": 1,
           "losses": 0,
-          "points": 2.7457475138299237
+          "points": 3.5011848611379754,
+          "rank_bonus": 0.755437347308052,
+          "defeated_ranks": [
+            127
+          ],
+          "average_defeated_rank": 127.0
         },
         "Big 12": {
           "wins": 0,
           "losses": 4,
-          "points": -14.115813069170539
+          "points": -14.115813069170539,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Southland": {
           "wins": 2,
           "losses": 1,
-          "points": -1.4684342763633333
+          "points": -0.9555396239848024,
+          "rank_bonus": 0.5128946523785305,
+          "defeated_ranks": [
+            156,
+            266
+          ],
+          "average_defeated_rank": 211.0
         },
         "Pac-12": {
           "wins": 1,
           "losses": 3,
-          "points": -12.19301071728777
+          "points": -11.239264489297124,
+          "rank_bonus": 0.9537462279906438,
+          "defeated_ranks": [
+            147
+          ],
+          "average_defeated_rank": 147.0
         },
         "Southern": {
           "wins": 1,
           "losses": 0,
-          "points": 3.018622429121036
+          "points": 3.018665414132487,
+          "rank_bonus": 4.2985011450637756e-05,
+          "defeated_ranks": [
+            265
+          ],
+          "average_defeated_rank": 265.0
         },
         "ACC": {
           "wins": 0,
           "losses": 1,
-          "points": -4.092496743515499
+          "points": -4.092496743515499,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "UAC": {
           "wins": 0,
           "losses": 1,
-          "points": -7.884072134171632
+          "points": -7.884072134171632,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Non\u2013Division I": {
           "wins": 2,
           "losses": 0,
-          "points": 0.1
+          "points": 0.1,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "MVFC": {
           "wins": 1,
           "losses": 3,
-          "points": -19.474017113714208
+          "points": -18.986042141907223,
+          "rank_bonus": 0.4879749718069844,
+          "defeated_ranks": [
+            158
+          ],
+          "average_defeated_rank": 158.0
         },
         "Big Ten": {
           "wins": 0,
           "losses": 2,
-          "points": -7.9385824071300775
+          "points": -7.9385824071300775,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         }
       },
       "average_resume": -20.446029972696497,
-      "outside_resume": -5.198765681428071,
+      "outside_resume": -4.767398500725107,
       "independent": false,
+      "average_defeated_rank": 189.25,
       "average_resume_scaled": 24.767457533491854,
-      "outside_resume_scaled": 53.409536378418885,
-      "comparison_score": 39.08849695595537,
+      "outside_resume_scaled": 48.216105870325414,
+      "comparison_score": 36.491781701908636,
       "rank": 13
     },
     {
@@ -1362,94 +2789,190 @@
       "losses": 18,
       "non_d1_wins": 3,
       "non_d1_losses": 0,
+      "rank_bonus": 3.738947165759339,
+      "defeated_ranks": [
+        184,
+        207,
+        187,
+        201,
+        255,
+        221,
+        253,
+        218,
+        252,
+        183,
+        189,
+        163,
+        227,
+        188,
+        166,
+        113,
+        218
+      ],
       "head_to_head": {
         "SWAC": {
           "wins": 2,
           "losses": 0,
-          "points": 6.050590401472624
+          "points": 6.602634532001628,
+          "rank_bonus": 0.5520441305290045,
+          "defeated_ranks": [
+            184,
+            188
+          ],
+          "average_defeated_rank": 186.0
         },
         "Mid-American": {
           "wins": 1,
           "losses": 0,
-          "points": 3.209139893316135
+          "points": 3.368214524410951,
+          "rank_bonus": 0.15907463109481618,
+          "defeated_ranks": [
+            207
+          ],
+          "average_defeated_rank": 207.0
         },
         "Southland": {
           "wins": 1,
           "losses": 4,
-          "points": -26.05444230914341
+          "points": -25.80864921366596,
+          "rank_bonus": 0.24579309547745212,
+          "defeated_ranks": [
+            187
+          ],
+          "average_defeated_rank": 187.0
         },
         "FCS Independents": {
           "wins": 2,
           "losses": 0,
-          "points": 6.120160992744476
+          "points": 6.311962398870965,
+          "rank_bonus": 0.19180140612648883,
+          "defeated_ranks": [
+            201,
+            255
+          ],
+          "average_defeated_rank": 228.0
         },
         "OVC": {
           "wins": 5,
           "losses": 1,
-          "points": 6.568718121681023
+          "points": 7.633768282495746,
+          "rank_bonus": 1.0650501608147214,
+          "defeated_ranks": [
+            221,
+            218,
+            163,
+            166,
+            218
+          ],
+          "average_defeated_rank": 197.2
         },
         "SEC": {
           "wins": 0,
           "losses": 2,
-          "points": -11.246552485990009
+          "points": -11.246552485990009,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Pioneer": {
           "wins": 1,
           "losses": 1,
-          "points": -4.697904809243903
+          "points": -4.690640342308745,
+          "rank_bonus": 0.007264466935157781,
+          "defeated_ranks": [
+            253
+          ],
+          "average_defeated_rank": 253.0
         },
         "NEC": {
           "wins": 1,
           "losses": 0,
-          "points": 2.995969997326304
+          "points": 3.004331835980287,
+          "rank_bonus": 0.008361838653982993,
+          "defeated_ranks": [
+            252
+          ],
+          "average_defeated_rank": 252.0
         },
         "Big 12": {
           "wins": 0,
           "losses": 1,
-          "points": -2.647939722477884
+          "points": -2.647939722477884,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Big Sky": {
           "wins": 1,
           "losses": 0,
-          "points": 2.763853343061658
+          "points": 3.0349845026252287,
+          "rank_bonus": 0.2711311595635708,
+          "defeated_ranks": [
+            183
+          ],
+          "average_defeated_rank": 183.0
         },
         "Southern": {
           "wins": 2,
           "losses": 5,
-          "points": -31.114133033824565
+          "points": -30.085474724555652,
+          "rank_bonus": 1.02865830926891,
+          "defeated_ranks": [
+            227,
+            113
+          ],
+          "average_defeated_rank": 170.0
         },
         "MVFC": {
           "wins": 1,
           "losses": 0,
-          "points": 2.484559875747652
+          "points": 2.6943278430428865,
+          "rank_bonus": 0.20976796729523428,
+          "defeated_ranks": [
+            189
+          ],
+          "average_defeated_rank": 189.0
         },
         "Non\u2013Division I": {
           "wins": 3,
           "losses": 0,
-          "points": 0.15000000000000002
+          "points": 0.15000000000000002,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Conference USA": {
           "wins": 0,
           "losses": 2,
-          "points": -11.61653190904364
+          "points": -11.61653190904364,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "ACC": {
           "wins": 0,
           "losses": 1,
-          "points": -5.897288820193099
+          "points": -5.897288820193099,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Sun Belt": {
           "wins": 0,
           "losses": 1,
-          "points": -5.823323477826936
+          "points": -5.823323477826936,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         }
       },
       "average_resume": -16.881859743349473,
-      "outside_resume": -8.613140492799197,
+      "outside_resume": -8.145772097079279,
       "independent": false,
+      "average_defeated_rank": 201.47058823529412,
       "average_resume_scaled": 31.337379305849968,
-      "outside_resume_scaled": 43.536153531279176,
-      "comparison_score": 37.436766418564574,
+      "outside_resume_scaled": 39.568671659048064,
+      "comparison_score": 35.453025482449014,
       "rank": 14
     },
     {
@@ -1463,69 +2986,126 @@
       "losses": 16,
       "non_d1_wins": 5,
       "non_d1_losses": 1,
+      "rank_bonus": 2.7359629769021314,
+      "defeated_ranks": [
+        135,
+        184,
+        135,
+        183,
+        164,
+        229,
+        251,
+        241
+      ],
       "head_to_head": {
         "UAC": {
           "wins": 4,
           "losses": 1,
-          "points": 6.445482105286221
+          "points": 8.46794692441429,
+          "rank_bonus": 2.02246481912807,
+          "defeated_ranks": [
+            135,
+            135,
+            164,
+            251
+          ],
+          "average_defeated_rank": 171.25
         },
         "SWAC": {
           "wins": 2,
           "losses": 1,
-          "points": -1.6970449245904442
+          "points": -1.3413426664796813,
+          "rank_bonus": 0.3557022581107629,
+          "defeated_ranks": [
+            184,
+            241
+          ],
+          "average_defeated_rank": 212.5
         },
         "Non\u2013Division I": {
           "wins": 5,
           "losses": 1,
-          "points": -8.05
+          "points": -8.05,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Sun Belt": {
           "wins": 1,
           "losses": 3,
-          "points": -11.137793904714265
+          "points": -11.07932238268367,
+          "rank_bonus": 0.05847152203059245,
+          "defeated_ranks": [
+            229
+          ],
+          "average_defeated_rank": 229.0
         },
         "Big Sky": {
           "wins": 1,
           "losses": 2,
-          "points": -11.618977898948653
+          "points": -11.319653521315947,
+          "rank_bonus": 0.29932437763270564,
+          "defeated_ranks": [
+            183
+          ],
+          "average_defeated_rank": 183.0
         },
         "Pac-12": {
           "wins": 0,
           "losses": 1,
-          "points": -5.196750138240127
+          "points": -5.196750138240127,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "SEC": {
           "wins": 0,
           "losses": 1,
-          "points": -2.810006945734706
+          "points": -2.810006945734706,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "American Athletic": {
           "wins": 0,
           "losses": 4,
-          "points": -20.499680222724173
+          "points": -20.499680222724173,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Big 12": {
           "wins": 0,
           "losses": 1,
-          "points": -5.523291827179181
+          "points": -5.523291827179181,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Conference USA": {
           "wins": 0,
           "losses": 1,
-          "points": -7.704720635526066
+          "points": -7.704720635526066,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Southern": {
           "wins": 0,
           "losses": 1,
-          "points": -7.41356644558106
+          "points": -7.41356644558106,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         }
       },
       "average_resume": -20.696897358566584,
-      "outside_resume": -6.715635083795247,
+      "outside_resume": -6.4420387861050346,
       "independent": false,
+      "average_defeated_rank": 190.25,
       "average_resume_scaled": 24.305027572422233,
-      "outside_resume_scaled": 49.02318948738472,
-      "comparison_score": 36.66410852990347,
+      "outside_resume_scaled": 43.929622661065956,
+      "comparison_score": 34.1173251167441,
       "rank": 15
     },
     {
@@ -1539,89 +3119,171 @@
       "losses": 19,
       "non_d1_wins": 2,
       "non_d1_losses": 0,
+      "rank_bonus": 5.0011986786104305,
+      "defeated_ranks": [
+        67,
+        222,
+        228,
+        216,
+        135,
+        261,
+        261,
+        221,
+        212,
+        222,
+        216,
+        223,
+        105
+      ],
       "head_to_head": {
         "Coastal Athletic": {
           "wins": 2,
           "losses": 2,
-          "points": -7.223196602822211
+          "points": -4.8072131999057435,
+          "rank_bonus": 2.415983402916467,
+          "defeated_ranks": [
+            67,
+            212
+          ],
+          "average_defeated_rank": 139.5
         },
         "UAC": {
           "wins": 5,
           "losses": 2,
-          "points": 0.008569961746314192
+          "points": 1.0706886665260376,
+          "rank_bonus": 1.0621187047797238,
+          "defeated_ranks": [
+            222,
+            135,
+            261,
+            261,
+            222
+          ],
+          "average_defeated_rank": 220.2
         },
         "Southland": {
           "wins": 1,
           "losses": 0,
-          "points": 2.632587205862836
+          "points": 2.6867197217085597,
+          "rank_bonus": 0.05413251584572353,
+          "defeated_ranks": [
+            228
+          ],
+          "average_defeated_rank": 228.0
         },
         "Pioneer": {
           "wins": 2,
           "losses": 1,
-          "points": -1.8079943798266074
+          "points": -1.5882228173113928,
+          "rank_bonus": 0.21977156251521385,
+          "defeated_ranks": [
+            216,
+            216
+          ],
+          "average_defeated_rank": 216.0
         },
         "ACC": {
           "wins": 0,
           "losses": 3,
-          "points": -16.08078857781493
+          "points": -16.08078857781493,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Non\u2013Division I": {
           "wins": 2,
           "losses": 0,
-          "points": 0.1
+          "points": 0.1,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "OVC": {
           "wins": 1,
           "losses": 1,
-          "points": -5.820997202157365
+          "points": -5.751722742852336,
+          "rank_bonus": 0.06927445930502828,
+          "defeated_ranks": [
+            221
+          ],
+          "average_defeated_rank": 221.0
         },
         "Mid-American": {
           "wins": 0,
           "losses": 1,
-          "points": -6.877247170695014
+          "points": -6.877247170695014,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Big 12": {
           "wins": 0,
           "losses": 1,
-          "points": -4.095971034090539
+          "points": -4.095971034090539,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "MVFC": {
           "wins": 0,
           "losses": 1,
-          "points": -8.091403237786917
+          "points": -8.091403237786917,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "American Athletic": {
           "wins": 1,
           "losses": 1,
-          "points": -2.709624466093371
+          "points": -2.632273875251994,
+          "rank_bonus": 0.07735059084137662,
+          "defeated_ranks": [
+            223
+          ],
+          "average_defeated_rank": 223.0
         },
         "MEAC": {
           "wins": 1,
           "losses": 1,
-          "points": -4.9518264179576725
+          "points": -3.849258975550775,
+          "rank_bonus": 1.1025674424068974,
+          "defeated_ranks": [
+            105
+          ],
+          "average_defeated_rank": 105.0
         },
         "SEC": {
           "wins": 0,
           "losses": 2,
-          "points": -8.140650092438538
+          "points": -8.140650092438538,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Patriot": {
           "wins": 0,
           "losses": 2,
-          "points": -15.936551290067818
+          "points": -15.936551290067818,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Big Sky": {
           "wins": 0,
           "losses": 1,
-          "points": -7.613940578153617
+          "points": -7.613940578153617,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         }
       },
       "average_resume": -20.77505662690412,
-      "outside_resume": -8.670903388229544,
+      "outside_resume": -8.170783520368499,
       "independent": false,
+      "average_defeated_rank": 199.15384615384616,
       "average_resume_scaled": 24.16095468989427,
-      "outside_resume_scaled": 43.36911997097884,
-      "comparison_score": 33.765037330436556,
+      "outside_resume_scaled": 39.50465131575112,
+      "comparison_score": 31.832803002822693,
       "rank": 16
     },
     {
@@ -1635,79 +3297,136 @@
       "losses": 19,
       "non_d1_wins": 16,
       "non_d1_losses": 1,
+      "rank_bonus": 0.21362894926281853,
+      "defeated_ranks": [
+        247,
+        247,
+        264,
+        228,
+        211
+      ],
       "head_to_head": {
         "MEAC": {
           "wins": 1,
           "losses": 3,
-          "points": -20.661287470289068
+          "points": -20.540359205020735,
+          "rank_bonus": 0.12092826526833034,
+          "defeated_ranks": [
+            211
+          ],
+          "average_defeated_rank": 211.0
         },
         "Non\u2013Division I": {
           "wins": 16,
           "losses": 1,
-          "points": -7.500000000000001
+          "points": -7.500000000000001,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "OVC": {
           "wins": 2,
           "losses": 1,
-          "points": -2.707936300336849
+          "points": -2.6792853598076114,
+          "rank_bonus": 0.0286509405292375,
+          "defeated_ranks": [
+            247,
+            247
+          ],
+          "average_defeated_rank": 247.0
         },
         "SEC": {
           "wins": 0,
           "losses": 1,
-          "points": -3.2865596180408287
+          "points": -3.2865596180408287,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Big 12": {
           "wins": 0,
           "losses": 4,
-          "points": -17.829813921826585
+          "points": -17.829813921826585,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Pioneer": {
           "wins": 1,
           "losses": 0,
-          "points": 2.995969997326304
+          "points": 2.9961406470947525,
+          "rank_bonus": 0.00017064976844863248,
+          "defeated_ranks": [
+            264
+          ],
+          "average_defeated_rank": 264.0
         },
         "UAC": {
           "wins": 0,
           "losses": 2,
-          "points": -12.941408634825773
+          "points": -12.941408634825773,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Southland": {
           "wins": 1,
           "losses": 2,
-          "points": -10.452217308269686
+          "points": -10.388338214572885,
+          "rank_bonus": 0.06387909369680206,
+          "defeated_ranks": [
+            228
+          ],
+          "average_defeated_rank": 228.0
         },
         "Sun Belt": {
           "wins": 0,
           "losses": 2,
-          "points": -12.646770114366825
+          "points": -12.646770114366825,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Mountain West": {
           "wins": 0,
           "losses": 1,
-          "points": -7.664652903213634
+          "points": -7.664652903213634,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "American Athletic": {
           "wins": 0,
           "losses": 1,
-          "points": -5.046757800128787
+          "points": -5.046757800128787,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Mid-American": {
           "wins": 0,
           "losses": 1,
-          "points": -7.698345715143567
+          "points": -7.698345715143567,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "ACC": {
           "wins": 0,
           "losses": 1,
-          "points": -2.385336448938058
+          "points": -2.385336448938058,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         }
       },
       "average_resume": -22.15520121851468,
-      "outside_resume": -8.360426353171114,
+      "outside_resume": -8.342623940732546,
       "independent": false,
+      "average_defeated_rank": 239.4,
       "average_resume_scaled": 21.61690055724817,
-      "outside_resume_scaled": 44.26692961453865,
-      "comparison_score": 32.941915085893406,
+      "outside_resume_scaled": 39.06480098909098,
+      "comparison_score": 30.340850773169578,
       "rank": 17
     },
     {
@@ -1721,69 +3440,131 @@
       "losses": 19,
       "non_d1_wins": 0,
       "non_d1_losses": 0,
+      "rank_bonus": 1.9172187447637794,
+      "defeated_ranks": [
+        140,
+        190,
+        199,
+        249,
+        181,
+        233,
+        219,
+        182,
+        211,
+        265
+      ],
       "head_to_head": {
         "Ivy": {
           "wins": 3,
           "losses": 8,
-          "points": -52.06029990266308
+          "points": -50.84507210327287,
+          "rank_bonus": 1.215227799390216,
+          "defeated_ranks": [
+            140,
+            190,
+            181
+          ],
+          "average_defeated_rank": 170.33333333333334
         },
         "MEAC": {
           "wins": 3,
           "losses": 1,
-          "points": 0.19497834021424243
+          "points": 0.7695005747050918,
+          "rank_bonus": 0.5745222344908498,
+          "defeated_ranks": [
+            199,
+            182,
+            211
+          ],
+          "average_defeated_rank": 197.33333333333334
         },
         "ACC": {
           "wins": 0,
           "losses": 4,
-          "points": -17.838727779142975
+          "points": -17.838727779142975,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Southern": {
           "wins": 2,
           "losses": 0,
-          "points": 5.44859446453423
+          "points": 5.458390225321265,
+          "rank_bonus": 0.009795760787035836,
+          "defeated_ranks": [
+            249,
+            265
+          ],
+          "average_defeated_rank": 257.0
         },
         "Mid-American": {
           "wins": 0,
           "losses": 2,
-          "points": -12.009034230933029
+          "points": -12.009034230933029,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "NEC": {
           "wins": 1,
           "losses": 0,
-          "points": 2.723453923842661
+          "points": 2.765687335349456,
+          "rank_bonus": 0.0422334115067947,
+          "defeated_ranks": [
+            233
+          ],
+          "average_defeated_rank": 233.0
         },
         "FBS Independents": {
           "wins": 0,
           "losses": 1,
-          "points": -6.040967184609736
+          "points": -6.040967184609736,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Pioneer": {
           "wins": 1,
           "losses": 0,
-          "points": 2.39825332612236
+          "points": 2.473692864711243,
+          "rank_bonus": 0.07543953858888278,
+          "defeated_ranks": [
+            219
+          ],
+          "average_defeated_rank": 219.0
         },
         "Mountain West": {
           "wins": 0,
           "losses": 1,
-          "points": -3.514980071054831
+          "points": -3.514980071054831,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Sun Belt": {
           "wins": 0,
           "losses": 1,
-          "points": -6.417235873109389
+          "points": -6.417235873109389,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Coastal Athletic": {
           "wins": 0,
           "losses": 1,
-          "points": -8.057019587971352
+          "points": -8.057019587971352,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         }
       },
       "average_resume": -23.5943165424783,
-      "outside_resume": -9.517298457477091,
+      "outside_resume": -9.325576583000714,
       "independent": false,
+      "average_defeated_rank": 206.9,
       "average_resume_scaled": 18.964144237700836,
-      "outside_resume_scaled": 40.92159062218526,
-      "comparison_score": 29.94286742994305,
+      "outside_resume_scaled": 36.548792008915385,
+      "comparison_score": 27.75646812330811,
       "rank": 18
     },
     {
@@ -1797,89 +3578,178 @@
       "losses": 30,
       "non_d1_wins": 2,
       "non_d1_losses": 0,
+      "rank_bonus": 6.262751392069967,
+      "defeated_ranks": [
+        140,
+        114,
+        185,
+        211,
+        233,
+        182,
+        192,
+        97,
+        176,
+        243,
+        201,
+        144,
+        145,
+        255,
+        244,
+        192
+      ],
       "head_to_head": {
         "Southern": {
           "wins": 2,
           "losses": 2,
-          "points": -7.660031721860252
+          "points": -6.21749626651515,
+          "rank_bonus": 1.4425354553451022,
+          "defeated_ranks": [
+            114,
+            185
+          ],
+          "average_defeated_rank": 149.5
         },
         "Mid-American": {
           "wins": 0,
           "losses": 4,
-          "points": -22.176386938229523
+          "points": -22.176386938229523,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Ivy": {
           "wins": 4,
           "losses": 3,
-          "points": -9.509359536091415
+          "points": -6.191570548629453,
+          "rank_bonus": 3.317788987461961,
+          "defeated_ranks": [
+            140,
+            97,
+            144,
+            145
+          ],
+          "average_defeated_rank": 131.5
         },
         "SEC": {
           "wins": 0,
           "losses": 2,
-          "points": -7.342236871886032
+          "points": -7.342236871886032,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "MEAC": {
           "wins": 2,
           "losses": 7,
-          "points": -49.80726114819838
+          "points": -49.36865385802165,
+          "rank_bonus": 0.43860729017672623,
+          "defeated_ranks": [
+            211,
+            182
+          ],
+          "average_defeated_rank": 196.5
         },
         "NEC": {
           "wins": 3,
           "losses": 1,
-          "points": 1.0756804873928085
+          "points": 1.5921013988496429,
+          "rank_bonus": 0.5164209114568341,
+          "defeated_ranks": [
+            233,
+            192,
+            192
+          ],
+          "average_defeated_rank": 205.66666666666666
         },
         "American Athletic": {
           "wins": 0,
           "losses": 3,
-          "points": -18.841704235309948
+          "points": -18.841704235309948,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "OVC": {
           "wins": 1,
           "losses": 0,
-          "points": 2.4846990115746066
+          "points": 2.7712929879897623,
+          "rank_bonus": 0.2865939764151557,
+          "defeated_ranks": [
+            176
+          ],
+          "average_defeated_rank": 176.0
         },
         "Patriot": {
           "wins": 1,
           "losses": 0,
-          "points": 3.1957925349071696
+          "points": 3.2198662159461997,
+          "rank_bonus": 0.024073681039030154,
+          "defeated_ranks": [
+            243
+          ],
+          "average_defeated_rank": 243.0
         },
         "FCS Independents": {
           "wins": 2,
           "losses": 2,
-          "points": -9.738444017420475
+          "points": -9.52492991913844,
+          "rank_bonus": 0.21351409828203505,
+          "defeated_ranks": [
+            201,
+            255
+          ],
+          "average_defeated_rank": 228.0
         },
         "Sun Belt": {
           "wins": 0,
           "losses": 2,
-          "points": -11.325683476348761
+          "points": -11.325683476348761,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Non\u2013Division I": {
           "wins": 2,
           "losses": 0,
-          "points": 0.1
+          "points": 0.1,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Pioneer": {
           "wins": 1,
           "losses": 0,
-          "points": 3.3686224291210363
+          "points": 3.3918394210141596,
+          "rank_bonus": 0.023216991893123266,
+          "defeated_ranks": [
+            244
+          ],
+          "average_defeated_rank": 244.0
         },
         "ACC": {
           "wins": 0,
           "losses": 3,
-          "points": -16.50538069364638
+          "points": -16.50538069364638,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Big Ten": {
           "wins": 0,
           "losses": 1,
-          "points": -6.63635291863643
+          "points": -6.63635291863643,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         }
       },
       "average_resume": -23.93816034076603,
-      "outside_resume": -11.493695930356305,
+      "outside_resume": -11.011945823274,
       "independent": false,
+      "average_defeated_rank": 184.625,
       "average_resume_scaled": 18.330328591618542,
-      "outside_resume_scaled": 35.20642167152759,
-      "comparison_score": 26.768375131573066,
+      "outside_resume_scaled": 32.2322868488815,
+      "comparison_score": 25.28130772025002,
       "rank": 19
     },
     {
@@ -1893,84 +3763,164 @@
       "losses": 19,
       "non_d1_wins": 9,
       "non_d1_losses": 0,
+      "rank_bonus": 2.868360785390378,
+      "defeated_ranks": [
+        250,
+        249,
+        169,
+        206,
+        257,
+        159,
+        209,
+        165,
+        257,
+        102,
+        263,
+        206,
+        263,
+        255
+      ],
       "head_to_head": {
         "Non\u2013Division I": {
           "wins": 9,
           "losses": 0,
-          "points": 0.44999999999999996
+          "points": 0.44999999999999996,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "SWAC": {
           "wins": 3,
           "losses": 1,
-          "points": 1.1399726145257958
+          "points": 2.720290327165806,
+          "rank_bonus": 1.5803177126400088,
+          "defeated_ranks": [
+            250,
+            169,
+            102
+          ],
+          "average_defeated_rank": 173.66666666666666
         },
         "Southern": {
           "wins": 1,
           "losses": 1,
-          "points": -5.6367920282233595
+          "points": -5.625908650198047,
+          "rank_bonus": 0.010883378025311072,
+          "defeated_ranks": [
+            249
+          ],
+          "average_defeated_rank": 249.0
         },
         "OVC": {
           "wins": 0,
           "losses": 3,
-          "points": -23.85340063143285
+          "points": -23.85340063143285,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Coastal Athletic": {
           "wins": 7,
           "losses": 2,
-          "points": 5.255481380279604
+          "points": 5.9638185118742095,
+          "rank_bonus": 0.7083371315946051,
+          "defeated_ranks": [
+            206,
+            257,
+            165,
+            257,
+            263,
+            206,
+            263
+          ],
+          "average_defeated_rank": 231.0
         },
         "Big 12": {
           "wins": 0,
           "losses": 1,
-          "points": -5.221795256053918
+          "points": -5.221795256053918,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Patriot": {
           "wins": 1,
           "losses": 3,
-          "points": -21.326279800107386
+          "points": -20.86230128849929,
+          "rank_bonus": 0.46397851160809545,
+          "defeated_ranks": [
+            159
+          ],
+          "average_defeated_rank": 159.0
         },
         "NEC": {
           "wins": 1,
           "losses": 1,
-          "points": -5.816834993421962
+          "points": -5.7177228173386485,
+          "rank_bonus": 0.09911217608331209,
+          "defeated_ranks": [
+            209
+          ],
+          "average_defeated_rank": 209.0
         },
         "American Athletic": {
           "wins": 0,
           "losses": 2,
-          "points": -10.07212445554071
+          "points": -10.07212445554071,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Big Ten": {
           "wins": 0,
           "losses": 2,
-          "points": -8.895580888066867
+          "points": -8.895580888066867,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Ivy": {
           "wins": 0,
           "losses": 1,
-          "points": -7.82329216328581
+          "points": -7.82329216328581,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Sun Belt": {
           "wins": 0,
           "losses": 1,
-          "points": -7.587528585067208
+          "points": -7.587528585067208,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "ACC": {
           "wins": 0,
           "losses": 1,
-          "points": -5.673463886467452
+          "points": -5.673463886467452,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "FCS Independents": {
           "wins": 1,
           "losses": 0,
-          "points": 3.3266194438592342
+          "points": 3.33235131929828,
+          "rank_bonus": 0.005731875439045458,
+          "defeated_ranks": [
+            255
+          ],
+          "average_defeated_rank": 255.0
         }
       },
       "average_resume": -20.23961257592144,
-      "outside_resume": -15.364169874833815,
+      "outside_resume": -14.886109743935421,
       "independent": false,
+      "average_defeated_rank": 215.0,
       "average_resume_scaled": 25.14795174729218,
-      "outside_resume_scaled": 24.014132258415568,
-      "comparison_score": 24.581042002853874,
+      "outside_resume_scaled": 22.315805834532537,
+      "comparison_score": 23.731878790912358,
       "rank": 20
     },
     {
@@ -1984,74 +3934,128 @@
       "losses": 19,
       "non_d1_wins": 12,
       "non_d1_losses": 3,
+      "rank_bonus": 0.15706389875643195,
+      "defeated_ranks": [
+        222,
+        255,
+        231,
+        235,
+        265
+      ],
       "head_to_head": {
         "Non\u2013Division I": {
           "wins": 12,
           "losses": 3,
-          "points": -24.3
+          "points": -24.3,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "UAC": {
           "wins": 1,
           "losses": 1,
-          "points": -4.452173893884609
+          "points": -4.3763029678470335,
+          "rank_bonus": 0.07587092603757581,
+          "defeated_ranks": [
+            222
+          ],
+          "average_defeated_rank": 222.0
         },
         "Big Sky": {
           "wins": 2,
           "losses": 5,
-          "points": -32.11469382699114
+          "points": -32.03872298236482,
+          "rank_bonus": 0.07597084462632697,
+          "defeated_ranks": [
+            231,
+            235
+          ],
+          "average_defeated_rank": 233.0
         },
         "FCS Independents": {
           "wins": 1,
           "losses": 0,
-          "points": 3.011812890538874
+          "points": 3.017002343863975,
+          "rank_bonus": 0.005189453325100801,
+          "defeated_ranks": [
+            255
+          ],
+          "average_defeated_rank": 255.0
         },
         "MVFC": {
           "wins": 0,
           "losses": 5,
-          "points": -37.99412854826781
+          "points": -37.99412854826781,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Southern": {
           "wins": 1,
           "losses": 2,
-          "points": -12.87067752137555
+          "points": -12.870644846608121,
+          "rank_bonus": 3.267476742834611e-05,
+          "defeated_ranks": [
+            265
+          ],
+          "average_defeated_rank": 265.0
         },
         "NEC": {
           "wins": 0,
           "losses": 1,
-          "points": -7.981377570878964
+          "points": -7.981377570878964,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Patriot": {
           "wins": 0,
           "losses": 1,
-          "points": -7.937539528387213
+          "points": -7.937539528387213,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Ivy": {
           "wins": 0,
           "losses": 1,
-          "points": -8.006841957278336
+          "points": -8.006841957278336,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Coastal Athletic": {
           "wins": 0,
           "losses": 1,
-          "points": -8.248266318935935
+          "points": -8.248266318935935,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "OVC": {
           "wins": 0,
           "losses": 1,
-          "points": -7.806185248778491
+          "points": -7.806185248778491,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "SWAC": {
           "wins": 0,
           "losses": 1,
-          "points": -7.79185806626964
+          "points": -7.79185806626964,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         }
       },
       "average_resume": -27.09973137507615,
-      "outside_resume": -12.017448144591713,
+      "outside_resume": -12.003169608341127,
       "independent": false,
+      "average_defeated_rank": 241.6,
       "average_resume_scaled": 12.50252771888182,
-      "outside_resume_scaled": 33.691881993293876,
-      "comparison_score": 23.09720485608785,
+      "outside_resume_scaled": 29.69510668642954,
+      "comparison_score": 21.09881720265568,
       "rank": 21
     },
     {
@@ -2065,99 +4069,183 @@
       "losses": 26,
       "non_d1_wins": 2,
       "non_d1_losses": 0,
+      "rank_bonus": 1.631030938502307,
+      "defeated_ranks": [
+        246,
+        251,
+        253,
+        255,
+        245,
+        105,
+        255,
+        211,
+        256,
+        250,
+        178
+      ],
       "head_to_head": {
         "MVFC": {
           "wins": 2,
           "losses": 5,
-          "points": -32.220197809813456
+          "points": -32.201091622789335,
+          "rank_bonus": 0.01910618702412614,
+          "defeated_ranks": [
+            246,
+            256
+          ],
+          "average_defeated_rank": 251.0
         },
         "Big 12": {
           "wins": 0,
           "losses": 2,
-          "points": -9.348976433100306
+          "points": -9.348976433100306,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "UAC": {
           "wins": 1,
           "losses": 5,
-          "points": -35.59201939529291
+          "points": -35.58270422474907,
+          "rank_bonus": 0.009315170543832955,
+          "defeated_ranks": [
+            251
+          ],
+          "average_defeated_rank": 251.0
         },
         "Non\u2013Division I": {
           "wins": 2,
           "losses": 0,
-          "points": 0.1
+          "points": 0.1,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Big Ten": {
           "wins": 0,
           "losses": 2,
-          "points": -7.979522635896894
+          "points": -7.979522635896894,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Pioneer": {
           "wins": 1,
           "losses": 0,
-          "points": 3.018622429121036
+          "points": 3.025886896056194,
+          "rank_bonus": 0.007264466935157781,
+          "defeated_ranks": [
+            253
+          ],
+          "average_defeated_rank": 253.0
         },
         "Coastal Athletic": {
           "wins": 0,
           "losses": 1,
-          "points": -7.757019587971351
+          "points": -7.757019587971351,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Conference USA": {
           "wins": 0,
           "losses": 2,
-          "points": -10.528250597727716
+          "points": -10.528250597727716,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Mid-American": {
           "wins": 0,
           "losses": 1,
-          "points": -6.4235204449103955
+          "points": -6.4235204449103955,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "FCS Independents": {
           "wins": 2,
           "losses": 0,
-          "points": 6.037244858242072
+          "points": 6.047647231013126,
+          "rank_bonus": 0.010402372771054335,
+          "defeated_ranks": [
+            255,
+            255
+          ],
+          "average_defeated_rank": 255.0
         },
         "Sun Belt": {
           "wins": 0,
           "losses": 2,
-          "points": -10.616049394699605
+          "points": -10.616049394699605,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Southern": {
           "wins": 1,
           "losses": 1,
-          "points": -4.936827379093961
+          "points": -4.918936035498082,
+          "rank_bonus": 0.017891343595878247,
+          "defeated_ranks": [
+            245
+          ],
+          "average_defeated_rank": 245.0
         },
         "MEAC": {
           "wins": 3,
           "losses": 0,
-          "points": 8.848490952127378
+          "points": 10.405901710401572,
+          "rank_bonus": 1.5574107582741963,
+          "defeated_ranks": [
+            105,
+            211,
+            178
+          ],
+          "average_defeated_rank": 164.66666666666666
         },
         "ACC": {
           "wins": 0,
           "losses": 1,
-          "points": -4.2968735628338575
+          "points": -4.2968735628338575,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "American Athletic": {
           "wins": 0,
           "losses": 1,
-          "points": -3.3954027779956597
+          "points": -3.3954027779956597,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "SWAC": {
           "wins": 1,
           "losses": 2,
-          "points": -12.899678780218412
+          "points": -12.890038140860351,
+          "rank_bonus": 0.009640639358061018,
+          "defeated_ranks": [
+            250
+          ],
+          "average_defeated_rank": 250.0
         },
         "SEC": {
           "wins": 0,
           "losses": 1,
-          "points": -2.486473369646117
+          "points": -2.486473369646117,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         }
       },
       "average_resume": -26.46843968812592,
-      "outside_resume": -16.322056741213764,
+      "outside_resume": -16.118177873900976,
       "independent": false,
+      "average_defeated_rank": 227.72727272727272,
       "average_resume_scaled": 13.666203057577095,
-      "outside_resume_scaled": 21.244200930279316,
-      "comparison_score": 17.455201993928206,
+      "outside_resume_scaled": 19.16214985368236,
+      "comparison_score": 16.41417645562973,
       "rank": 22
     },
     {
@@ -2171,96 +4259,160 @@
       "losses": 30,
       "non_d1_wins": 5,
       "non_d1_losses": 0,
+      "rank_bonus": 0.5136824507812758,
+      "defeated_ranks": [
+        179,
+        217,
+        219
+      ],
       "head_to_head": {
         "MVFC": {
           "wins": 0,
           "losses": 5,
-          "points": -34.65446899271411
+          "points": -34.65446899271411,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Mid-American": {
           "wins": 0,
           "losses": 5,
-          "points": -27.296163164323826
+          "points": -27.296163164323826,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Big Sky": {
           "wins": 0,
           "losses": 1,
-          "points": -6.009810385641365
+          "points": -6.009810385641365,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Non\u2013Division I": {
           "wins": 5,
           "losses": 0,
-          "points": 0.25
+          "points": 0.25,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Mountain West": {
           "wins": 0,
           "losses": 2,
-          "points": -7.684252925561747
+          "points": -7.684252925561747,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Pac-12": {
           "wins": 0,
           "losses": 1,
-          "points": -7.669964351589331
+          "points": -7.669964351589331,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Coastal Athletic": {
           "wins": 1,
           "losses": 3,
-          "points": -20.159717477104465
+          "points": -19.78931893341793,
+          "rank_bonus": 0.3703985436865343,
+          "defeated_ranks": [
+            179
+          ],
+          "average_defeated_rank": 179.0
         },
         "MEAC": {
           "wins": 1,
           "losses": 1,
-          "points": -5.634893465838351
+          "points": -5.55919447051537,
+          "rank_bonus": 0.07569899532298144,
+          "defeated_ranks": [
+            217
+          ],
+          "average_defeated_rank": 217.0
         },
         "Big 12": {
           "wins": 0,
           "losses": 1,
-          "points": -6.004845020666035
+          "points": -6.004845020666035,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Patriot": {
           "wins": 0,
           "losses": 1,
-          "points": -8.080047227633749
+          "points": -8.080047227633749,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Conference USA": {
           "wins": 0,
           "losses": 3,
-          "points": -19.972499062206627
+          "points": -19.972499062206627,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Pioneer": {
           "wins": 1,
           "losses": 0,
-          "points": 2.148551574998576
+          "points": 2.216136486770336,
+          "rank_bonus": 0.06758491177176011,
+          "defeated_ranks": [
+            219
+          ],
+          "average_defeated_rank": 219.0
         },
         "Ivy": {
           "wins": 0,
           "losses": 2,
-          "points": -15.524772950497566
+          "points": -15.524772950497566,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "FCS Independents": {
           "wins": 0,
           "losses": 2,
-          "points": -15.751618009163655
+          "points": -15.751618009163655,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "UAC": {
           "wins": 0,
           "losses": 1,
-          "points": -7.204258491502771
+          "points": -7.204258491502771,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Sun Belt": {
           "wins": 0,
           "losses": 1,
-          "points": -3.6317861351824594
+          "points": -3.6317861351824594,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "ACC": {
           "wins": 0,
           "losses": 1,
-          "points": -6.218602608005588
+          "points": -6.218602608005588,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         }
       },
       "average_resume": -33.88232919453701,
-      "outside_resume": -23.66864358657914,
+      "outside_resume": -23.60443328023148,
       "independent": false,
+      "average_defeated_rank": 205.0,
       "average_resume_scaled": 0.0,
       "outside_resume_scaled": 0.0,
       "comparison_score": 0.0,
@@ -2277,54 +4429,110 @@
       "losses": 5,
       "non_d1_wins": 0,
       "non_d1_losses": 0,
+      "rank_bonus": 15.979661753845233,
+      "defeated_ranks": [
+        39,
+        215,
+        149,
+        106,
+        82,
+        108,
+        171,
+        213,
+        168,
+        202,
+        138
+      ],
       "head_to_head": {
         "Big Ten": {
           "wins": 3,
           "losses": 1,
-          "points": 10.988339639170576
+          "points": 19.375430480028573,
+          "rank_bonus": 8.387090840858004,
+          "defeated_ranks": [
+            39,
+            149,
+            106
+          ],
+          "average_defeated_rank": 98.0
         },
         "American Athletic": {
           "wins": 3,
           "losses": 0,
-          "points": 11.283367873035594
+          "points": 12.159242177958822,
+          "rank_bonus": 0.87587430492323,
+          "defeated_ranks": [
+            215,
+            171,
+            202
+          ],
+          "average_defeated_rank": 196.0
         },
         "ACC": {
           "wins": 2,
           "losses": 1,
-          "points": 5.696804164885061
+          "points": 10.57999145760203,
+          "rank_bonus": 4.8831872927169675,
+          "defeated_ranks": [
+            82,
+            108
+          ],
+          "average_defeated_rank": 95.0
         },
         "Big 12": {
           "wins": 0,
           "losses": 1,
-          "points": -2.603500511864203
+          "points": -2.603500511864203,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Patriot": {
           "wins": 1,
           "losses": 0,
-          "points": 3.0624604716127872
+          "points": 3.184958890477299,
+          "rank_bonus": 0.12249841886451152,
+          "defeated_ranks": [
+            213
+          ],
+          "average_defeated_rank": 213.0
         },
         "Sun Belt": {
           "wins": 1,
           "losses": 0,
-          "points": 4.616280353208868
+          "points": 5.247604760645222,
+          "rank_bonus": 0.6313244074363541,
+          "defeated_ranks": [
+            168
+          ],
+          "average_defeated_rank": 168.0
         },
         "Mid-American": {
           "wins": 1,
           "losses": 1,
-          "points": -1.1060780187571382
+          "points": -0.026391529710973805,
+          "rank_bonus": 1.0796864890461644,
+          "defeated_ranks": [
+            138
+          ],
+          "average_defeated_rank": 138.0
         },
         "Mountain West": {
           "wins": 0,
           "losses": 1,
-          "points": -4.234680327780581
+          "points": -4.234680327780581,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         }
       },
       "average_resume": 13.851496821755477,
-      "outside_resume": 13.851496821755479,
+      "outside_resume": 21.841327698678093,
       "independent": true,
+      "average_defeated_rank": 144.63636363636363,
       "average_resume_scaled": 87.98892382866032,
-      "outside_resume_scaled": 108.49737688322534,
-      "comparison_score": 98.24315035594283,
+      "outside_resume_scaled": 116.32497621656081,
+      "comparison_score": 102.15695002261057,
       "rank": null
     },
     {
@@ -2338,62 +4546,1286 @@
       "losses": 11,
       "non_d1_wins": 2,
       "non_d1_losses": 1,
+      "rank_bonus": 0.021565439456971397,
+      "defeated_ranks": [
+        259,
+        252,
+        248,
+        262
+      ],
       "head_to_head": {
         "Coastal Athletic": {
           "wins": 2,
           "losses": 2,
-          "points": -10.401814030685522
+          "points": -10.387934015752633,
+          "rank_bonus": 0.01388001493289023,
+          "defeated_ranks": [
+            259,
+            248
+          ],
+          "average_defeated_rank": 253.5
         },
         "Conference USA": {
           "wins": 0,
           "losses": 1,
-          "points": -5.987016859954882
+          "points": -5.987016859954882,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "UAC": {
           "wins": 0,
           "losses": 2,
-          "points": -10.383081593290036
+          "points": -10.383081593290036,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "NEC": {
           "wins": 2,
           "losses": 0,
-          "points": 4.992199762255336
+          "points": 4.999885186779417,
+          "rank_bonus": 0.007685424524081165,
+          "defeated_ranks": [
+            252,
+            262
+          ],
+          "average_defeated_rank": 257.0
         },
         "Ivy": {
           "wins": 0,
           "losses": 2,
-          "points": -15.223366000291568
+          "points": -15.223366000291568,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Non\u2013Division I": {
           "wins": 2,
           "losses": 1,
-          "points": -8.2
+          "points": -8.2,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "OVC": {
           "wins": 0,
           "losses": 2,
-          "points": -15.831051938987187
+          "points": -15.831051938987187,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "Pioneer": {
           "wins": 0,
           "losses": 1,
-          "points": -7.4606733274434855
+          "points": -7.4606733274434855,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         },
         "MEAC": {
           "wins": 0,
           "losses": 1,
-          "points": -8.278944332158185
+          "points": -8.278944332158185,
+          "rank_bonus": 0,
+          "defeated_ranks": [],
+          "average_defeated_rank": null
         }
       },
       "average_resume": -38.38687416027776,
-      "outside_resume": -34.28687416027776,
+      "outside_resume": -34.27609144054928,
       "independent": true,
+      "average_defeated_rank": 255.25,
       "average_resume_scaled": -8.303337422356565,
-      "outside_resume_scaled": -30.704846832919962,
-      "comparison_score": -19.504092127638263,
+      "outside_resume_scaled": -27.315647377240175,
+      "comparison_score": -17.80949239979837,
       "rank": null
     }
   ],
+  "team_logos": {
+    "Abilene Christian": {
+      "id": "2000",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2000.png"
+    },
+    "Air Force": {
+      "id": "2005",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png"
+    },
+    "Akron": {
+      "id": "2006",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png"
+    },
+    "Alabama": {
+      "id": "333",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png"
+    },
+    "Alabama A&M": {
+      "id": "2010",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2010.png"
+    },
+    "Alabama State": {
+      "id": "2011",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2011.png"
+    },
+    "Alcorn State": {
+      "id": "2016",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png"
+    },
+    "App State": {
+      "id": "2026",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png"
+    },
+    "Arizona": {
+      "id": "12",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png"
+    },
+    "Arizona State": {
+      "id": "9",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png"
+    },
+    "Arkansas": {
+      "id": "8",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png"
+    },
+    "Arkansas State": {
+      "id": "2032",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png"
+    },
+    "Arkansas-Pine Bluff": {
+      "id": "2029",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2029.png"
+    },
+    "Army": {
+      "id": "349",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png"
+    },
+    "Auburn": {
+      "id": "2",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png"
+    },
+    "Austin Peay": {
+      "id": "2046",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2046.png"
+    },
+    "BYU": {
+      "id": "252",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png"
+    },
+    "Ball State": {
+      "id": "2050",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png"
+    },
+    "Baylor": {
+      "id": "239",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png"
+    },
+    "Bethune-Cookman": {
+      "id": "2065",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2065.png"
+    },
+    "Boise State": {
+      "id": "68",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png"
+    },
+    "Boston College": {
+      "id": "103",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png"
+    },
+    "Bowling Green": {
+      "id": "189",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png"
+    },
+    "Brown": {
+      "id": "225",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/225.png"
+    },
+    "Bryant": {
+      "id": "2803",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2803.png"
+    },
+    "Bucknell": {
+      "id": "2083",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png"
+    },
+    "Buffalo": {
+      "id": "2084",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png"
+    },
+    "Butler": {
+      "id": "2086",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png"
+    },
+    "Cal Poly": {
+      "id": "13",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/13.png"
+    },
+    "California": {
+      "id": "25",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png"
+    },
+    "Campbell": {
+      "id": "2097",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2097.png"
+    },
+    "Central Arkansas": {
+      "id": "2110",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2110.png"
+    },
+    "Central Connecticut": {
+      "id": "2115",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2115.png"
+    },
+    "Central Michigan": {
+      "id": "2117",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png"
+    },
+    "Charleston Southern": {
+      "id": "2127",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2127.png"
+    },
+    "Charlotte": {
+      "id": "2429",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png"
+    },
+    "Chattanooga": {
+      "id": "236",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/236.png"
+    },
+    "Chicago State": {
+      "id": "2130",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2130.png"
+    },
+    "Cincinnati": {
+      "id": "2132",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png"
+    },
+    "Clemson": {
+      "id": "228",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png"
+    },
+    "Coastal Carolina": {
+      "id": "324",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png"
+    },
+    "Colgate": {
+      "id": "2142",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2142.png"
+    },
+    "Colorado": {
+      "id": "38",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png"
+    },
+    "Colorado State": {
+      "id": "36",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png"
+    },
+    "Columbia": {
+      "id": "171",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/171.png"
+    },
+    "Cornell": {
+      "id": "172",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/172.png"
+    },
+    "Dartmouth": {
+      "id": "159",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/159.png"
+    },
+    "Davidson": {
+      "id": "2166",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2166.png"
+    },
+    "Dayton": {
+      "id": "2168",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2168.png"
+    },
+    "Delaware": {
+      "id": "48",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png"
+    },
+    "Delaware State": {
+      "id": "2169",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2169.png"
+    },
+    "Drake": {
+      "id": "2181",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2181.png"
+    },
+    "Duke": {
+      "id": "150",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"
+    },
+    "Duquesne": {
+      "id": "2184",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2184.png"
+    },
+    "East Carolina": {
+      "id": "151",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png"
+    },
+    "East Tennessee State": {
+      "id": "2193",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2193.png"
+    },
+    "East Texas A&M": {
+      "id": "2837",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2837.png"
+    },
+    "Eastern Illinois": {
+      "id": "2197",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2197.png"
+    },
+    "Eastern Kentucky": {
+      "id": "2198",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2198.png"
+    },
+    "Eastern Michigan": {
+      "id": "2199",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png"
+    },
+    "Eastern Washington": {
+      "id": "331",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/331.png"
+    },
+    "Elon": {
+      "id": "2210",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2210.png"
+    },
+    "Florida": {
+      "id": "57",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png"
+    },
+    "Florida A&M": {
+      "id": "50",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png"
+    },
+    "Florida Atlantic": {
+      "id": "2226",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png"
+    },
+    "Florida International": {
+      "id": "2229",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png"
+    },
+    "Florida State": {
+      "id": "52",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png"
+    },
+    "Fordham": {
+      "id": "2230",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2230.png"
+    },
+    "Fresno State": {
+      "id": "278",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png"
+    },
+    "Furman": {
+      "id": "231",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/231.png"
+    },
+    "Gardner-Webb": {
+      "id": "2241",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2241.png"
+    },
+    "Georgetown": {
+      "id": "46",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png"
+    },
+    "Georgia": {
+      "id": "61",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png"
+    },
+    "Georgia Southern": {
+      "id": "290",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png"
+    },
+    "Georgia State": {
+      "id": "2247",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png"
+    },
+    "Georgia Tech": {
+      "id": "59",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png"
+    },
+    "Grambling": {
+      "id": "2755",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2755.png"
+    },
+    "Hampton": {
+      "id": "2261",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2261.png"
+    },
+    "Harvard": {
+      "id": "108",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/108.png"
+    },
+    "Hawai'i": {
+      "id": "62",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png"
+    },
+    "Holy Cross": {
+      "id": "107",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/107.png"
+    },
+    "Houston": {
+      "id": "248",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png"
+    },
+    "Houston Christian": {
+      "id": "2277",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2277.png"
+    },
+    "Howard": {
+      "id": "47",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/47.png"
+    },
+    "Idaho": {
+      "id": "70",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/70.png"
+    },
+    "Idaho State": {
+      "id": "304",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/304.png"
+    },
+    "Illinois": {
+      "id": "356",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png"
+    },
+    "Illinois State": {
+      "id": "2287",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2287.png"
+    },
+    "Incarnate Word": {
+      "id": "2916",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2916.png"
+    },
+    "Indiana": {
+      "id": "84",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png"
+    },
+    "Indiana State": {
+      "id": "282",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/282.png"
+    },
+    "Iowa": {
+      "id": "2294",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png"
+    },
+    "Iowa State": {
+      "id": "66",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png"
+    },
+    "Jackson State": {
+      "id": "2296",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2296.png"
+    },
+    "Jacksonville State": {
+      "id": "55",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png"
+    },
+    "James Madison": {
+      "id": "256",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png"
+    },
+    "Kansas": {
+      "id": "2305",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png"
+    },
+    "Kansas State": {
+      "id": "2306",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png"
+    },
+    "Kennesaw State": {
+      "id": "338",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png"
+    },
+    "Kent State": {
+      "id": "2309",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png"
+    },
+    "Kentucky": {
+      "id": "96",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png"
+    },
+    "LSU": {
+      "id": "99",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png"
+    },
+    "Lafayette": {
+      "id": "322",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/322.png"
+    },
+    "Lamar": {
+      "id": "2320",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2320.png"
+    },
+    "Lehigh": {
+      "id": "2329",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2329.png"
+    },
+    "Liberty": {
+      "id": "2335",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png"
+    },
+    "Lindenwood": {
+      "id": "2815",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2815.png"
+    },
+    "Long Island University": {
+      "id": "2341",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2341.png"
+    },
+    "Louisiana": {
+      "id": "309",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png"
+    },
+    "Louisiana Tech": {
+      "id": "2348",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png"
+    },
+    "Louisville": {
+      "id": "97",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png"
+    },
+    "Maine": {
+      "id": "311",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/311.png"
+    },
+    "Marist": {
+      "id": "2368",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2368.png"
+    },
+    "Marshall": {
+      "id": "276",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png"
+    },
+    "Maryland": {
+      "id": "120",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png"
+    },
+    "Massachusetts": {
+      "id": "113",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png"
+    },
+    "McNeese": {
+      "id": "2377",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2377.png"
+    },
+    "Memphis": {
+      "id": "235",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png"
+    },
+    "Mercer": {
+      "id": "2382",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2382.png"
+    },
+    "Mercyhurst": {
+      "id": "2385",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2385.png"
+    },
+    "Merrimack": {
+      "id": "2771",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2771.png"
+    },
+    "Miami": {
+      "id": "2390",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png"
+    },
+    "Miami (OH)": {
+      "id": "193",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png"
+    },
+    "Michigan": {
+      "id": "130",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png"
+    },
+    "Michigan State": {
+      "id": "127",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png"
+    },
+    "Middle Tennessee": {
+      "id": "2393",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png"
+    },
+    "Minnesota": {
+      "id": "135",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png"
+    },
+    "Mississippi State": {
+      "id": "344",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png"
+    },
+    "Mississippi Valley State": {
+      "id": "2400",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2400.png"
+    },
+    "Missouri": {
+      "id": "142",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png"
+    },
+    "Missouri State": {
+      "id": "2623",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png"
+    },
+    "Monmouth": {
+      "id": "2405",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2405.png"
+    },
+    "Montana": {
+      "id": "149",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/149.png"
+    },
+    "Montana State": {
+      "id": "147",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/147.png"
+    },
+    "Morehead State": {
+      "id": "2413",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2413.png"
+    },
+    "Morgan State": {
+      "id": "2415",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2415.png"
+    },
+    "Murray State": {
+      "id": "93",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/93.png"
+    },
+    "NC State": {
+      "id": "152",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png"
+    },
+    "Navy": {
+      "id": "2426",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png"
+    },
+    "Nebraska": {
+      "id": "158",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
+    },
+    "Nevada": {
+      "id": "2440",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png"
+    },
+    "New Hampshire": {
+      "id": "160",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png"
+    },
+    "New Haven": {
+      "id": "2441",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2441.png"
+    },
+    "New Mexico": {
+      "id": "167",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png"
+    },
+    "New Mexico State": {
+      "id": "166",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png"
+    },
+    "Nicholls": {
+      "id": "2447",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2447.png"
+    },
+    "Norfolk State": {
+      "id": "2450",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png"
+    },
+    "North Alabama": {
+      "id": "2453",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2453.png"
+    },
+    "North Carolina": {
+      "id": "153",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png"
+    },
+    "North Carolina A&T": {
+      "id": "2448",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2448.png"
+    },
+    "North Carolina Central": {
+      "id": "2428",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2428.png"
+    },
+    "North Dakota": {
+      "id": "155",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png"
+    },
+    "North Dakota State": {
+      "id": "2449",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png"
+    },
+    "North Texas": {
+      "id": "249",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png"
+    },
+    "Northern Arizona": {
+      "id": "2464",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2464.png"
+    },
+    "Northern Colorado": {
+      "id": "2458",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png"
+    },
+    "Northern Illinois": {
+      "id": "2459",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png"
+    },
+    "Northern Iowa": {
+      "id": "2460",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2460.png"
+    },
+    "Northwestern": {
+      "id": "77",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png"
+    },
+    "Northwestern State": {
+      "id": "2466",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2466.png"
+    },
+    "Notre Dame": {
+      "id": "87",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png"
+    },
+    "Ohio": {
+      "id": "195",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png"
+    },
+    "Ohio State": {
+      "id": "194",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png"
+    },
+    "Oklahoma": {
+      "id": "201",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png"
+    },
+    "Oklahoma State": {
+      "id": "197",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png"
+    },
+    "Old Dominion": {
+      "id": "295",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png"
+    },
+    "Ole Miss": {
+      "id": "145",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png"
+    },
+    "Oregon": {
+      "id": "2483",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png"
+    },
+    "Oregon State": {
+      "id": "204",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png"
+    },
+    "Penn State": {
+      "id": "213",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png"
+    },
+    "Pennsylvania": {
+      "id": "219",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/219.png"
+    },
+    "Pittsburgh": {
+      "id": "221",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png"
+    },
+    "Portland State": {
+      "id": "2502",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png"
+    },
+    "Prairie View A&M": {
+      "id": "2504",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2504.png"
+    },
+    "Presbyterian": {
+      "id": "2506",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2506.png"
+    },
+    "Princeton": {
+      "id": "163",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/163.png"
+    },
+    "Purdue": {
+      "id": "2509",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png"
+    },
+    "Rhode Island": {
+      "id": "227",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/227.png"
+    },
+    "Rice": {
+      "id": "242",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png"
+    },
+    "Richmond": {
+      "id": "257",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/257.png"
+    },
+    "Robert Morris": {
+      "id": "2523",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png"
+    },
+    "Rutgers": {
+      "id": "164",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png"
+    },
+    "SE Louisiana": {
+      "id": "2545",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2545.png"
+    },
+    "SMU": {
+      "id": "2567",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png"
+    },
+    "Sacramento State": {
+      "id": "16",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png"
+    },
+    "Sacred Heart": {
+      "id": "2529",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2529.png"
+    },
+    "Sam Houston": {
+      "id": "2534",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png"
+    },
+    "Samford": {
+      "id": "2535",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png"
+    },
+    "San Diego": {
+      "id": "301",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/301.png"
+    },
+    "San Diego State": {
+      "id": "21",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png"
+    },
+    "San Jos\u00e9 State": {
+      "id": "23",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png"
+    },
+    "South Alabama": {
+      "id": "6",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png"
+    },
+    "South Carolina": {
+      "id": "2579",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png"
+    },
+    "South Carolina State": {
+      "id": "2569",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2569.png"
+    },
+    "South Dakota": {
+      "id": "233",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/233.png"
+    },
+    "South Dakota State": {
+      "id": "2571",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2571.png"
+    },
+    "South Florida": {
+      "id": "58",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png"
+    },
+    "Southeast Missouri State": {
+      "id": "2546",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png"
+    },
+    "Southern": {
+      "id": "2582",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2582.png"
+    },
+    "Southern Illinois": {
+      "id": "79",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/79.png"
+    },
+    "Southern Miss": {
+      "id": "2572",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png"
+    },
+    "Southern Utah": {
+      "id": "253",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/253.png"
+    },
+    "St. Thomas": {
+      "id": "2900",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2900.png"
+    },
+    "Stanford": {
+      "id": "24",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png"
+    },
+    "Stephen F. Austin": {
+      "id": "2617",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png"
+    },
+    "Stetson": {
+      "id": "56",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/56.png"
+    },
+    "Stonehill": {
+      "id": "284",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/284.png"
+    },
+    "Stony Brook": {
+      "id": "2619",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png"
+    },
+    "Syracuse": {
+      "id": "183",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png"
+    },
+    "TCU": {
+      "id": "2628",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png"
+    },
+    "Tarleton State": {
+      "id": "2627",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2627.png"
+    },
+    "Temple": {
+      "id": "218",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png"
+    },
+    "Tennessee": {
+      "id": "2633",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png"
+    },
+    "Tennessee State": {
+      "id": "2634",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2634.png"
+    },
+    "Tennessee Tech": {
+      "id": "2635",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png"
+    },
+    "Texas": {
+      "id": "251",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png"
+    },
+    "Texas A&M": {
+      "id": "245",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png"
+    },
+    "Texas Southern": {
+      "id": "2640",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2640.png"
+    },
+    "Texas State": {
+      "id": "326",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png"
+    },
+    "Texas Tech": {
+      "id": "2641",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png"
+    },
+    "The Citadel": {
+      "id": "2643",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2643.png"
+    },
+    "Toledo": {
+      "id": "2649",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png"
+    },
+    "Towson": {
+      "id": "119",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/119.png"
+    },
+    "Troy": {
+      "id": "2653",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png"
+    },
+    "Tulane": {
+      "id": "2655",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png"
+    },
+    "Tulsa": {
+      "id": "202",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png"
+    },
+    "UAB": {
+      "id": "5",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png"
+    },
+    "UAlbany": {
+      "id": "399",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/399.png"
+    },
+    "UC Davis": {
+      "id": "302",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/302.png"
+    },
+    "UCF": {
+      "id": "2116",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png"
+    },
+    "UCLA": {
+      "id": "26",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png"
+    },
+    "UConn": {
+      "id": "41",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png"
+    },
+    "UL Monroe": {
+      "id": "2433",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png"
+    },
+    "UNLV": {
+      "id": "2439",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png"
+    },
+    "USC": {
+      "id": "30",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png"
+    },
+    "UT Martin": {
+      "id": "2630",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2630.png"
+    },
+    "UT Rio Grande Valley": {
+      "id": "292",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/292.png"
+    },
+    "UTEP": {
+      "id": "2638",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png"
+    },
+    "UTSA": {
+      "id": "2636",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png"
+    },
+    "Utah": {
+      "id": "254",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png"
+    },
+    "Utah State": {
+      "id": "328",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png"
+    },
+    "Utah Tech": {
+      "id": "3101",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png"
+    },
+    "VMI": {
+      "id": "2678",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2678.png"
+    },
+    "Valparaiso": {
+      "id": "2674",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2674.png"
+    },
+    "Vanderbilt": {
+      "id": "238",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png"
+    },
+    "Villanova": {
+      "id": "222",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png"
+    },
+    "Virginia": {
+      "id": "258",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png"
+    },
+    "Virginia Tech": {
+      "id": "259",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png"
+    },
+    "Wagner": {
+      "id": "2681",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2681.png"
+    },
+    "Wake Forest": {
+      "id": "154",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png"
+    },
+    "Washington": {
+      "id": "264",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png"
+    },
+    "Washington State": {
+      "id": "265",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png"
+    },
+    "Weber State": {
+      "id": "2692",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2692.png"
+    },
+    "West Florida": {
+      "id": "110242",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/110242.png"
+    },
+    "West Georgia": {
+      "id": "2698",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png"
+    },
+    "West Virginia": {
+      "id": "277",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png"
+    },
+    "Western Carolina": {
+      "id": "2717",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2717.png"
+    },
+    "Western Illinois": {
+      "id": "2710",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2710.png"
+    },
+    "Western Kentucky": {
+      "id": "98",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/98.png"
+    },
+    "Western Michigan": {
+      "id": "2711",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png"
+    },
+    "William & Mary": {
+      "id": "2729",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2729.png"
+    },
+    "Wisconsin": {
+      "id": "275",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png"
+    },
+    "Wofford": {
+      "id": "2747",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2747.png"
+    },
+    "Wyoming": {
+      "id": "2751",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png"
+    },
+    "Yale": {
+      "id": "43",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png"
+    },
+    "Youngstown State": {
+      "id": "2754",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2754.png"
+    }
+  },
+  "conference_logos": {
+    "American Athletic": {
+      "id": "151",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/american.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/151"
+    },
+    "ACC": {
+      "id": "1",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/acc.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/1"
+    },
+    "Big 12": {
+      "id": "4",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/big_12.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/4"
+    },
+    "Big Ten": {
+      "id": "5",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/big_ten.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/5"
+    },
+    "Conference USA": {
+      "id": "12",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/conference_usa.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/12"
+    },
+    "Mid-American": {
+      "id": "15",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/mid_american.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/15"
+    },
+    "Mountain West": {
+      "id": "17",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/mountain_west.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/17"
+    },
+    "Pac-12": {
+      "id": "9",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/pac_12.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/9"
+    },
+    "SEC": {
+      "id": "8",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/sec.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/8"
+    },
+    "Sun Belt": {
+      "id": "37",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/sun_belt.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/37"
+    },
+    "Big Sky": {
+      "id": "20",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/big_sky.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/20"
+    },
+    "Coastal Athletic": {
+      "id": "48",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/caa.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/48"
+    },
+    "Ivy": {
+      "id": "22",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/ivy.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/22"
+    },
+    "MEAC": {
+      "id": "24",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/meac.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/24"
+    },
+    "MVFC": {
+      "id": "21",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/missouri_valley.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/21"
+    },
+    "NEC": {
+      "id": "25",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/northeast.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/25"
+    },
+    "OVC": {
+      "id": "179",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/ovc.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/179"
+    },
+    "Patriot": {
+      "id": "27",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/patriot_league.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/27"
+    },
+    "Pioneer": {
+      "id": "28",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/pioneer.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/28"
+    },
+    "Southern": {
+      "id": "29",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/southern.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/29"
+    },
+    "Southland": {
+      "id": "30",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/southland.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/30"
+    },
+    "SWAC": {
+      "id": "31",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/swac.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/31"
+    },
+    "UAC": {
+      "id": "177",
+      "url": "https://a.espncdn.com/i/teamlogos/ncaa_conf/500/uac.png",
+      "source": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/177"
+    }
+  },
   "fcs_coverage": {
     "source": "ESPN season-specific FCS membership and individual regular-season schedules",
     "source_url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/81/teams?limit=1000",
