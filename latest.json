@@ -2084,7 +2084,7 @@
       "losses": 30,
       "non_d1_wins": 0,
       "non_d1_losses": 0,
-      "rank_bonus": 18.091833109325382,
+      "rank_bonus": 18.091833109325385,
       "defeated_ranks": [
         38,
         208,
@@ -2175,8 +2175,8 @@
         "Coastal Athletic": {
           "wins": 4,
           "losses": 0,
-          "points": 16.65333413303367,
-          "rank_bonus": 3.580748584465058,
+          "points": 16.653334133033674,
+          "rank_bonus": 3.580748584465059,
           "defeated_ranks": [
             64,
             128,
@@ -2280,11 +2280,11 @@
         }
       },
       "average_resume": -8.590554940202924,
-      "outside_resume": -3.120277741073316,
+      "outside_resume": -3.1202777410733145,
       "independent": false,
       "average_defeated_rank": 162.61904761904762,
       "average_resume_scaled": 47.56743205813572,
-      "outside_resume_scaled": 51.862005611678306,
+      "outside_resume_scaled": 51.86200561167832,
       "comparison_score": 49.71471883490702,
       "rank": 10
     },
@@ -6389,7 +6389,7 @@
       }
     ]
   },
-  "recent_espn_checks": 71,
-  "refresh_mode": "live",
+  "recent_espn_checks": 0,
+  "refresh_mode": "frozen",
   "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/schedules/csv/cfb_schedules_2026.csv"
 }
