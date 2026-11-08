@@ -1,6 +1,6 @@
 # Results Only CFB Rankings
 
-Results-only rankings for FBS and FCS college football, with separate Top 25 views and combined team evidence. Version 2.5 approved for publication on November 4, 2026.
+Results-only rankings for FBS and FCS college football, with separate Top 25 views and combined team evidence. Version 2.6 includes the full 2026 season, through the January 2027 national championships.
 
 ## Views
 
@@ -18,10 +18,10 @@ The separate FCS-only view retains its own calculation and game ledger, with the
 
 ## Data and operation
 
-SportsDataverse provides FBS inputs. ESPN season-specific membership and individual team regular-season schedules supply FCS coverage. Reciprocal FCS games must agree, and shared FBS games must match existing final scores. Team IDs join sources. Canceled/postponed games are listed in fcs_coverage.json and excluded until final. These checks do not independently establish source completeness.
+SportsDataverse provides FBS inputs. ESPN season-specific membership and individual team regular-season and postseason schedules supply FCS coverage. Reciprocal FCS games must agree, and shared FBS games must match existing final scores. Team IDs join sources. Canceled/postponed games are listed in fcs_coverage.json and excluded until final. These checks do not independently establish source completeness.
 
 Use `python build.py --snapshot` to rebuild saved results offline, or `python build.py --refresh` for live results. Dependencies are in requirements.txt. Tests in the build reconcile records and points, validate dates and coverage, require convergence, and check shuffled-input stability. Eight weight variations show FBS sensitivity ranges.
 
-The update schedule is Mondays at 15:00 UTC (8 a.m. MST), ending after December 7, 2026. Army–Navy and postseason playoff/bowl games are excluded. No paid API keys are required. A failed build preserves the prior live site.
+The update schedule is Sundays at 17:00 UTC (10 a.m. Mountain Standard Time), with the final update January 31, 2027, after the January 25 CFP championship. Army–Navy, bowls, and FBS/FCS playoffs are included. The 2026 season window falls entirely in Mountain Standard Time after this November 8 change. Team and conference rankings recalculate on each refresh. No paid API keys are required. A failed build preserves the prior live site.
 
-Downloads include combined_rankings.csv, full_rankings.csv (FBS), fcs_rankings.csv (FCS-only), game_evidence.csv (combined), fcs_game_evidence.csv (FCS-only), full report JSON, inputs, coverage metadata and calculation source. INITIAL_EVIDENCE.md is an archived pre-FCS-treatment report, not the current draft methodology.
+Downloads include combined_rankings.csv, full_rankings.csv (FBS), fcs_rankings.csv (FCS-only), game_evidence.csv (combined), fcs_game_evidence.csv (FCS-only), full report JSON, inputs, coverage metadata and calculation source. INITIAL_EVIDENCE.md is an archived pre-FCS-treatment report, not the current methodology.

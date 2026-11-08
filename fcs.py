@@ -4,6 +4,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 import pandas as pd
 CORE='https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/{}/teams?limit=1000'
+POSTSCHEDULE='https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/{}/schedule?season=2026&seasontype=3'
 SCHEDULE='https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/{}/schedule?season=2026&seasontype=2'
 
 def collect(previous, fetch, cache=None):
@@ -15,7 +16,14 @@ def collect(previous, fetch, cache=None):
     fcs_ids=membership(81);fbs_ids=membership(80)
     def schedule(t):
         if cache:return t,json.loads((Path(cache)/'schedules'/f'{t}.json').read_text())
-        return t,json.loads(fetch(SCHEDULE.format(t)))
+        regular=json.loads(fetch(SCHEDULE.format(t)))
+        post=json.loads(fetch(POSTSCHEDULE.format(t)))
+        if int(post['season']['year'])!=2026:raise ValueError('Wrong postseason season')
+        events={str(e['id']):e for e in regular.get('events',[])}
+        for e in post.get('events',[]):
+            if int(e['seasonType']['type'])==3:events[str(e['id'])]=e
+        regular['events']=list(events.values())
+        return t,regular
     with ThreadPoolExecutor(max_workers=8) as pool:schedules=dict(pool.map(schedule,sorted(fcs_ids)))
     # ESPN includes playoff placeholders in the membership endpoint; they are not programs.
     placeholders={t for t,x in schedules.items() if x['team']['location']=='TBA'}
@@ -43,11 +51,11 @@ def collect(previous, fetch, cache=None):
         x=schedules[tid]
         if int(x['season']['year'])!=2026:raise ValueError('Wrong FCS season')
         for e in x['events']:
-            if int(e['season']['year'])!=2026 or int(e['seasonType']['type'])!=2:continue
+            if int(e['season']['year'])!=2026 or int(e['seasonType']['type']) not in (2,3):continue
             comp=e['competitions'][0];status=comp['status']['type'];gid=int(e['id'])
             if status['name'] in ['STATUS_CANCELED','STATUS_POSTPONED']:
                 excluded[gid]=status['name'];continue
-            row=dict(game_id=gid,season=2026,week=int(e['week']['number']),season_type='regular',start_date=e['date'],completed=bool(status['completed']),neutral_site=bool(comp['neutralSite']))
+            row=dict(game_id=gid,season=2026,week=int(e['week']['number']),season_type='postseason' if int(e['seasonType']['type'])==3 else 'regular',start_date=e['date'],completed=bool(status['completed']),neutral_site=bool(comp['neutralSite']))
             for c in comp['competitors']:
                 side=c['homeAway'];t=str(c['id']);division='fcs' if t in fcs_ids else ('fbs' if t in fbs_ids else 'other')
                 if t in divs and divs[t]!=division:raise ValueError('Division crosswalk mismatch: '+t)
@@ -70,5 +78,5 @@ def collect(previous, fetch, cache=None):
     missing=set(known.loc[known.completed,'game_id'])-set(events)
     if missing:raise ValueError('FCS source omitted known finals: '+str(sorted(missing)))
     combined=pd.concat([previous[~previous.game_id.isin(extra.game_id)],extra],ignore_index=True)
-    audit={'source':'ESPN season-specific FCS membership and individual regular-season schedules','source_url':CORE.format(81),'schedule_url_template':SCHEDULE,'fcs_team_count':len(fcs_ids),'schedule_games':len(events),'completed_games':int(extra.completed.sum()),'reciprocal_schedule_checks':True,'excluded_games':[{'game_id':g,'status':s} for g,s in sorted(excluded.items())],'teams':[{'id':t,'team':names[t]} for t in sorted(fcs_ids)]}
+    audit={'source':'ESPN season-specific FCS membership and individual regular-season and postseason schedules','source_url':CORE.format(81),'schedule_url_template':SCHEDULE,'postseason_url_template':POSTSCHEDULE,'fcs_team_count':len(fcs_ids),'schedule_games':len(events),'completed_games':int(extra.completed.sum()),'reciprocal_schedule_checks':True,'excluded_games':[{'game_id':g,'status':s} for g,s in sorted(excluded.items())],'teams':[{'id':t,'team':names[t]} for t in sorted(fcs_ids)]}
     return combined,audit

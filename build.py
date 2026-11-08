@@ -67,7 +67,7 @@ def calculate(df,old,now):
     # model accepts an exclusive UTC date. Completion and future-time checks apply below.
     cutoff=(now+timedelta(days=1)).strftime('%Y-%m-%d')
     done=model.completed(df,cutoff)
-    done=done[(done.home_division.isin(['fbs','fcs'])|done.away_division.isin(['fbs','fcs'])) & done.season_type.eq('regular')]
+    done=done[(done.home_division.isin(['fbs','fcs'])|done.away_division.isin(['fbs','fcs'])) & done.season_type.isin(['regular','postseason'])]
     fbs_done=done[(done.home_division=='fbs')|(done.away_division=='fbs')]
     fcs_done=done[(done.home_division=='fcs')|(done.away_division=='fcs')]
     if (done.start_date>now).any():raise ValueError('A future game is marked complete')
@@ -75,7 +75,7 @@ def calculate(df,old,now):
     if (done.home_points==done.away_points).any():raise ValueError('Tied final score')
     if done[['home_points','away_points']].isna().any().any() or (done[['home_points','away_points']]<0).any().any():raise ValueError('Invalid final score')
     # Refuse to silently publish an old snapshot when known past games lack final status.
-    pending=df[(~df.completed)&df.season_type.eq('regular')&(df.start_date<now-timedelta(hours=12))]
+    pending=df[(~df.completed)&df.season_type.isin(['regular','postseason'])&(df.start_date<now-timedelta(hours=12))]
     if len(pending):raise ValueError('Past games lack finals: '+', '.join(pending.game_id.astype(str)))
     out,confs,week,prior_weight,ng=model.model(df,prior,cutoff)
     if ng!=len(fbs_done) or out.attrs['all_games_count']!=len(done):raise ValueError('Some completed Division I games were omitted')
@@ -139,7 +139,7 @@ def calculate(df,old,now):
         r['combined_rank']=i
         r['fcs_only_rank']=fcs_positions.get(r['team'])
         r['conference_context_points']=sum(g['conference_context_points'] for g in r['games'])
-    return dict(model_version='2.5-fbs-opponent-unbeaten-bonus',all_teams=combined,subdivision_calibration=out.attrs['subdivision_calibration'],fcs_teams=fcsrows,fcs_team_count=len(fcs_out),fcs_games_count=len(fcs_done),all_d1_games_count=len(done),non_d1_games_count=int((~done.home_division.isin(['fbs','fcs'])|~done.away_division.isin(['fbs','fcs'])).sum()),season=SEASON,generated_at=now.isoformat(),latest_game=max(g['date'] for g in ledger),games_count=ng,team_count=len(out),postseason_2025_games=post,week=week,prior_weight=prior_weight,teams=teamrows,conferences=[{'conference':c,'weighted_wins':float(v),'context':contexts[c]} for c,v in sorted(confs.items(),key=lambda z:-z[1])],sensitivity=checks),out,ledger
+    return dict(model_version='2.6-full-season',all_teams=combined,subdivision_calibration=out.attrs['subdivision_calibration'],fcs_teams=fcsrows,fcs_team_count=len(fcs_out),fcs_games_count=len(fcs_done),all_d1_games_count=len(done),non_d1_games_count=int((~done.home_division.isin(['fbs','fcs'])|~done.away_division.isin(['fbs','fcs'])).sum()),season=SEASON,generated_at=now.isoformat(),latest_game=max(g['date'] for g in ledger),games_count=ng,team_count=len(out),postseason_2025_games=post,week=week,prior_weight=prior_weight,teams=teamrows,conferences=[{'conference':c,'weighted_wins':float(v),'context':contexts[c]} for c,v in sorted(confs.items(),key=lambda z:-z[1])],sensitivity=checks),out,ledger
 
 def conference_rank_bonus(game_points, opponent_rank, team_count):
     """Current combined rank adds 0–100% win credit; no bonus for a loss."""
@@ -201,7 +201,7 @@ def main():
     if args.snapshot:
         stamp=json.loads((ROOT/'latest.json').read_text())['generated_at'] if (ROOT/'latest.json').exists() else '2026-11-04T06:00:00+00:00'
         now=datetime.fromisoformat(stamp)
-    if args.refresh and now>=datetime(2026,12,8,tzinfo=timezone.utc):
+    if args.refresh and now>=datetime(2027,2,1,tzinfo=timezone.utc):
         raise ValueError('2026 update window closed. Use --snapshot to rebuild the saved final report.')
     if now.tzinfo is None:raise ValueError('--as-of needs timezone')
     df=normalize(pd.read_csv(ROOT/'games_2026.csv'));old=normalize(pd.read_csv(ROOT/'games_2025.csv'))

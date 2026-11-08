@@ -1,10 +1,11 @@
 {
-  "source": "ESPN season-specific FCS membership and individual regular-season schedules",
+  "source": "ESPN season-specific FCS membership and individual regular-season and postseason schedules",
   "source_url": "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/types/2/groups/81/teams?limit=1000",
   "schedule_url_template": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/{}/schedule?season=2026&seasontype=2",
+  "postseason_url_template": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/{}/schedule?season=2026&seasontype=3",
   "fcs_team_count": 128,
   "schedule_games": 847,
-  "completed_games": 656,
+  "completed_games": 718,
   "reciprocal_schedule_checks": true,
   "excluded_games": [
     {
