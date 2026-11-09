@@ -6,6 +6,7 @@ from urllib.request import Request, urlopen
 import numpy as np
 import pandas as pd
 import model
+from zoneinfo import ZoneInfo
 import fcs
 
 ROOT=Path(__file__).resolve().parent
@@ -195,6 +196,19 @@ def conference_comparison(data):
     assert sum(c['teams'] for c in report)==len(teams)
     return report
 
+def ranking_history(data, saved):
+    """Keep the prior weekly report stable across rebuilds and same-week refreshes."""
+    local=datetime.fromisoformat(data['generated_at']).astimezone(ZoneInfo('America/Denver'))
+    period=(local.date()-timedelta(days=(local.weekday()+1)%7)).isoformat()
+    current=dict(period=period,generated_at=data['generated_at'],
+                 fbs={t['team']:t['rank'] for t in data['teams']},
+                 fcs={t['team']:t['rank'] for t in data['fcs_teams']})
+    history=saved.get('rank_history',{})
+    previous=history.get('previous')
+    if history.get('current') and history['current']['period']<period:
+        previous=history['current']
+    return dict(current=current,previous=previous)
+
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--refresh',action='store_true');ap.add_argument('--snapshot',action='store_true');ap.add_argument('--as-of',help='ISO UTC time for reproducible offline build');args=ap.parse_args()
     now=datetime.fromisoformat(args.as_of) if args.as_of else datetime.now(timezone.utc)
@@ -212,6 +226,7 @@ def main():
         df,coverage=fcs.collect(df,fetch)
         df=normalize(df)
     data,out,ledger=calculate(df,old,now)
+    data['rank_history']=ranking_history(data,json.loads((ROOT/'latest.json').read_text()))
     data['conference_comparison']=conference_comparison(data)
     data['team_logos']=json.loads((ROOT/'team_logos.json').read_text())
     data['conference_logos']=json.loads((ROOT/'conference_logos.json').read_text())
