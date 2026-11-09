@@ -1,6 +1,6 @@
 # Results Only CFB Rankings
 
-Results-only rankings for FBS and FCS college football, with separate Top 25 views and combined team evidence. Version 2.6 includes the full 2026 season, through the January 2027 national championships.
+Results-only rankings for FBS and FCS college football, with separate Top 25 views and combined team evidence. Version 2.7 includes the full 2026 season, through the January 2027 national championships.
 
 ## Views
 
@@ -12,7 +12,7 @@ Results-only rankings for FBS and FCS college football, with separate Top 25 vie
 
 The existing results-only calculation produces initial FCS strength values and internal FBS comparison strengths. A common log-odds shift is then fitted against completed FCS–FBS game outcomes, accounting for both participating teams' initial strengths. Two balanced smoothing games (one win, one loss) avoid infinite shifts when all cross-subdivision outcomes go one way. The fitted FCS strengths are fixed while all Division I teams' combined résumé scores are calculated using the existing win/loss, margin, venue and conference rules. FCS opponents receive no FBS conference context. This is an in-sample modeling choice, not a validated prediction probability or a proof of ranking accuracy. Cross-subdivision venue imbalance is not separately fitted.
 
-Every Division I win uses normal credit with the adjusted opponent strength. No flat FCS-win cap remains. Non-Division I wins earn exactly 0.05 total points with no margin/road bonus and do not increase the unbeaten bonus. Every loss remains negative. Any undefeated Division I team, FBS or FCS, receives 0.11 times wins over FBS opponents squared. Wins over FCS or non-Division I opponents do not increase it. Any loss removes it.
+Every Division I win starts with 1 guaranteed point, plus credit for adjusted opponent strength and existing margin/venue bonuses. Loss-penalty weights are unchanged. No flat FCS-win cap remains. Non-Division I wins earn exactly 0.05 total points with no margin/road bonus and do not increase the unbeaten bonus. Every loss remains negative. Any undefeated Division I team, FBS or FCS, receives 0.11 times wins over FBS opponents squared. Wins over FCS or non-Division I opponents do not increase it. Any loss removes it.
 
 The separate FCS-only view retains its own calculation and game ledger, with the same FBS-opponent-only unbeaten-bonus rule. Its opponent strengths and scores can differ from the combined view, as explicitly labeled on the site.
 

@@ -96,7 +96,7 @@ def calculate(df,old,now):
             q=qualities[other];neutral=bool(g.neutral_site)
             mb=(1-math.exp(-min(abs(pf-pa),28)/10))/(1-math.exp(-2.8)) if win else 0
             location=.35 if win and side=='away' and not neutral else (-.30 if not win and side=='home' and not neutral else 0)
-            points=2+6*q+mb+location if win else -(2+6*(1-q))+location
+            points=model.WIN_CREDIT+6*q+mb+location if win else -(2+6*(1-q))+location
             opponent_division=getattr(g,opp+'_division')
             if win and opponent_division not in ('fbs','fcs'):points=.05
             context=6*.06*contexts.get(getattr(g,opp+'_conference'),0) if getattr(g,opp+'_division')=='fbs' else 0
@@ -127,7 +127,7 @@ def calculate(df,old,now):
             mb=(1-math.exp(-min(abs(g['points_for']-g['points_against']),28)/10))/(1-math.exp(-2.8)) if win else 0
             loc=.35 if win and g['site']=='away' else (-.30 if not win and g['site']=='home' else 0)
             z['opponent_quality']=q
-            z['game_points']=2+6*q+mb+loc if win else -(2+6*(1-q))+loc
+            z['game_points']=model.WIN_CREDIT+6*q+mb+loc if win else -(2+6*(1-q))+loc
             if win and g['opponent_division']=='other':z['game_points']=.05
             z.pop('conference_context_points',None)
             games.append(z)
@@ -140,7 +140,7 @@ def calculate(df,old,now):
         r['combined_rank']=i
         r['fcs_only_rank']=fcs_positions.get(r['team'])
         r['conference_context_points']=sum(g['conference_context_points'] for g in r['games'])
-    return dict(model_version='2.6-full-season',all_teams=combined,subdivision_calibration=out.attrs['subdivision_calibration'],fcs_teams=fcsrows,fcs_team_count=len(fcs_out),fcs_games_count=len(fcs_done),all_d1_games_count=len(done),non_d1_games_count=int((~done.home_division.isin(['fbs','fcs'])|~done.away_division.isin(['fbs','fcs'])).sum()),season=SEASON,generated_at=now.isoformat(),latest_game=max(g['date'] for g in ledger),games_count=ng,team_count=len(out),postseason_2025_games=post,week=week,prior_weight=prior_weight,teams=teamrows,conferences=[{'conference':c,'weighted_wins':float(v),'context':contexts[c]} for c,v in sorted(confs.items(),key=lambda z:-z[1])],sensitivity=checks),out,ledger
+    return dict(model_version='2.7-one-point-win-credit',all_teams=combined,subdivision_calibration=out.attrs['subdivision_calibration'],fcs_teams=fcsrows,fcs_team_count=len(fcs_out),fcs_games_count=len(fcs_done),all_d1_games_count=len(done),non_d1_games_count=int((~done.home_division.isin(['fbs','fcs'])|~done.away_division.isin(['fbs','fcs'])).sum()),season=SEASON,generated_at=now.isoformat(),latest_game=max(g['date'] for g in ledger),games_count=ng,team_count=len(out),postseason_2025_games=post,week=week,prior_weight=prior_weight,teams=teamrows,conferences=[{'conference':c,'weighted_wins':float(v),'context':contexts[c]} for c,v in sorted(confs.items(),key=lambda z:-z[1])],sensitivity=checks),out,ledger
 
 def conference_rank_bonus(game_points, opponent_rank, team_count):
     """Current combined rank adds 0–100% win credit; no bonus for a loss."""

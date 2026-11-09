@@ -8,6 +8,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+WIN_CREDIT = 1.0
+
 URL = 'https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/schedules/csv/cfb_schedules_{}.csv'
 
 
@@ -126,7 +128,7 @@ def _calculate(df, baseline2025, cutoff, quality_weight=6.0, margin_weight=1.0, 
             opp=adjusted[li]
             # Diminishing margin returns; near saturation at 28, no more after 28.
             margin_bonus=margin_weight*(1-np.exp(-min(margin,28)/10.0))/(1-np.exp(-2.8))
-            victory=(2.0+quality_weight*opp+margin_bonus+(0.35 if away else 0)) if div[all_teams[li]] in ('fbs','fcs') else 0.05
+            victory=(WIN_CREDIT+quality_weight*opp+margin_bonus+(0.35 if away else 0)) if div[all_teams[li]] in ('fbs','fcs') else 0.05
             win_pts[wi]+=victory
             wquality=adjusted[wi]
             penalty=2.0+quality_weight*(1-wquality)+(0.30 if home else 0)
@@ -166,7 +168,7 @@ def _calculate(df, baseline2025, cutoff, quality_weight=6.0, margin_weight=1.0, 
     for wi,li,margin,away,home,_,_,_,_ in games:
         wteam,lteam=all_teams[wi],all_teams[li]
         mb=(1-np.exp(-min(margin,28)/10))/(1-np.exp(-2.8))
-        val=(2+quality_weight*adj[li]+margin_weight*mb+(0.35 if away else 0)) if div[lteam] in ('fbs','fcs') else 0.05
+        val=(WIN_CREDIT+quality_weight*adj[li]+margin_weight*mb+(0.35 if away else 0)) if div[lteam] in ('fbs','fcs') else 0.05
         penalty=2+quality_weight*(1-adj[wi])+(0.30 if home else 0)
         winscore[wi]+=val;lossscore[li]+=penalty
         if wteam in best: best[wteam].append((val,lteam))
