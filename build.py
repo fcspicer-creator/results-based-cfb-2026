@@ -112,7 +112,7 @@ def calculate(df,old,now):
     assert np.allclose(out.score,shuffled.score,atol=1e-8,rtol=0)
     assert list(fcs_out.team)==list(shuffled.attrs['fcs_rankings'].team)
     ranges={t:[int(r)] for t,r in zip(out.team,out['rank'])};checks=[]
-    for key,base in [('quality_weight',6),('margin_weight',1),('bonus_weight',.11),('conference_weight',.06)]:
+    for key,base in [('quality_weight',6),('margin_weight',1),('bonus_weight',.11)]:
         for factor in [.8,1.2]:
             a=model.model(df,prior,cutoff,**{key:base*factor})[0]
             checks.append({'parameter':key,'factor':factor,'top25_overlap':len(set(a.head(25).team)&set(out.head(25).team)),'number_one':a.iloc[0].team})
@@ -140,61 +140,69 @@ def calculate(df,old,now):
         r['combined_rank']=i
         r['fcs_only_rank']=fcs_positions.get(r['team'])
         r['conference_context_points']=sum(g['conference_context_points'] for g in r['games'])
-    return dict(model_version='2.7-one-point-win-credit',all_teams=combined,subdivision_calibration=out.attrs['subdivision_calibration'],fcs_teams=fcsrows,fcs_team_count=len(fcs_out),fcs_games_count=len(fcs_done),all_d1_games_count=len(done),non_d1_games_count=int((~done.home_division.isin(['fbs','fcs'])|~done.away_division.isin(['fbs','fcs'])).sum()),season=SEASON,generated_at=now.isoformat(),latest_game=max(g['date'] for g in ledger),games_count=ng,team_count=len(out),postseason_2025_games=post,week=week,prior_weight=prior_weight,teams=teamrows,conferences=[{'conference':c,'weighted_wins':float(v),'context':contexts[c]} for c,v in sorted(confs.items(),key=lambda z:-z[1])],sensitivity=checks),out,ledger
+    return dict(model_version='3.1-one-point-win-credit',all_teams=combined,subdivision_calibration=out.attrs['subdivision_calibration'],fcs_teams=fcsrows,fcs_team_count=len(fcs_out),fcs_games_count=len(fcs_done),all_d1_games_count=len(done),non_d1_games_count=int((~done.home_division.isin(['fbs','fcs'])|~done.away_division.isin(['fbs','fcs'])).sum()),season=SEASON,generated_at=now.isoformat(),latest_game=max(g['date'] for g in ledger),games_count=ng,team_count=len(out),postseason_2025_games=post,week=week,prior_weight=prior_weight,teams=teamrows,conferences=[{'conference':c,'weighted_wins':float(v),'context':contexts[c]} for c,v in sorted(confs.items(),key=lambda z:-z[1])],sensitivity=checks),out,ledger
 
-def conference_rank_bonus(game_points, opponent_rank, team_count):
-    """Current combined rank adds 0–100% win credit; no bonus for a loss."""
-    if game_points <= 0:return 0.0
-    if not 1 <= opponent_rank <= team_count:raise ValueError('Invalid combined opponent rank')
-    percentile=(team_count-opponent_rank)/max(1,team_count-1)
-    return game_points*percentile**2
+def solve_conference_network(nodes, results):
+    """Colley-style joint solve: (2I + schedule Laplacian) r = 1 + (W-L)/2.
+
+    Each real game counts once. Equal neutral regularization keeps sparse or
+    unbeaten samples finite; no polls, member ratings, or historical seeds.
+    """
+    nodes=sorted(nodes);ix={n:i for i,n in enumerate(nodes)}
+    matrix=2*np.eye(len(nodes));rhs=np.ones(len(nodes))
+    for winner,loser in results:
+        if winner==loser:continue
+        w,l=ix[winner],ix[loser]
+        matrix[w,w]+=1;matrix[l,l]+=1;matrix[w,l]-=1;matrix[l,w]-=1
+        rhs[w]+=.5;rhs[l]-=.5
+    ratings=np.linalg.solve(matrix,rhs)
+    assert np.max(np.abs(matrix@ratings-rhs))<1e-9
+    assert np.isfinite(ratings).all()
+    return dict(zip(nodes,map(float,ratings)))
 
 
 def conference_comparison(data):
     teams={t['team']:t for t in data['all_teams']}
     def group(t):
-     c=t['conference'];return 'SWAC' if c.startswith('SWAC') else 'FCS Independents' if c.startswith('FCS Independent') else c
-    rows={}
+        c=t['conference']
+        return 'SWAC' if c.startswith('SWAC') else 'FCS Independents' if c.startswith('FCS Independent') else c
+    def node(t):
+        # Independents are separate opponents, never an artificial shared league.
+        return 'Independent: '+t['team'] if 'Independent' in group(t) else group(t)
+    nodes={node(t) for t in teams.values()};results=[];seen=set();rows={}
     for t in teams.values():
-     c=group(t)
-     if c not in rows:rows[c]=dict(conference=c,division=t['division'].upper(),teams=0,team_score=0,win_points=0,loss_penalties=0,wins=0,losses=0,non_d1_wins=0,non_d1_losses=0,rank_bonus=0,defeated_ranks=[],head_to_head={})
-     r=rows[c];r['teams']+=1;r['team_score']+=t['score']
-     for g in t['games']:
-      other=teams.get(g['opponent']);oc=group(other) if other else 'Non–Division I'
-      if oc==c:continue
-      h=r['head_to_head'].setdefault(oc,dict(wins=0,losses=0,points=0,rank_bonus=0,defeated_ranks=[]))
-      win=g['result']=='W';h['wins' if win else 'losses']+=1;h['points']+=g['game_points']
-      if other:
-       r['wins' if win else 'losses']+=1;r['win_points' if win else 'loss_penalties']+=abs(g['game_points'])
-       if win:
-        bonus=conference_rank_bonus(g['game_points'],other['combined_rank'],len(teams))
-        r['rank_bonus']+=bonus;h['rank_bonus']+=bonus;h['points']+=bonus
-        r['defeated_ranks'].append(other['combined_rank']);h['defeated_ranks'].append(other['combined_rank'])
-      else:r['non_d1_wins' if win else 'non_d1_losses']+=1
-    for r in rows.values():
-     r['average_resume']=r['team_score']/r['teams'];r['outside_resume']=(r['win_points']+r['rank_bonus']-r['loss_penalties'])/r['teams'];r['independent']='Independent' in r['conference']
-    for r in rows.values():
-     r['average_defeated_rank']=sum(r['defeated_ranks'])/len(r['defeated_ranks']) if r['defeated_ranks'] else None
-     for h in r['head_to_head'].values():
-      h['average_defeated_rank']=sum(h['defeated_ranks'])/len(h['defeated_ranks']) if h['defeated_ranks'] else None
-     assert abs(sum(h['points'] for name,h in r['head_to_head'].items() if name!='Non–Division I')/r['teams']-r['outside_resume'])<1e-8
-    confs=[r for r in rows.values() if not r['independent']]
-    for key in ['average_resume','outside_resume']:
-     lo=min(r[key] for r in confs);hi=max(r[key] for r in confs)
-     for r in rows.values():r[key+'_scaled']=100*(r[key]-lo)/(hi-lo) if hi!=lo else 50
-    for r in rows.values():r['comparison_score']=(r['average_resume_scaled']+r['outside_resume_scaled'])/2
-    confs.sort(key=lambda r:(-r['comparison_score'],r['conference']))
-    for i,r in enumerate(confs,1):r['rank']=i
-    ind=[r for r in rows.values() if r['independent']]
-    for r in ind:r['rank']=None
-    report=confs+sorted(ind,key=lambda r:-r['comparison_score'])
-    for c in report:
-     for other,h in c['head_to_head'].items():
-      if other == 'Non–Division I':continue
-      reverse=rows[other]['head_to_head'][c['conference']]
-      assert h['wins']==reverse['losses'] and h['losses']==reverse['wins']
-    assert sum(c['teams'] for c in report)==len(teams)
-    return report
+        c=group(t)
+        r=rows.setdefault(c,dict(conference=c,division=t['division'].upper(),teams=0,team_score=0,wins=0,losses=0,non_d1_wins=0,non_d1_losses=0,head_to_head={},opponent_nodes=[],independent='Independent' in c))
+        r['teams']+=1;r['team_score']+=t['score']
+        for g in t['games']:
+            other=teams.get(g['opponent']);oc=group(other) if other else 'Non–Division I'
+            if other and node(t)==node(other):continue
+            win=g['result']=='W'
+            h=r['head_to_head'].setdefault(oc,dict(wins=0,losses=0))
+            h['wins' if win else 'losses']+=1
+            if other:
+                r['wins' if win else 'losses']+=1;r['opponent_nodes'].append(node(other))
+                if g['game_id'] not in seen:
+                    seen.add(g['game_id']);results.append((node(t),node(other)) if win else (node(other),node(t)))
+            else:r['non_d1_wins' if win else 'non_d1_losses']+=1
+    ratings=solve_conference_network(nodes,results)
+    for c,r in rows.items():
+        r['average_resume']=r.pop('team_score')/r['teams']
+        r['network_score']=100*ratings[c] if not r['independent'] else None
+        opponents=r.pop('opponent_nodes')
+        r['opponent_network_score']=100*np.mean([ratings[n] for n in opponents]) if opponents else None
+        r['games']=r['wins']+r['losses']
+        for oc,h in r['head_to_head'].items():
+            h['counts_for_network']=oc!='Non–Division I'
+    confs=sorted([r for r in rows.values() if not r['independent']],key=lambda r:(-r['network_score'],r['conference']))
+    for i,r in enumerate(confs,1):
+        # Exactly equal strengths share a rank; alphabetic order is presentation only.
+        r['rank']=confs[i-2]['rank'] if i>1 and abs(r['network_score']-confs[i-2]['network_score'])<1e-10 else i
+    independent=[r for r in rows.values() if r['independent']]
+    for r in independent:r['rank']=None
+    assert sum(r['wins'] for r in rows.values())==len(results)
+    assert sum(r['losses'] for r in rows.values())==len(results)
+    return confs+sorted(independent,key=lambda r:r['conference'])
 
 def ranking_history(data, saved):
     """Keep the prior weekly report stable across rebuilds and same-week refreshes."""

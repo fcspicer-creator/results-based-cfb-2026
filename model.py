@@ -62,7 +62,7 @@ def conf_postseason_2025(df):
     return scores,counts, len(post)
 
 
-def _calculate(df, baseline2025, cutoff, quality_weight=6.0, margin_weight=1.0, bonus_weight=0.11, conference_weight=0.06, fcs_anchor=None):
+def _calculate(df, baseline2025, cutoff, quality_weight=6.0, margin_weight=1.0, bonus_weight=0.11, conference_weight=0.0, fcs_anchor=None):
     x=completed(df,cutoff)
     x=x.loc[x.home_division.isin(['fbs','fcs']) | x.away_division.isin(['fbs','fcs'])].copy()
     x=x.loc[x.season_type.astype(str).str.lower().isin(['regular','postseason'])].copy()
@@ -93,36 +93,22 @@ def _calculate(df, baseline2025, cutoff, quality_weight=6.0, margin_weight=1.0, 
         if div[all_teams[li]]=='fbs':d1_wins[wi]+=1
         games.append((wi,li,margin,not hw and not r.neutral_site,not hw and not r.neutral_site, str(r.home_conference),str(r.away_conference),
                       str(r.home_division),str(r.away_division)))
-    # Historical baseline applies ONLY to conference context, not to individual 2025 records.
+    # Conference labels and historical results do not enter team scoring.
     fbs_games=x[(x.home_division=='fbs')|(x.away_division=='fbs')]
     week=int(fbs_games.week.max()) if len(fbs_games) else 1
     if len(fbs_games) and fbs_games.season_type.eq('postseason').any():
         week=max(week,1+int((fbs_games.start_date.max()-fbs_games.start_date.min()).days//7))
-    prior_weight=0.20*(0.80**max(0,week-1))
-    max2025=max(baseline2025.values(),default=1.0)
-    prior={c:v/max2025 for c,v in baseline2025.items()}
+    prior_weight=0.0
     q=np.full(n,0.5)
     raw=np.zeros(n)
-    # All opponent qualities derive from 2026 played results; 2025 only tiny conference prior.
+    # All opponent qualities derive only from this season's played results.
     for _ in range(1000):
         win_pts=np.zeros(n);loss_pts=np.zeros(n)
-        # Conference head-to-head total opponent-adjusted wins, NOT percentage.
-        cwin={}
-        for wi,li,margin,away,home, hc,ac,hd,ad in games:
-            wteam=all_teams[wi];lteam=all_teams[li]
-            if div.get(wteam)=='fbs' and div.get(lteam)=='fbs' and conf.get(wteam)!=conf.get(lteam):
-                wc=conf[wteam];cwin[wc]=cwin.get(wc,0)+ (0.5+q[li])
-        maxc=max(cwin.values(),default=1.0)
-        cs={c:v/maxc for c,v in cwin.items()}
         adjusted=q.copy()
         for i,t in enumerate(all_teams):
-            if div.get(t)=='fbs':
-                curr=cs.get(conf.get(t),0)
-                past=prior.get(conf.get(t),0)
-                adjusted[i]=(1-conference_weight)*q[i]+conference_weight*((1-prior_weight)*curr+prior_weight*past)
-            elif div.get(t)=='fcs' and fcs_anchor is not None:
+            if div.get(t)=='fcs' and fcs_anchor is not None:
                 adjusted[i]=fcs_anchor[t]
-            elif div.get(t)!='fcs':
+            elif div.get(t) not in ('fbs','fcs'):
                 adjusted[i]=0.0
         for wi,li,margin,away,home,hc,ac,hd,ad in games:
             opp=adjusted[li]
@@ -151,17 +137,10 @@ def _calculate(df, baseline2025, cutoff, quality_weight=6.0, margin_weight=1.0, 
         raise RuntimeError('Opponent quality did not converge')
     # Recalculate component scores with converged quality.
     cwin={}
-    for wi,li,_,_,_,_,_,_,_ in games:
-        wteam=all_teams[wi];lteam=all_teams[li]
-        if div.get(wteam)=='fbs' and div.get(lteam)=='fbs' and conf.get(wteam)!=conf.get(lteam):
-            wc=conf[wteam];cwin[wc]=cwin.get(wc,0)+0.5+q[li]
-    maxc=max(cwin.values(),default=1.0)
     adj=q.copy()
     for i,t in enumerate(all_teams):
-        if div.get(t)=='fbs':
-            adj[i]=(1-conference_weight)*q[i]+conference_weight*((1-prior_weight)*cwin.get(conf.get(t),0)/maxc+prior_weight*prior.get(conf.get(t),0))
-        elif div.get(t)=='fcs' and fcs_anchor is not None:adj[i]=fcs_anchor[t]
-        elif div.get(t)!='fcs':adj[i]=0.0
+        if div.get(t)=='fcs' and fcs_anchor is not None:adj[i]=fcs_anchor[t]
+        elif div.get(t) not in ('fbs','fcs'):adj[i]=0.0
     winscore=np.zeros(n);lossscore=np.zeros(n)
     best={t:[] for t in rated_teams}
     bad={t:[] for t in rated_teams}
@@ -194,11 +173,12 @@ def _calculate(df, baseline2025, cutoff, quality_weight=6.0, margin_weight=1.0, 
     out.attrs['all_games_count']=len(games)
     out.attrs['quality']={t:float(adj[ix[t]]) for t in all_teams}
     out.attrs['individual_quality']={t:float(q[ix[t]]) for t in all_teams}
-    out.attrs['conference_context']={c:float((1-prior_weight)*v/maxc+prior_weight*prior.get(c,0)) for c,v in cwin.items()}
+    out.attrs['conference_context']={}
     return out,cwin,week,prior_weight,len(fbs_games)
 
 
-def model(df, baseline2025, cutoff, quality_weight=6.0, margin_weight=1.0, bonus_weight=0.11, conference_weight=0.06):
+def model(df, baseline2025, cutoff, quality_weight=6.0, margin_weight=1.0, bonus_weight=0.11, conference_weight=0.0):
+    if conference_weight != 0:raise ValueError('Conference bonuses are disabled to avoid double counting')
     options=dict(quality_weight=quality_weight,margin_weight=margin_weight,bonus_weight=bonus_weight,conference_weight=conference_weight)
     # Retain a separate FCS-only calculation; only wins over FBS opponents grow the unbeaten bonus.
     reference=_calculate(df,baseline2025,cutoff,**options)[0]
