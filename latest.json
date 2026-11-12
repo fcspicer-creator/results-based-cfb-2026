@@ -2786,6 +2786,467 @@
       "rank": null
     }
   ],
+  "playoffs": {
+    "as_of": "2026-11-08T18:34:10.813904+00:00",
+    "rules_season": 2026,
+    "fbs": {
+      "field": [
+        {
+          "team": "UCLA",
+          "conference": "Big Ten",
+          "model_rank": 1,
+          "seed": 1,
+          "selection": "Projected Big Ten champion"
+        },
+        {
+          "team": "Utah",
+          "conference": "Big 12",
+          "model_rank": 2,
+          "seed": 2,
+          "selection": "Projected Big 12 champion"
+        },
+        {
+          "team": "Miami",
+          "conference": "ACC",
+          "model_rank": 3,
+          "seed": 3,
+          "selection": "Projected ACC champion"
+        },
+        {
+          "team": "Georgia",
+          "conference": "SEC",
+          "model_rank": 4,
+          "seed": 4,
+          "selection": "Projected SEC champion"
+        },
+        {
+          "team": "Notre Dame",
+          "conference": "FBS Independents",
+          "model_rank": 5,
+          "seed": 5,
+          "selection": "Notre Dame top-12 provision (model rank proxy)"
+        },
+        {
+          "team": "Alabama",
+          "conference": "SEC",
+          "model_rank": 6,
+          "seed": 6,
+          "selection": "At-large"
+        },
+        {
+          "team": "Texas",
+          "conference": "SEC",
+          "model_rank": 7,
+          "seed": 7,
+          "selection": "At-large"
+        },
+        {
+          "team": "Boise State",
+          "conference": "Pac-12",
+          "model_rank": 8,
+          "seed": 8,
+          "selection": "Highest-ranked team from the other six FBS conferences"
+        },
+        {
+          "team": "Texas Tech",
+          "conference": "Big 12",
+          "model_rank": 9,
+          "seed": 9,
+          "selection": "At-large"
+        },
+        {
+          "team": "Indiana",
+          "conference": "Big Ten",
+          "model_rank": 10,
+          "seed": 10,
+          "selection": "At-large"
+        },
+        {
+          "team": "Kentucky",
+          "conference": "SEC",
+          "model_rank": 11,
+          "seed": 11,
+          "selection": "At-large"
+        },
+        {
+          "team": "Wake Forest",
+          "conference": "ACC",
+          "model_rank": 12,
+          "seed": 12,
+          "selection": "At-large"
+        }
+      ],
+      "rounds": [
+        {
+          "name": "First round",
+          "games": [
+            [
+              "Boise State",
+              "Texas Tech"
+            ],
+            [
+              "Notre Dame",
+              "Wake Forest"
+            ],
+            [
+              "Alabama",
+              "Kentucky"
+            ],
+            [
+              "Texas",
+              "Indiana"
+            ]
+          ]
+        },
+        {
+          "name": "Quarterfinals",
+          "games": [
+            [
+              "UCLA",
+              null
+            ],
+            [
+              "Georgia",
+              null
+            ],
+            [
+              "Miami",
+              null
+            ],
+            [
+              "Utah",
+              null
+            ]
+          ]
+        },
+        {
+          "name": "Semifinals",
+          "games": [
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ]
+          ]
+        },
+        {
+          "name": "Championship",
+          "games": [
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    "fcs": {
+      "field": [
+        {
+          "team": "Tarleton State",
+          "conference": "UAC",
+          "model_rank": 1,
+          "seed": 1,
+          "selection": "Projected UAC champion"
+        },
+        {
+          "team": "Montana State",
+          "conference": "Big Sky",
+          "model_rank": 2,
+          "seed": 2,
+          "selection": "Projected Big Sky champion"
+        },
+        {
+          "team": "Tennessee Tech",
+          "conference": "Southern",
+          "model_rank": 3,
+          "seed": 3,
+          "selection": "Projected Southern champion"
+        },
+        {
+          "team": "Stephen F. Austin",
+          "conference": "Southland",
+          "model_rank": 4,
+          "seed": 4,
+          "selection": "Projected Southland champion"
+        },
+        {
+          "team": "Harvard",
+          "conference": "Ivy",
+          "model_rank": 5,
+          "seed": 5,
+          "selection": "Projected Ivy champion"
+        },
+        {
+          "team": "Youngstown State",
+          "conference": "MVFC",
+          "model_rank": 6,
+          "seed": 6,
+          "selection": "Projected MVFC champion"
+        },
+        {
+          "team": "South Dakota State",
+          "conference": "MVFC",
+          "model_rank": 7,
+          "seed": 7,
+          "selection": "At-large"
+        },
+        {
+          "team": "Lamar",
+          "conference": "Southland",
+          "model_rank": 8,
+          "seed": 8,
+          "selection": "At-large"
+        },
+        {
+          "team": "Northern Arizona",
+          "conference": "Big Sky",
+          "model_rank": 9,
+          "seed": 9,
+          "selection": "At-large"
+        },
+        {
+          "team": "Monmouth",
+          "conference": "Coastal Athletic",
+          "model_rank": 10,
+          "seed": 10,
+          "selection": "Projected Coastal Athletic champion"
+        },
+        {
+          "team": "Campbell",
+          "conference": "Coastal Athletic",
+          "model_rank": 11,
+          "seed": 11,
+          "selection": "At-large"
+        },
+        {
+          "team": "Princeton",
+          "conference": "Ivy",
+          "model_rank": 12,
+          "seed": 12,
+          "selection": "At-large"
+        },
+        {
+          "team": "Austin Peay",
+          "conference": "UAC",
+          "model_rank": 13,
+          "seed": 13,
+          "selection": "At-large"
+        },
+        {
+          "team": "South Dakota",
+          "conference": "MVFC",
+          "model_rank": 14,
+          "seed": 14,
+          "selection": "At-large"
+        },
+        {
+          "team": "Lehigh",
+          "conference": "Patriot",
+          "model_rank": 15,
+          "seed": 15,
+          "selection": "Projected Patriot champion"
+        },
+        {
+          "team": "Butler",
+          "conference": "Pioneer",
+          "model_rank": 16,
+          "seed": 16,
+          "selection": "Projected Pioneer champion"
+        },
+        {
+          "team": "Mercer",
+          "conference": "Southern",
+          "model_rank": 17,
+          "seed": null,
+          "selection": "At-large"
+        },
+        {
+          "team": "Dayton",
+          "conference": "Pioneer",
+          "model_rank": 18,
+          "seed": null,
+          "selection": "At-large"
+        },
+        {
+          "team": "North Dakota",
+          "conference": "MVFC",
+          "model_rank": 19,
+          "seed": null,
+          "selection": "At-large"
+        },
+        {
+          "team": "Brown",
+          "conference": "Ivy",
+          "model_rank": 20,
+          "seed": null,
+          "selection": "At-large"
+        },
+        {
+          "team": "UAlbany",
+          "conference": "Coastal Athletic",
+          "model_rank": 21,
+          "seed": null,
+          "selection": "At-large"
+        },
+        {
+          "team": "Montana",
+          "conference": "Big Sky",
+          "model_rank": 22,
+          "seed": null,
+          "selection": "At-large"
+        },
+        {
+          "team": "Central Connecticut",
+          "conference": "NEC",
+          "model_rank": 24,
+          "seed": null,
+          "selection": "Projected NEC champion"
+        },
+        {
+          "team": "Western Illinois",
+          "conference": "OVC",
+          "model_rank": 46,
+          "seed": null,
+          "selection": "Projected OVC champion"
+        }
+      ],
+      "rounds": [
+        {
+          "name": "First round",
+          "games": [
+            [
+              "Butler",
+              "Mercer"
+            ],
+            [
+              "Northern Arizona",
+              "Dayton"
+            ],
+            [
+              "Princeton",
+              "North Dakota"
+            ],
+            [
+              "Austin Peay",
+              "Brown"
+            ],
+            [
+              "South Dakota",
+              "UAlbany"
+            ],
+            [
+              "Campbell",
+              "Montana"
+            ],
+            [
+              "Monmouth",
+              "Central Connecticut"
+            ],
+            [
+              "Lehigh",
+              "Western Illinois"
+            ]
+          ]
+        },
+        {
+          "name": "Second round",
+          "games": [
+            [
+              "Tarleton State",
+              null
+            ],
+            [
+              "Lamar",
+              null
+            ],
+            [
+              "Harvard",
+              null
+            ],
+            [
+              "Stephen F. Austin",
+              null
+            ],
+            [
+              "Tennessee Tech",
+              null
+            ],
+            [
+              "Youngstown State",
+              null
+            ],
+            [
+              "South Dakota State",
+              null
+            ],
+            [
+              "Montana State",
+              null
+            ]
+          ]
+        },
+        {
+          "name": "Quarterfinals",
+          "games": [
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ]
+          ]
+        },
+        {
+          "name": "Semifinals",
+          "games": [
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ]
+          ]
+        },
+        {
+          "name": "Championship",
+          "games": [
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      ],
+      "unavailable": [
+        "South Carolina State",
+        "Jackson State",
+        "Arkansas-Pine Bluff"
+      ],
+      "ineligible": [
+        "Florida A&M",
+        "Mercyhurst",
+        "New Haven",
+        "West Florida",
+        "West Georgia"
+      ]
+    }
+  },
   "team_logos": {
     "Abilene Christian": {
       "id": "2000",
