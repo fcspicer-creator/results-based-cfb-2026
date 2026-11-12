@@ -1,3 +1,4 @@
+import playoffs
 """Build a validated static site. --refresh downloads current public results first."""
 import argparse, csv, hashlib, io, json, math, shutil, time
 from datetime import datetime, timedelta, timezone
@@ -236,6 +237,7 @@ def main():
     data,out,ledger=calculate(df,old,now)
     data['rank_history']=ranking_history(data,json.loads((ROOT/'latest.json').read_text()))
     data['conference_comparison']=conference_comparison(data)
+    data['playoffs']=playoffs.project(data)
     data['team_logos']=json.loads((ROOT/'team_logos.json').read_text())
     data['conference_logos']=json.loads((ROOT/'conference_logos.json').read_text())
     data['fcs_coverage']=coverage

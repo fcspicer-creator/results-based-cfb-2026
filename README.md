@@ -35,3 +35,9 @@ A Colley-style linear system uses C = 2I + schedule Laplacian and b = 1 + (wins 
 Team opponent strengths now derive only from team results; conference membership and the archived 2025 baseline cannot affect a team's score. Conference network strength is display-only and never fed into team calculations. Average member résumé is descriptive only. Previous-ranking columns preserve the actual previous weekly report, which may use the earlier methodology.
 
 Method reference: [Colley's original matrix-method explanation](https://www.colleyrankings.com/matrate.pdf). This implementation applies the joint solve to conference nodes and individual independents rather than using an external team ranking.
+
+
+## Playoff field projections (2026 rules)
+`playoffs.py` runs on every snapshot and weekly refresh, after rankings are calculated. It never alters team scores. FBS selection uses four major-conference projected champions, the highest-ranked other-six-conference team, Notre Dame's top-12 provision, and remaining at-large teams. FCS uses its separate ranking, 11 projected champions and 13 at-large teams. The highest-ranked eligible team is the champion proxy; these are not official standings or clinched bids.
+
+FCS excludes four reclassifying programs and Florida A&M, plus projected MEAC/SWAC postseason commitments. Unseeded placement is illustrative, avoids prohibited conference rematches and does not model travel geography. Later-round slots remain blank. The pages link current official rules. The existing Sunday schedule rebuilds both fields through January 31, 2027; after selection they remain hypothetical model fields, not official results brackets. Review eligibility and rules before reusing for another season.
