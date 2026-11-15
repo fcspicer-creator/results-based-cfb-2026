@@ -4,18 +4,18 @@
     "games": 123,
     "fcs_wins": 6,
     "fbs_wins": 117,
-    "log_odds_shift": -2.724854428502649,
+    "log_odds_shift": -2.756011946231867,
     "smoothing_games": 2,
-    "fitted_fcs_wins": 6.876954827798266
+    "fitted_fcs_wins": 6.880503970701717
   },
   "fcs_team_count": 128,
   "fcs_games_count": 781,
-  "all_d1_games_count": 1391,
+  "all_d1_games_count": 1409,
   "non_d1_games_count": 68,
   "season": 2026,
-  "generated_at": "2026-11-15T07:30:18.278780+00:00",
+  "generated_at": "2026-11-15T17:32:03.104497+00:00",
   "latest_game": "2026-11-15T04:00:00+00:00",
-  "games_count": 733,
+  "games_count": 751,
   "team_count": 138,
   "postseason_2025_games": 46,
   "week": 11,
@@ -50,7 +50,7 @@
       "parameter": "bonus_weight",
       "factor": 0.8,
       "top25_overlap": 25,
-      "number_one": "UCLA"
+      "number_one": "Utah"
     },
     {
       "parameter": "bonus_weight",
@@ -62,7 +62,7 @@
   "rank_history": {
     "current": {
       "period": "2026-11-15",
-      "generated_at": "2026-11-15T07:30:18.278780+00:00",
+      "generated_at": "2026-11-15T17:32:03.104497+00:00",
       "fbs": {
         "UCLA": 1,
         "Utah": 2,
@@ -70,135 +70,135 @@
         "Georgia": 4,
         "Texas": 5,
         "Notre Dame": 6,
-        "Indiana": 7,
-        "Alabama": 8,
-        "Boise State": 9,
-        "Texas Tech": 10,
+        "Alabama": 7,
+        "Indiana": 8,
+        "Texas Tech": 9,
+        "Boise State": 10,
         "Wake Forest": 11,
-        "BYU": 12,
-        "Tennessee": 13,
+        "Tennessee": 12,
+        "BYU": 13,
         "Oregon": 14,
         "Ohio State": 15,
         "Iowa": 16,
-        "New Mexico": 17,
+        "Memphis": 17,
         "Liberty": 18,
-        "Memphis": 19,
-        "USC": 20,
-        "Kentucky": 21,
+        "UTSA": 19,
+        "Kentucky": 20,
+        "USC": 21,
         "North Dakota State": 22,
         "Ole Miss": 23,
-        "Houston": 24,
-        "Florida": 25,
-        "Arizona": 26,
-        "UTSA": 27,
-        "North Texas": 28,
-        "LSU": 29,
-        "Louisiana Tech": 30,
-        "Air Force": 31,
-        "James Madison": 32,
-        "Toledo": 33,
-        "Duke": 34,
-        "SMU": 35,
-        "Louisville": 36,
-        "Missouri": 37,
-        "Oklahoma": 38,
+        "Air Force": 24,
+        "Houston": 25,
+        "New Mexico": 26,
+        "Louisiana Tech": 27,
+        "Louisville": 28,
+        "Arizona": 29,
+        "Florida": 30,
+        "LSU": 31,
+        "North Texas": 32,
+        "Duke": 33,
+        "Toledo": 34,
+        "James Madison": 35,
+        "SMU": 36,
+        "Auburn": 37,
+        "Missouri": 38,
         "South Carolina": 39,
-        "Western Michigan": 40,
-        "Oklahoma State": 41,
-        "Northwestern": 42,
-        "Illinois": 43,
+        "Oklahoma": 40,
+        "Western Michigan": 41,
+        "Oklahoma State": 42,
+        "Northwestern": 43,
         "Wisconsin": 44,
         "Baylor": 45,
-        "Auburn": 46,
-        "Louisiana": 47,
-        "Buffalo": 48,
-        "Jacksonville State": 49,
-        "Nebraska": 50,
-        "Clemson": 51,
-        "Florida Atlantic": 52,
-        "Texas State": 53,
-        "North Carolina": 54,
-        "Wyoming": 55,
-        "Virginia Tech": 56,
-        "Pittsburgh": 57,
-        "Ohio": 58,
+        "Illinois": 46,
+        "Texas State": 47,
+        "Wyoming": 48,
+        "Louisiana": 49,
+        "Penn State": 50,
+        "Buffalo": 51,
+        "UNLV": 52,
+        "Jacksonville State": 53,
+        "Nebraska": 54,
+        "Clemson": 55,
+        "Arizona State": 56,
+        "Ohio": 57,
+        "Pittsburgh": 58,
         "Georgia Southern": 59,
-        "UCF": 60,
-        "Penn State": 61,
-        "Minnesota": 62,
-        "Iowa State": 63,
-        "Cincinnati": 64,
-        "Army": 65,
-        "Arizona State": 66,
-        "UNLV": 67,
-        "Florida State": 68,
+        "Washington": 60,
+        "Iowa State": 61,
+        "North Carolina": 62,
+        "Army": 63,
+        "Florida Atlantic": 64,
+        "Stanford": 65,
+        "Cincinnati": 66,
+        "Florida State": 67,
+        "Tulsa": 68,
         "South Florida": 69,
-        "Washington": 70,
-        "Mississippi State": 71,
-        "Michigan": 72,
-        "UAB": 73,
-        "Miami (OH)": 74,
-        "Fresno State": 75,
+        "Virginia Tech": 70,
+        "Michigan": 71,
+        "UAB": 72,
+        "Miami (OH)": 73,
+        "UCF": 74,
+        "Minnesota": 75,
         "East Carolina": 76,
         "Oregon State": 77,
-        "TCU": 78,
+        "Virginia": 78,
         "West Virginia": 79,
-        "Virginia": 80,
-        "Tulsa": 81,
-        "Stanford": 82,
-        "Arkansas": 83,
-        "Central Michigan": 84,
-        "Texas A&M": 85,
-        "Marshall": 86,
+        "App State": 80,
+        "Arkansas": 81,
+        "TCU": 82,
+        "Mississippi State": 83,
+        "Texas A&M": 84,
+        "Central Michigan": 85,
+        "San Diego State": 86,
         "Syracuse": 87,
-        "App State": 88,
-        "Vanderbilt": 89,
-        "UConn": 90,
-        "Colorado": 91,
-        "Michigan State": 92,
-        "Utah State": 93,
-        "San Diego State": 94,
-        "Tulane": 95,
-        "Middle Tennessee": 96,
-        "South Alabama": 97,
-        "San Jos\u00e9 State": 98,
-        "Delaware": 99,
-        "Georgia State": 100,
-        "Maryland": 101,
-        "Kansas": 102,
-        "Nevada": 103,
-        "Boston College": 104,
-        "Colorado State": 105,
-        "Troy": 106,
-        "Purdue": 107,
-        "NC State": 108,
-        "Massachusetts": 109,
-        "Navy": 110,
+        "Fresno State": 88,
+        "Tulane": 89,
+        "South Alabama": 90,
+        "Vanderbilt": 91,
+        "Colorado": 92,
+        "UConn": 93,
+        "Middle Tennessee": 94,
+        "Marshall": 95,
+        "Delaware": 96,
+        "Georgia State": 97,
+        "Maryland": 98,
+        "Kansas": 99,
+        "NC State": 100,
+        "Nevada": 101,
+        "Boston College": 102,
+        "Michigan State": 103,
+        "Purdue": 104,
+        "Navy": 105,
+        "Massachusetts": 106,
+        "San Jos\u00e9 State": 107,
+        "Utah State": 108,
+        "Kansas State": 109,
+        "Western Kentucky": 110,
         "Florida International": 111,
-        "Kansas State": 112,
-        "Western Kentucky": 113,
-        "Kennesaw State": 114,
-        "California": 115,
-        "Coastal Carolina": 116,
-        "Georgia Tech": 117,
+        "Kennesaw State": 112,
+        "California": 113,
+        "Coastal Carolina": 114,
+        "Georgia Tech": 115,
+        "Troy": 116,
+        "Colorado State": 117,
         "Eastern Michigan": 118,
         "Arkansas State": 119,
-        "Southern Miss": 120,
-        "Missouri State": 121,
-        "Old Dominion": 122,
+        "Missouri State": 120,
+        "Old Dominion": 121,
+        "Hawai'i": 122,
         "Ball State": 123,
         "Bowling Green": 124,
-        "Hawai'i": 125,
+        "Southern Miss": 125,
         "Kent State": 126,
         "New Mexico State": 127,
         "Rutgers": 128,
-        "Rice": 129,
-        "Washington State": 130,
-        "UL Monroe": 131,
-        "Temple": 132,
-        "UTEP": 133,
-        "Charlotte": 134,
-        "Akron": 135,
+        "Washington State": 129,
+        "Temple": 130,
+        "Rice": 131,
+        "UL Monroe": 132,
+        "Charlotte": 133,
+        "Akron": 134,
+        "UTEP": 135,
         "Sacramento State": 136,
         "Sam Houston": 137,
         "Northern Illinois": 138
@@ -212,8 +212,8 @@
         "Lamar": 6,
         "Tennessee Tech": 7,
         "Lehigh": 8,
-        "Youngstown State": 9,
-        "Mercer": 10,
+        "Mercer": 9,
+        "Youngstown State": 10,
         "South Dakota": 11,
         "Butler": 12,
         "Northern Arizona": 13,
@@ -227,29 +227,29 @@
         "Montana": 21,
         "North Dakota": 22,
         "Abilene Christian": 23,
-        "UAlbany": 24,
-        "Incarnate Word": 25,
+        "Incarnate Word": 24,
+        "UAlbany": 25,
         "South Carolina State": 26,
         "Weber State": 27,
         "Bryant": 28,
         "St. Thomas": 29,
         "Chattanooga": 30,
         "North Alabama": 31,
-        "Yale": 32,
-        "Alabama A&M": 33,
+        "Alabama A&M": 32,
+        "Yale": 33,
         "UC Davis": 34,
         "East Tennessee State": 35,
         "Western Carolina": 36,
         "Colgate": 37,
         "Holy Cross": 38,
         "Prairie View A&M": 39,
-        "Dartmouth": 40,
-        "Western Illinois": 41,
+        "Western Illinois": 40,
+        "Dartmouth": 41,
         "Central Connecticut": 42,
         "Jackson State": 43,
         "Cornell": 44,
-        "Idaho State": 45,
-        "Southeast Missouri State": 46,
+        "Southeast Missouri State": 45,
+        "Idaho State": 46,
         "Idaho": 47,
         "Villanova": 48,
         "Pennsylvania": 49,
@@ -258,13 +258,13 @@
         "Southern Illinois": 52,
         "Columbia": 53,
         "San Diego": 54,
-        "Northern Iowa": 55,
-        "Richmond": 56,
+        "Richmond": 55,
+        "Northern Iowa": 56,
         "West Florida": 57,
         "Merrimack": 58,
         "Southern": 59,
-        "Southern Utah": 60,
-        "SE Louisiana": 61,
+        "SE Louisiana": 60,
+        "Southern Utah": 61,
         "McNeese": 62,
         "Morgan State": 63,
         "UT Rio Grande Valley": 64,
@@ -272,25 +272,25 @@
         "Elon": 66,
         "Grambling": 67,
         "Valparaiso": 68,
-        "Alcorn State": 69,
+        "Duquesne": 69,
         "Robert Morris": 70,
-        "Duquesne": 71,
+        "Alcorn State": 71,
         "North Carolina A&T": 72,
         "Howard": 73,
-        "Bethune-Cookman": 74,
+        "Delaware State": 74,
         "Wofford": 75,
-        "Delaware State": 76,
-        "UT Martin": 77,
-        "Stony Brook": 78,
-        "Lindenwood": 79,
+        "UT Martin": 76,
+        "Stony Brook": 77,
+        "Lindenwood": 78,
+        "Bethune-Cookman": 79,
         "Rhode Island": 80,
         "Samford": 81,
         "Lafayette": 82,
         "Presbyterian": 83,
         "North Carolina Central": 84,
         "Georgetown": 85,
-        "Eastern Kentucky": 86,
-        "Marist": 87,
+        "Marist": 86,
+        "Eastern Kentucky": 87,
         "Central Arkansas": 88,
         "Fordham": 89,
         "New Hampshire": 90,
@@ -301,21 +301,21 @@
         "Eastern Washington": 95,
         "East Texas A&M": 96,
         "Long Island University": 97,
-        "Charleston Southern": 98,
-        "Stonehill": 99,
+        "Stonehill": 98,
+        "Charleston Southern": 99,
         "Furman": 100,
-        "Texas Southern": 101,
-        "Northern Colorado": 102,
-        "Gardner-Webb": 103,
-        "Drake": 104,
-        "The Citadel": 105,
-        "Eastern Illinois": 106,
-        "Portland State": 107,
+        "Northern Colorado": 101,
+        "Texas Southern": 102,
+        "Drake": 103,
+        "The Citadel": 104,
+        "Gardner-Webb": 105,
+        "Portland State": 106,
+        "Eastern Illinois": 107,
         "Murray State": 108,
         "New Haven": 109,
         "Norfolk State": 110,
-        "Davidson": 111,
-        "Tennessee State": 112,
+        "Tennessee State": 111,
+        "Davidson": 112,
         "Towson": 113,
         "Florida A&M": 114,
         "Chicago State": 115,
@@ -328,8 +328,8 @@
         "West Georgia": 122,
         "Bucknell": 123,
         "Stetson": 124,
-        "Mercyhurst": 125,
-        "Hampton": 126,
+        "Hampton": 125,
+        "Mercyhurst": 126,
         "VMI": 127,
         "Northwestern State": 128
       }
@@ -674,23 +674,23 @@
           "losses": 0,
           "counts_for_network": true
         },
-        "SWAC": {
-          "wins": 1,
-          "losses": 0,
-          "counts_for_network": true
-        },
         "Big 12": {
           "wins": 3,
           "losses": 1,
           "counts_for_network": true
         },
-        "Mountain West": {
-          "wins": 2,
+        "SWAC": {
+          "wins": 1,
           "losses": 0,
           "counts_for_network": true
         },
         "Mid-American": {
           "wins": 1,
+          "losses": 0,
+          "counts_for_network": true
+        },
+        "Mountain West": {
+          "wins": 2,
           "losses": 0,
           "counts_for_network": true
         },
@@ -701,9 +701,9 @@
         }
       },
       "independent": false,
-      "average_resume": 16.480087452324447,
+      "average_resume": 16.25266105135618,
       "network_score": 103.96705275490868,
-      "opponent_network_score": 61.66540539265413,
+      "opponent_network_score": 61.665405392654115,
       "games": 40,
       "rank": 1
     },
@@ -793,7 +793,7 @@
         }
       },
       "independent": false,
-      "average_resume": 10.251582994508517,
+      "average_resume": 9.624614325349619,
       "network_score": 91.40171133185163,
       "opponent_network_score": 63.305478418216545,
       "games": 54,
@@ -868,9 +868,9 @@
           "losses": 0,
           "counts_for_network": true
         },
-        "ACC": {
-          "wins": 3,
-          "losses": 2,
+        "MEAC": {
+          "wins": 1,
+          "losses": 0,
           "counts_for_network": true
         },
         "OVC": {
@@ -883,12 +883,12 @@
           "losses": 0,
           "counts_for_network": true
         },
-        "Southern": {
-          "wins": 1,
-          "losses": 0,
+        "ACC": {
+          "wins": 3,
+          "losses": 2,
           "counts_for_network": true
         },
-        "MEAC": {
+        "Southern": {
           "wins": 1,
           "losses": 0,
           "counts_for_network": true
@@ -905,7 +905,7 @@
         }
       },
       "independent": false,
-      "average_resume": 9.607443134567957,
+      "average_resume": 9.259256467506871,
       "network_score": 91.36790960871201,
       "opponent_network_score": 59.75823917574169,
       "games": 48,
@@ -945,13 +945,18 @@
           "losses": 0,
           "counts_for_network": true
         },
-        "American Athletic": {
-          "wins": 1,
-          "losses": 0,
+        "SEC": {
+          "wins": 0,
+          "losses": 5,
           "counts_for_network": true
         },
         "Patriot": {
           "wins": 4,
+          "losses": 0,
+          "counts_for_network": true
+        },
+        "American Athletic": {
+          "wins": 1,
           "losses": 0,
           "counts_for_network": true
         },
@@ -963,11 +968,6 @@
         "Conference USA": {
           "wins": 3,
           "losses": 0,
-          "counts_for_network": true
-        },
-        "SEC": {
-          "wins": 0,
-          "losses": 5,
           "counts_for_network": true
         },
         "Sun Belt": {
@@ -990,16 +990,6 @@
           "losses": 0,
           "counts_for_network": true
         },
-        "UAC": {
-          "wins": 1,
-          "losses": 0,
-          "counts_for_network": true
-        },
-        "MEAC": {
-          "wins": 1,
-          "losses": 0,
-          "counts_for_network": true
-        },
         "Mountain West": {
           "wins": 1,
           "losses": 1,
@@ -1010,6 +1000,16 @@
           "losses": 0,
           "counts_for_network": true
         },
+        "UAC": {
+          "wins": 1,
+          "losses": 0,
+          "counts_for_network": true
+        },
+        "MEAC": {
+          "wins": 1,
+          "losses": 0,
+          "counts_for_network": true
+        },
         "NEC": {
           "wins": 1,
           "losses": 0,
@@ -1017,7 +1017,7 @@
         }
       },
       "independent": false,
-      "average_resume": 4.1322083292680585,
+      "average_resume": 4.086616218979209,
       "network_score": 84.99123926342229,
       "opponent_network_score": 64.39088883395915,
       "games": 50,
@@ -1067,6 +1067,11 @@
           "losses": 3,
           "counts_for_network": true
         },
+        "Coastal Athletic": {
+          "wins": 3,
+          "losses": 0,
+          "counts_for_network": true
+        },
         "Conference USA": {
           "wins": 3,
           "losses": 0,
@@ -1077,9 +1082,9 @@
           "losses": 0,
           "counts_for_network": true
         },
-        "Coastal Athletic": {
-          "wins": 3,
-          "losses": 0,
+        "Big 12": {
+          "wins": 1,
+          "losses": 1,
           "counts_for_network": true
         },
         "MEAC": {
@@ -1097,11 +1102,6 @@
           "losses": 1,
           "counts_for_network": true
         },
-        "Big 12": {
-          "wins": 1,
-          "losses": 1,
-          "counts_for_network": true
-        },
         "ACC": {
           "wins": 0,
           "losses": 1,
@@ -1114,7 +1114,7 @@
         }
       },
       "independent": false,
-      "average_resume": -5.3557832880893335,
+      "average_resume": -5.331777422354482,
       "network_score": 63.076864317932355,
       "opponent_network_score": 61.70934077415209,
       "games": 54,
@@ -1159,11 +1159,6 @@
           "losses": 0,
           "counts_for_network": true
         },
-        "Mountain West": {
-          "wins": 3,
-          "losses": 0,
-          "counts_for_network": true
-        },
         "Big 12": {
           "wins": 0,
           "losses": 6,
@@ -1172,6 +1167,11 @@
         "Big Sky": {
           "wins": 3,
           "losses": 1,
+          "counts_for_network": true
+        },
+        "Mountain West": {
+          "wins": 3,
+          "losses": 0,
           "counts_for_network": true
         },
         "Sun Belt": {
@@ -1186,7 +1186,7 @@
         }
       },
       "independent": false,
-      "average_resume": -3.4723760439911477,
+      "average_resume": -5.2140522929554045,
       "network_score": 62.571635642981974,
       "opponent_network_score": 66.48236287066834,
       "games": 32,
@@ -1271,13 +1271,13 @@
           "losses": 0,
           "counts_for_network": true
         },
-        "SWAC": {
-          "wins": 2,
+        "Patriot": {
+          "wins": 1,
           "losses": 0,
           "counts_for_network": true
         },
-        "Patriot": {
-          "wins": 1,
+        "SWAC": {
+          "wins": 2,
           "losses": 0,
           "counts_for_network": true
         },
@@ -1293,7 +1293,7 @@
         }
       },
       "independent": false,
-      "average_resume": -9.311410593507645,
+      "average_resume": -10.154312283052125,
       "network_score": 59.57837321956999,
       "opponent_network_score": 60.83576860937255,
       "games": 55,
@@ -1308,21 +1308,6 @@
       "non_d1_wins": 0,
       "non_d1_losses": 0,
       "head_to_head": {
-        "Mid-American": {
-          "wins": 4,
-          "losses": 1,
-          "counts_for_network": true
-        },
-        "NEC": {
-          "wins": 2,
-          "losses": 0,
-          "counts_for_network": true
-        },
-        "SEC": {
-          "wins": 0,
-          "losses": 2,
-          "counts_for_network": true
-        },
         "Conference USA": {
           "wins": 4,
           "losses": 1,
@@ -1330,6 +1315,16 @@
         },
         "Patriot": {
           "wins": 1,
+          "losses": 0,
+          "counts_for_network": true
+        },
+        "Mid-American": {
+          "wins": 4,
+          "losses": 1,
+          "counts_for_network": true
+        },
+        "NEC": {
+          "wins": 2,
           "losses": 0,
           "counts_for_network": true
         },
@@ -1341,6 +1336,11 @@
         "FBS Independents": {
           "wins": 1,
           "losses": 0,
+          "counts_for_network": true
+        },
+        "SEC": {
+          "wins": 0,
+          "losses": 2,
           "counts_for_network": true
         },
         "Pac-12": {
@@ -1385,9 +1385,9 @@
         }
       },
       "independent": false,
-      "average_resume": -6.920799061272,
+      "average_resume": -7.0897585275026485,
       "network_score": 58.79991231138847,
-      "opponent_network_score": 60.62693459849054,
+      "opponent_network_score": 60.626934598490536,
       "games": 37,
       "rank": 8
     },
@@ -1467,7 +1467,7 @@
         }
       },
       "independent": false,
-      "average_resume": -21.517912635145443,
+      "average_resume": -21.83210747329176,
       "network_score": 51.79010217619155,
       "opponent_network_score": 41.29253261111224,
       "games": 33,
@@ -1569,7 +1569,7 @@
         }
       },
       "independent": false,
-      "average_resume": -13.266227835856366,
+      "average_resume": -13.615147540258658,
       "network_score": 51.384618027824025,
       "opponent_network_score": 60.2624461857779,
       "games": 51,
@@ -1604,19 +1604,19 @@
           "losses": 0,
           "counts_for_network": true
         },
-        "MEAC": {
+        "Pioneer": {
           "wins": 1,
           "losses": 0,
           "counts_for_network": true
         },
-        "Pioneer": {
+        "MEAC": {
           "wins": 1,
           "losses": 0,
           "counts_for_network": true
         }
       },
       "independent": false,
-      "average_resume": -18.319891969400793,
+      "average_resume": -18.560097660472117,
       "network_score": 51.2089505951284,
       "opponent_network_score": 30.47636314472244,
       "games": 24,
@@ -1681,9 +1681,9 @@
           "losses": 3,
           "counts_for_network": true
         },
-        "American Athletic": {
+        "Big Ten": {
           "wins": 0,
-          "losses": 3,
+          "losses": 1,
           "counts_for_network": true
         },
         "NEC": {
@@ -1691,9 +1691,9 @@
           "losses": 0,
           "counts_for_network": true
         },
-        "Big Ten": {
+        "American Athletic": {
           "wins": 0,
-          "losses": 1,
+          "losses": 3,
           "counts_for_network": true
         },
         "Southland": {
@@ -1703,9 +1703,9 @@
         }
       },
       "independent": false,
-      "average_resume": -14.295821159189092,
+      "average_resume": -14.715556366463266,
       "network_score": 50.14097712378679,
-      "opponent_network_score": 60.148025979976126,
+      "opponent_network_score": 60.14802597997612,
       "games": 40,
       "rank": 12
     },
@@ -1800,7 +1800,7 @@
         }
       },
       "independent": false,
-      "average_resume": -25.427558965412103,
+      "average_resume": -25.603442631632866,
       "network_score": 39.658314223630384,
       "opponent_network_score": 40.49593217926641,
       "games": 35,
@@ -1877,7 +1877,7 @@
         }
       },
       "independent": false,
-      "average_resume": -29.419912685087397,
+      "average_resume": -29.81730034682789,
       "network_score": 39.15010931155142,
       "opponent_network_score": 49.74043894455475,
       "games": 31,
@@ -1969,7 +1969,7 @@
         }
       },
       "independent": false,
-      "average_resume": -31.606461680029792,
+      "average_resume": -31.85446948356177,
       "network_score": 37.760914542605214,
       "opponent_network_score": 46.37097170151805,
       "games": 32,
@@ -2041,7 +2041,7 @@
         }
       },
       "independent": false,
-      "average_resume": -29.81776960261691,
+      "average_resume": -29.999904808855682,
       "network_score": 35.70919590348459,
       "opponent_network_score": 51.184962228774964,
       "games": 24,
@@ -2113,7 +2113,7 @@
         }
       },
       "independent": false,
-      "average_resume": -33.121759590197826,
+      "average_resume": -33.2157426743985,
       "network_score": 35.22805243824273,
       "opponent_network_score": 49.72653881329394,
       "games": 29,
@@ -2200,7 +2200,7 @@
         }
       },
       "independent": false,
-      "average_resume": -29.844674253869456,
+      "average_resume": -29.82734981039954,
       "network_score": 32.43727984945136,
       "opponent_network_score": 38.94863014335749,
       "games": 33,
@@ -2292,7 +2292,7 @@
         }
       },
       "independent": false,
-      "average_resume": -34.565515818674115,
+      "average_resume": -34.63076854491196,
       "network_score": 30.023248259174963,
       "opponent_network_score": 45.130620525522836,
       "games": 47,
@@ -2394,7 +2394,7 @@
         }
       },
       "independent": false,
-      "average_resume": -36.02170907033244,
+      "average_resume": -36.23909136258774,
       "network_score": 28.780235480314726,
       "opponent_network_score": 47.90349145222365,
       "games": 37,
@@ -2476,7 +2476,7 @@
         }
       },
       "independent": false,
-      "average_resume": -31.16280150496156,
+      "average_resume": -31.39342984693472,
       "network_score": 25.42258487159639,
       "opponent_network_score": 52.5411336108961,
       "games": 24,
@@ -2553,7 +2553,7 @@
         }
       },
       "independent": false,
-      "average_resume": -35.27362043446081,
+      "average_resume": -35.40120689065991,
       "network_score": 11.605093115578294,
       "opponent_network_score": 37.572184208543156,
       "games": 24,
@@ -2655,7 +2655,7 @@
         }
       },
       "independent": false,
-      "average_resume": -42.59374400733351,
+      "average_resume": -42.74519704566947,
       "network_score": 9.05815042262643,
       "opponent_network_score": 47.48591711490682,
       "games": 33,
@@ -2712,7 +2712,7 @@
         }
       },
       "independent": true,
-      "average_resume": 15.805163437027932,
+      "average_resume": 15.13895325328888,
       "network_score": null,
       "opponent_network_score": 73.60533653574343,
       "games": 20,
@@ -2779,7 +2779,7 @@
         }
       },
       "independent": true,
-      "average_resume": -39.631986716353275,
+      "average_resume": -39.741003950853056,
       "network_score": null,
       "opponent_network_score": 34.511890123030206,
       "games": 17,
@@ -2787,7 +2787,7 @@
     }
   ],
   "playoffs": {
-    "as_of": "2026-11-15T07:30:18.278780+00:00",
+    "as_of": "2026-11-15T17:32:03.104497+00:00",
     "rules_season": 2026,
     "fbs": {
       "field": [
@@ -2834,32 +2834,32 @@
           "selection": "Notre Dame top-12 provision (model rank proxy)"
         },
         {
-          "team": "Indiana",
-          "conference": "Big Ten",
+          "team": "Alabama",
+          "conference": "SEC",
           "model_rank": 7,
           "seed": 7,
           "selection": "At-large"
         },
         {
-          "team": "Alabama",
-          "conference": "SEC",
+          "team": "Indiana",
+          "conference": "Big Ten",
           "model_rank": 8,
           "seed": 8,
           "selection": "At-large"
         },
         {
-          "team": "Boise State",
-          "conference": "Pac-12",
-          "model_rank": 9,
-          "seed": 9,
-          "selection": "Highest-ranked team from the other six FBS conferences"
-        },
-        {
           "team": "Texas Tech",
           "conference": "Big 12",
+          "model_rank": 9,
+          "seed": 9,
+          "selection": "At-large"
+        },
+        {
+          "team": "Boise State",
+          "conference": "Pac-12",
           "model_rank": 10,
           "seed": 10,
-          "selection": "At-large"
+          "selection": "Highest-ranked team from the other six FBS conferences"
         },
         {
           "team": "Wake Forest",
@@ -2869,8 +2869,8 @@
           "selection": "At-large"
         },
         {
-          "team": "BYU",
-          "conference": "Big 12",
+          "team": "Tennessee",
+          "conference": "SEC",
           "model_rank": 12,
           "seed": 12,
           "selection": "At-large"
@@ -2881,20 +2881,20 @@
           "name": "First round",
           "games": [
             [
-              "Alabama",
-              "Boise State"
+              "Indiana",
+              "Texas Tech"
             ],
             [
               "Texas",
-              "BYU"
+              "Tennessee"
             ],
             [
               "Notre Dame",
               "Wake Forest"
             ],
             [
-              "Indiana",
-              "Texas Tech"
+              "Alabama",
+              "Boise State"
             ]
           ]
         },
@@ -3002,15 +3002,15 @@
           "selection": "Projected Patriot champion"
         },
         {
-          "team": "Youngstown State",
-          "conference": "MVFC",
+          "team": "Mercer",
+          "conference": "Southern",
           "model_rank": 9,
           "seed": 9,
           "selection": "At-large"
         },
         {
-          "team": "Mercer",
-          "conference": "Southern",
+          "team": "Youngstown State",
+          "conference": "MVFC",
           "model_rank": 10,
           "seed": 10,
           "selection": "At-large"
@@ -3102,7 +3102,7 @@
         {
           "team": "Western Illinois",
           "conference": "OVC",
-          "model_rank": 41,
+          "model_rank": 40,
           "seed": null,
           "selection": "Projected OVC champion"
         },
@@ -3123,7 +3123,7 @@
               "Austin Peay"
             ],
             [
-              "Youngstown State",
+              "Mercer",
               "Campbell"
             ],
             [
@@ -3143,12 +3143,12 @@
               "Western Illinois"
             ],
             [
-              "Mercer",
-              "North Dakota"
+              "Youngstown State",
+              "Central Connecticut"
             ],
             [
               "Monmouth",
-              "Central Connecticut"
+              "North Dakota"
             ]
           ]
         },
