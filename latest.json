@@ -4,18 +4,18 @@
     "games": 123,
     "fcs_wins": 6,
     "fbs_wins": 117,
-    "log_odds_shift": -2.756011946231867,
+    "log_odds_shift": -2.7559016393573446,
     "smoothing_games": 2,
-    "fitted_fcs_wins": 6.880503970701717
+    "fitted_fcs_wins": 6.880491576418848
   },
   "fcs_team_count": 128,
   "fcs_games_count": 781,
-  "all_d1_games_count": 1409,
+  "all_d1_games_count": 1410,
   "non_d1_games_count": 68,
   "season": 2026,
-  "generated_at": "2026-11-15T17:32:03.104497+00:00",
-  "latest_game": "2026-11-15T04:00:00+00:00",
-  "games_count": 751,
+  "generated_at": "2026-11-16T14:57:06.989978+00:00",
+  "latest_game": "2026-11-15T18:00:00+00:00",
+  "games_count": 752,
   "team_count": 138,
   "postseason_2025_games": 46,
   "week": 11,
@@ -31,7 +31,7 @@
     {
       "parameter": "quality_weight",
       "factor": 1.2,
-      "top25_overlap": 25,
+      "top25_overlap": 24,
       "number_one": "Utah"
     },
     {
@@ -43,7 +43,7 @@
     {
       "parameter": "margin_weight",
       "factor": 1.2,
-      "top25_overlap": 24,
+      "top25_overlap": 25,
       "number_one": "UCLA"
     },
     {
@@ -62,7 +62,7 @@
   "rank_history": {
     "current": {
       "period": "2026-11-15",
-      "generated_at": "2026-11-15T17:32:03.104497+00:00",
+      "generated_at": "2026-11-16T14:57:06.989978+00:00",
       "fbs": {
         "UCLA": 1,
         "Utah": 2,
@@ -86,24 +86,24 @@
         "Kentucky": 20,
         "USC": 21,
         "North Dakota State": 22,
-        "Ole Miss": 23,
-        "Air Force": 24,
+        "Air Force": 23,
+        "New Mexico": 24,
         "Houston": 25,
-        "New Mexico": 26,
-        "Louisiana Tech": 27,
-        "Louisville": 28,
-        "Arizona": 29,
-        "Florida": 30,
+        "Louisiana Tech": 26,
+        "Florida": 27,
+        "Arizona": 28,
+        "Louisville": 29,
+        "Ole Miss": 30,
         "LSU": 31,
-        "North Texas": 32,
-        "Duke": 33,
-        "Toledo": 34,
-        "James Madison": 35,
-        "SMU": 36,
-        "Auburn": 37,
-        "Missouri": 38,
+        "Oklahoma": 32,
+        "North Texas": 33,
+        "Duke": 34,
+        "Toledo": 35,
+        "James Madison": 36,
+        "SMU": 37,
+        "Auburn": 38,
         "South Carolina": 39,
-        "Oklahoma": 40,
+        "Missouri": 40,
         "Western Michigan": 41,
         "Oklahoma State": 42,
         "Northwestern": 43,
@@ -137,8 +137,8 @@
         "Michigan": 71,
         "UAB": 72,
         "Miami (OH)": 73,
-        "UCF": 74,
-        "Minnesota": 75,
+        "Minnesota": 74,
+        "UCF": 75,
         "East Carolina": 76,
         "Oregon State": 77,
         "Virginia": 78,
@@ -163,8 +163,8 @@
         "Georgia State": 97,
         "Maryland": 98,
         "Kansas": 99,
-        "NC State": 100,
-        "Nevada": 101,
+        "Nevada": 100,
+        "NC State": 101,
         "Boston College": 102,
         "Michigan State": 103,
         "Purdue": 104,
@@ -197,8 +197,8 @@
         "Rice": 131,
         "UL Monroe": 132,
         "Charlotte": 133,
-        "Akron": 134,
-        "UTEP": 135,
+        "UTEP": 134,
+        "Akron": 135,
         "Sacramento State": 136,
         "Sam Houston": 137,
         "Northern Illinois": 138
@@ -306,8 +306,8 @@
         "Furman": 100,
         "Northern Colorado": 101,
         "Texas Southern": 102,
-        "Drake": 103,
-        "The Citadel": 104,
+        "The Citadel": 103,
+        "Drake": 104,
         "Gardner-Webb": 105,
         "Portland State": 106,
         "Eastern Illinois": 107,
@@ -674,14 +674,14 @@
           "losses": 0,
           "counts_for_network": true
         },
+        "Mountain West": {
+          "wins": 2,
+          "losses": 0,
+          "counts_for_network": true
+        },
         "Big 12": {
           "wins": 3,
           "losses": 1,
-          "counts_for_network": true
-        },
-        "SWAC": {
-          "wins": 1,
-          "losses": 0,
           "counts_for_network": true
         },
         "Mid-American": {
@@ -689,8 +689,8 @@
           "losses": 0,
           "counts_for_network": true
         },
-        "Mountain West": {
-          "wins": 2,
+        "SWAC": {
+          "wins": 1,
           "losses": 0,
           "counts_for_network": true
         },
@@ -701,9 +701,9 @@
         }
       },
       "independent": false,
-      "average_resume": 16.25266105135618,
+      "average_resume": 16.467631883341607,
       "network_score": 103.96705275490868,
-      "opponent_network_score": 61.665405392654115,
+      "opponent_network_score": 61.66540539265413,
       "games": 40,
       "rank": 1
     },
@@ -793,7 +793,7 @@
         }
       },
       "independent": false,
-      "average_resume": 9.624614325349619,
+      "average_resume": 9.681475371233752,
       "network_score": 91.40171133185163,
       "opponent_network_score": 63.305478418216545,
       "games": 54,
@@ -905,9 +905,9 @@
         }
       },
       "independent": false,
-      "average_resume": 9.259256467506871,
+      "average_resume": 9.25500169873304,
       "network_score": 91.36790960871201,
-      "opponent_network_score": 59.75823917574169,
+      "opponent_network_score": 59.7582391757417,
       "games": 48,
       "rank": 3
     },
@@ -1017,7 +1017,7 @@
         }
       },
       "independent": false,
-      "average_resume": 4.086616218979209,
+      "average_resume": 4.046108493460557,
       "network_score": 84.99123926342229,
       "opponent_network_score": 64.39088883395915,
       "games": 50,
@@ -1114,9 +1114,9 @@
         }
       },
       "independent": false,
-      "average_resume": -5.331777422354482,
-      "network_score": 63.076864317932355,
-      "opponent_network_score": 61.70934077415209,
+      "average_resume": -5.348097650891485,
+      "network_score": 63.076864317932376,
+      "opponent_network_score": 61.709340774152096,
       "games": 54,
       "rank": 5
     },
@@ -1186,7 +1186,7 @@
         }
       },
       "independent": false,
-      "average_resume": -5.2140522929554045,
+      "average_resume": -5.208964051520335,
       "network_score": 62.571635642981974,
       "opponent_network_score": 66.48236287066834,
       "games": 32,
@@ -1293,8 +1293,8 @@
         }
       },
       "independent": false,
-      "average_resume": -10.154312283052125,
-      "network_score": 59.57837321956999,
+      "average_resume": -10.151542218406984,
+      "network_score": 59.57837321957001,
       "opponent_network_score": 60.83576860937255,
       "games": 55,
       "rank": 7
@@ -1385,9 +1385,9 @@
         }
       },
       "independent": false,
-      "average_resume": -7.0897585275026485,
+      "average_resume": -6.9539142982121644,
       "network_score": 58.79991231138847,
-      "opponent_network_score": 60.626934598490536,
+      "opponent_network_score": 60.62693459849054,
       "games": 37,
       "rank": 8
     },
@@ -1467,9 +1467,9 @@
         }
       },
       "independent": false,
-      "average_resume": -21.83210747329176,
-      "network_score": 51.79010217619155,
-      "opponent_network_score": 41.29253261111224,
+      "average_resume": -21.82302126323914,
+      "network_score": 51.79010217619157,
+      "opponent_network_score": 41.29253261111225,
       "games": 33,
       "rank": 9
     },
@@ -1569,9 +1569,9 @@
         }
       },
       "independent": false,
-      "average_resume": -13.615147540258658,
+      "average_resume": -13.592433523823143,
       "network_score": 51.384618027824025,
-      "opponent_network_score": 60.2624461857779,
+      "opponent_network_score": 60.262446185777904,
       "games": 51,
       "rank": 10
     },
@@ -1616,9 +1616,9 @@
         }
       },
       "independent": false,
-      "average_resume": -18.560097660472117,
-      "network_score": 51.2089505951284,
-      "opponent_network_score": 30.47636314472244,
+      "average_resume": -18.557417037878807,
+      "network_score": 51.208950595128414,
+      "opponent_network_score": 30.476363144722445,
       "games": 24,
       "rank": 11
     },
@@ -1703,9 +1703,9 @@
         }
       },
       "independent": false,
-      "average_resume": -14.715556366463266,
-      "network_score": 50.14097712378679,
-      "opponent_network_score": 60.14802597997612,
+      "average_resume": -14.704666393351522,
+      "network_score": 50.1409771237868,
+      "opponent_network_score": 60.14802597997614,
       "games": 40,
       "rank": 12
     },
@@ -1800,9 +1800,9 @@
         }
       },
       "independent": false,
-      "average_resume": -25.603442631632866,
-      "network_score": 39.658314223630384,
-      "opponent_network_score": 40.49593217926641,
+      "average_resume": -25.60439281441861,
+      "network_score": 39.658314223630406,
+      "opponent_network_score": 40.49593217926643,
       "games": 35,
       "rank": 13
     },
@@ -1877,8 +1877,8 @@
         }
       },
       "independent": false,
-      "average_resume": -29.81730034682789,
-      "network_score": 39.15010931155142,
+      "average_resume": -29.813706787915933,
+      "network_score": 39.15010931155143,
       "opponent_network_score": 49.74043894455475,
       "games": 31,
       "rank": 14
@@ -1969,9 +1969,9 @@
         }
       },
       "independent": false,
-      "average_resume": -31.85446948356177,
-      "network_score": 37.760914542605214,
-      "opponent_network_score": 46.37097170151805,
+      "average_resume": -31.851393430769257,
+      "network_score": 37.760914542605235,
+      "opponent_network_score": 46.37097170151806,
       "games": 32,
       "rank": 15
     },
@@ -2041,9 +2041,9 @@
         }
       },
       "independent": false,
-      "average_resume": -29.999904808855682,
-      "network_score": 35.70919590348459,
-      "opponent_network_score": 51.184962228774964,
+      "average_resume": -29.99939357922392,
+      "network_score": 35.709195903484606,
+      "opponent_network_score": 51.184962228775,
       "games": 24,
       "rank": 16
     },
@@ -2113,9 +2113,9 @@
         }
       },
       "independent": false,
-      "average_resume": -33.2157426743985,
+      "average_resume": -33.21597604131612,
       "network_score": 35.22805243824273,
-      "opponent_network_score": 49.72653881329394,
+      "opponent_network_score": 49.726538813293956,
       "games": 29,
       "rank": 17
     },
@@ -2200,9 +2200,9 @@
         }
       },
       "independent": false,
-      "average_resume": -29.82734981039954,
+      "average_resume": -29.825517226569403,
       "network_score": 32.43727984945136,
-      "opponent_network_score": 38.94863014335749,
+      "opponent_network_score": 38.948630143357505,
       "games": 33,
       "rank": 18
     },
@@ -2292,9 +2292,9 @@
         }
       },
       "independent": false,
-      "average_resume": -34.63076854491196,
-      "network_score": 30.023248259174963,
-      "opponent_network_score": 45.130620525522836,
+      "average_resume": -34.62390995737687,
+      "network_score": 30.023248259174974,
+      "opponent_network_score": 45.13062052552284,
       "games": 47,
       "rank": 19
     },
@@ -2394,9 +2394,9 @@
         }
       },
       "independent": false,
-      "average_resume": -36.23909136258774,
-      "network_score": 28.780235480314726,
-      "opponent_network_score": 47.90349145222365,
+      "average_resume": -36.23702995601261,
+      "network_score": 28.780235480314744,
+      "opponent_network_score": 47.903491452223655,
       "games": 37,
       "rank": 20
     },
@@ -2476,9 +2476,9 @@
         }
       },
       "independent": false,
-      "average_resume": -31.39342984693472,
-      "network_score": 25.42258487159639,
-      "opponent_network_score": 52.5411336108961,
+      "average_resume": -31.394575968274257,
+      "network_score": 25.42258487159641,
+      "opponent_network_score": 52.541133610896104,
       "games": 24,
       "rank": 21
     },
@@ -2553,9 +2553,9 @@
         }
       },
       "independent": false,
-      "average_resume": -35.40120689065991,
-      "network_score": 11.605093115578294,
-      "opponent_network_score": 37.572184208543156,
+      "average_resume": -35.39994050531522,
+      "network_score": 11.605093115578308,
+      "opponent_network_score": 37.57218420854318,
       "games": 24,
       "rank": 22
     },
@@ -2655,9 +2655,9 @@
         }
       },
       "independent": false,
-      "average_resume": -42.74519704566947,
-      "network_score": 9.05815042262643,
-      "opponent_network_score": 47.48591711490682,
+      "average_resume": -42.737475100965575,
+      "network_score": 9.058150422626444,
+      "opponent_network_score": 47.485917114906826,
       "games": 33,
       "rank": 23
     },
@@ -2712,7 +2712,7 @@
         }
       },
       "independent": true,
-      "average_resume": 15.13895325328888,
+      "average_resume": 15.138434694985976,
       "network_score": null,
       "opponent_network_score": 73.60533653574343,
       "games": 20,
@@ -2779,7 +2779,7 @@
         }
       },
       "independent": true,
-      "average_resume": -39.741003950853056,
+      "average_resume": -39.741927862650016,
       "network_score": null,
       "opponent_network_score": 34.511890123030206,
       "games": 17,
@@ -2787,7 +2787,7 @@
     }
   ],
   "playoffs": {
-    "as_of": "2026-11-15T17:32:03.104497+00:00",
+    "as_of": "2026-11-16T14:57:06.989978+00:00",
     "rules_season": 2026,
     "fbs": {
       "field": [
@@ -4968,7 +4968,7 @@
       }
     ]
   },
-  "recent_espn_checks": 73,
+  "recent_espn_checks": 74,
   "refresh_mode": "live",
   "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/schedules/csv/cfb_schedules_2026.csv"
 }

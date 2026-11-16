@@ -627,7 +627,7 @@ game_id,season,week,season_type,start_date,completed,neutral_site,home_team,home
 401856864,2026,11,regular,2026-11-15 03:30:00+00:00,True,False,Arizona,fbs,Big 12,39.0,Utah,fbs,Big 12,40.0
 401860917,2026,11,regular,2026-11-15 03:30:00+00:00,True,False,Washington State,fbs,Pac-12,73.0,Colorado State,fbs,Pac-12,7.0
 401864537,2026,11,regular,2026-11-15 04:00:00+00:00,True,False,Hawai'i,fbs,Mountain West,13.0,North Dakota State,fbs,Mountain West,21.0
-401856887,2026,11,regular,2026-11-15 18:00:00+00:00,False,False,Oklahoma,fbs,SEC,,Ole Miss,fbs,SEC,
+401856887,2026,11,regular,2026-11-15 18:00:00+00:00,True,False,Oklahoma,fbs,SEC,24.0,Ole Miss,fbs,SEC,17.0
 401866465,2026,12,regular,2026-11-17 23:00:00+00:00,False,False,Western Michigan,fbs,Mid-American,,Eastern Michigan,fbs,Mid-American,
 401866464,2026,12,regular,2026-11-18 00:00:00+00:00,False,False,Ohio,fbs,Mid-American,,Ball State,fbs,Mid-American,
 401866466,2026,12,regular,2026-11-18 00:00:00+00:00,False,False,Kent State,fbs,Mid-American,,Miami (OH),fbs,Mid-American,
