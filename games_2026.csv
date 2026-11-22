@@ -664,7 +664,7 @@ game_id,season,week,season_type,start_date,completed,neutral_site,home_team,home
 401871081,2026,12,regular,2026-11-21 19:00:00+00:00,False,False,Sam Houston,fbs,Conference USA,,Middle Tennessee,fbs,Conference USA,
 401871079,2026,12,regular,2026-11-21 19:00:00+00:00,False,False,Jacksonville State,fbs,Conference USA,,Missouri State,fbs,Conference USA,
 401862832,2026,12,regular,2026-11-21 19:00:00+00:00,False,False,Tulsa,fbs,American Athletic,,Charlotte,fbs,American Athletic,
-401862833,2026,12,regular,2026-11-21 19:30:00+00:00,False,False,Florida Atlantic,fbs,American Athletic,,South Florida,fbs,American Athletic,
+401862833,2026,12,regular,2026-11-21 19:30:00+00:00,True,False,Florida Atlantic,fbs,American Athletic,35.0,South Florida,fbs,American Athletic,14.0
 401858527,2026,12,regular,2026-11-21 19:30:00+00:00,False,False,Illinois,fbs,Big Ten,,Iowa,fbs,Big Ten,
 401869929,2026,12,regular,2026-11-21 19:30:00+00:00,False,False,App State,fbs,Sun Belt,,UL Monroe,fbs,Sun Belt,
 401871078,2026,12,regular,2026-11-21 20:00:00+00:00,False,False,Kennesaw State,fbs,Conference USA,,Florida International,fbs,Conference USA,
