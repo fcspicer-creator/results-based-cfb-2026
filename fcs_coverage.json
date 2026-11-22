@@ -5,7 +5,7 @@
   "postseason_url_template": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/{}/schedule?season=2026&seasontype=3",
   "fcs_team_count": 128,
   "schedule_games": 847,
-  "completed_games": 781,
+  "completed_games": 845,
   "reciprocal_schedule_checks": true,
   "excluded_games": [
     {
