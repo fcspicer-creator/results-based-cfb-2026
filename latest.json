@@ -2951,222 +2951,648 @@
             ]
           ]
         }
-      ]
+      ],
+      "mode": "projected",
+      "checked_at": "2026-11-24T14:59:13.555450+00:00"
     },
     "fcs": {
+      "mode": "official",
       "field": [
         {
-          "team": "Tarleton State",
-          "conference": "UAC",
-          "model_rank": 1,
-          "seed": 1,
-          "selection": "Projected UAC champion"
-        },
-        {
           "team": "Montana State",
-          "conference": "Big Sky",
-          "model_rank": 2,
-          "seed": 2,
-          "selection": "Projected Big Sky champion"
+          "seed": 1,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/m/montana-st.70.png"
         },
         {
-          "team": "Stephen F. Austin",
-          "conference": "Southland",
-          "model_rank": 3,
-          "seed": 3,
-          "selection": "Projected Southland champion"
+          "team": "Tarleton State",
+          "seed": 2,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/t/tarleton-st.70.png"
         },
         {
           "team": "South Dakota State",
-          "conference": "MVFC",
-          "model_rank": 4,
-          "seed": 4,
-          "selection": "Projected MVFC champion"
+          "seed": 3,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/s/south-dakota-st.70.png"
         },
         {
           "team": "Lamar",
-          "conference": "Southland",
-          "model_rank": 5,
+          "seed": 4,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/l/lamar.70.png"
+        },
+        {
+          "team": "Stephen F. Austin",
           "seed": 5,
-          "selection": "At-large"
-        },
-        {
-          "team": "Harvard",
-          "conference": "Ivy",
-          "model_rank": 6,
-          "seed": 6,
-          "selection": "Projected Ivy champion"
-        },
-        {
-          "team": "Lehigh",
-          "conference": "Patriot",
-          "model_rank": 7,
-          "seed": 7,
-          "selection": "Projected Patriot champion"
-        },
-        {
-          "team": "Mercer",
-          "conference": "Southern",
-          "model_rank": 8,
-          "seed": 8,
-          "selection": "Projected Southern champion"
-        },
-        {
-          "team": "South Dakota",
-          "conference": "MVFC",
-          "model_rank": 9,
-          "seed": 9,
-          "selection": "At-large"
-        },
-        {
-          "team": "Butler",
-          "conference": "Pioneer",
-          "model_rank": 10,
-          "seed": 10,
-          "selection": "Projected Pioneer champion"
-        },
-        {
-          "team": "Northern Arizona",
-          "conference": "Big Sky",
-          "model_rank": 11,
-          "seed": 11,
-          "selection": "At-large"
-        },
-        {
-          "team": "Dayton",
-          "conference": "Pioneer",
-          "model_rank": 12,
-          "seed": 12,
-          "selection": "At-large"
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/s/stephen-f-austin.70.png"
         },
         {
           "team": "Youngstown State",
-          "conference": "MVFC",
-          "model_rank": 13,
-          "seed": 13,
-          "selection": "At-large"
+          "seed": 6,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/y/youngstown-st.70.png"
         },
         {
-          "team": "Monmouth",
-          "conference": "Coastal Athletic",
-          "model_rank": 14,
-          "seed": 14,
-          "selection": "Projected Coastal Athletic champion"
+          "team": "South Dakota",
+          "seed": 7,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/s/south-dakota.70.png"
         },
         {
-          "team": "Tennessee Tech",
-          "conference": "Southern",
-          "model_rank": 15,
-          "seed": 15,
-          "selection": "At-large"
+          "team": "Mercer",
+          "seed": 8,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/m/mercer.70.png"
         },
         {
           "team": "North Dakota",
-          "conference": "MVFC",
-          "model_rank": 16,
-          "seed": 16,
-          "selection": "At-large"
+          "seed": 9,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/n/north-dakota.70.png"
         },
         {
-          "team": "UAlbany",
-          "conference": "Coastal Athletic",
-          "model_rank": 17,
-          "seed": null,
-          "selection": "At-large"
+          "team": "Northern Arizona",
+          "seed": 10,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/n/northern-ariz.70.png"
         },
         {
-          "team": "Incarnate Word",
-          "conference": "Southland",
-          "model_rank": 18,
-          "seed": null,
-          "selection": "At-large"
+          "team": "Tennessee Tech",
+          "seed": 11,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/t/tennessee-tech.70.png"
+        },
+        {
+          "team": "Lehigh",
+          "seed": 12,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/l/lehigh.70.png"
+        },
+        {
+          "team": "Illinois State",
+          "seed": 13,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/i/illinois-st.70.png"
+        },
+        {
+          "team": "Weber State",
+          "seed": 14,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/w/weber-st.70.png"
         },
         {
           "team": "Montana",
-          "conference": "Big Sky",
-          "model_rank": 19,
-          "seed": null,
-          "selection": "At-large"
+          "seed": 15,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/m/montana.70.png"
         },
         {
-          "team": "Princeton",
-          "conference": "Ivy",
-          "model_rank": 20,
-          "seed": null,
-          "selection": "At-large"
+          "team": "Monmouth",
+          "seed": 16,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/m/monmouth.70.png"
         },
         {
-          "team": "Campbell",
-          "conference": "Coastal Athletic",
-          "model_rank": 21,
+          "team": "Austin Peay",
           "seed": null,
-          "selection": "At-large"
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/a/austin-peay.70.png"
         },
         {
-          "team": "St. Thomas",
-          "conference": "Pioneer",
-          "model_rank": 22,
+          "team": "Dayton",
           "seed": null,
-          "selection": "At-large"
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/d/dayton.70.png"
+        },
+        {
+          "team": "Harvard",
+          "seed": null,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/h/harvard.70.png"
+        },
+        {
+          "team": "Idaho State",
+          "seed": null,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/i/idaho-st.70.png"
+        },
+        {
+          "team": "Incarnate Word",
+          "seed": null,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/u/uiw.70.png"
+        },
+        {
+          "team": "Long Island University",
+          "seed": null,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/l/long-island.70.png"
+        },
+        {
+          "team": "UAlbany",
+          "seed": null,
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/a/albany-ny.70.png"
         },
         {
           "team": "Western Illinois",
-          "conference": "OVC",
-          "model_rank": 36,
           "seed": null,
-          "selection": "Projected OVC champion"
-        },
-        {
-          "team": "Central Connecticut",
-          "conference": "NEC",
-          "model_rank": 50,
-          "seed": null,
-          "selection": "Projected NEC champion"
+          "selection": "Committee selection",
+          "logo": "https://www.ncaa.com/sites/default/files/images/logos/schools/w/western-ill.70.png"
         }
       ],
-      "rounds": [
+      "nodes": [
         {
-          "name": "First round",
-          "games": [
-            [
-              "North Dakota",
-              "UAlbany"
-            ],
-            [
-              "South Dakota",
-              "Incarnate Word"
-            ],
-            [
-              "Dayton",
-              "Montana"
-            ],
-            [
-              "Youngstown State",
-              "Princeton"
-            ],
-            [
-              "Monmouth",
-              "St. Thomas"
-            ],
-            [
-              "Northern Arizona",
-              "Campbell"
-            ],
-            [
-              "Butler",
-              "Western Illinois"
-            ],
-            [
-              "Tennessee Tech",
-              "Central Connecticut"
-            ]
+          "id": 102,
+          "contest_id": 6645232,
+          "round": 1,
+          "next": 201,
+          "next_slot": 1,
+          "teams": [
+            "Harvard",
+            "Monmouth"
+          ],
+          "winner": null,
+          "final": false,
+          "date": "11/28/2026",
+          "scores": [
+            null,
+            null
           ]
         },
         {
-          "name": "Second round",
+          "id": 104,
+          "contest_id": 6645234,
+          "round": 1,
+          "next": 202,
+          "next_slot": 1,
+          "teams": [
+            "Idaho State",
+            "North Dakota"
+          ],
+          "winner": null,
+          "final": false,
+          "date": "11/28/2026",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 106,
+          "contest_id": 6645236,
+          "round": 1,
+          "next": 203,
+          "next_slot": 1,
+          "teams": [
+            "UAlbany",
+            "Lehigh"
+          ],
+          "winner": null,
+          "final": false,
+          "date": "11/28/2026",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 108,
+          "contest_id": 6645238,
+          "round": 1,
+          "next": 204,
+          "next_slot": 1,
+          "teams": [
+            "Austin Peay",
+            "Illinois State"
+          ],
+          "winner": null,
+          "final": false,
+          "date": "11/28/2026",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 110,
+          "contest_id": 6645240,
+          "round": 1,
+          "next": 205,
+          "next_slot": 1,
+          "teams": [
+            "Incarnate Word",
+            "Montana"
+          ],
+          "winner": null,
+          "final": false,
+          "date": "11/28/2026",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 112,
+          "contest_id": 6645242,
+          "round": 1,
+          "next": 206,
+          "next_slot": 1,
+          "teams": [
+            "Long Island University",
+            "Northern Arizona"
+          ],
+          "winner": null,
+          "final": false,
+          "date": "11/28/2026",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 114,
+          "contest_id": 6645244,
+          "round": 1,
+          "next": 207,
+          "next_slot": 1,
+          "teams": [
+            "Dayton",
+            "Tennessee Tech"
+          ],
+          "winner": null,
+          "final": false,
+          "date": "11/28/2026",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 116,
+          "contest_id": 6645246,
+          "round": 1,
+          "next": 208,
+          "next_slot": 1,
+          "teams": [
+            "Western Illinois",
+            "Weber State"
+          ],
+          "winner": null,
+          "final": false,
+          "date": "11/28/2026",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 201,
+          "contest_id": 6645247,
+          "round": 2,
+          "next": 301,
+          "next_slot": 0,
+          "teams": [
+            "Montana State",
+            null
+          ],
+          "winner": null,
+          "final": false,
+          "date": "12/05/2026",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 202,
+          "contest_id": 6645248,
+          "round": 2,
+          "next": 301,
+          "next_slot": 1,
+          "teams": [
+            "Mercer",
+            null
+          ],
+          "winner": null,
+          "final": false,
+          "date": "12/05/2026",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 203,
+          "contest_id": 6645249,
+          "round": 2,
+          "next": 302,
+          "next_slot": 0,
+          "teams": [
+            "Stephen F. Austin",
+            null
+          ],
+          "winner": null,
+          "final": false,
+          "date": "12/05/2026",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 204,
+          "contest_id": 6645250,
+          "round": 2,
+          "next": 302,
+          "next_slot": 1,
+          "teams": [
+            "Lamar",
+            null
+          ],
+          "winner": null,
+          "final": false,
+          "date": "12/05/2026",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 205,
+          "contest_id": 6645251,
+          "round": 2,
+          "next": 303,
+          "next_slot": 0,
+          "teams": [
+            "Tarleton State",
+            null
+          ],
+          "winner": null,
+          "final": false,
+          "date": "12/05/2026",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 206,
+          "contest_id": 6645252,
+          "round": 2,
+          "next": 303,
+          "next_slot": 1,
+          "teams": [
+            "South Dakota",
+            null
+          ],
+          "winner": null,
+          "final": false,
+          "date": "12/05/2026",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 207,
+          "contest_id": 6645253,
+          "round": 2,
+          "next": 304,
+          "next_slot": 0,
+          "teams": [
+            "Youngstown State",
+            null
+          ],
+          "winner": null,
+          "final": false,
+          "date": "12/05/2026",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 208,
+          "contest_id": 6645254,
+          "round": 2,
+          "next": 304,
+          "next_slot": 1,
+          "teams": [
+            "South Dakota State",
+            null
+          ],
+          "winner": null,
+          "final": false,
+          "date": "12/05/2026",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 301,
+          "contest_id": 6645255,
+          "round": 3,
+          "next": 401,
+          "next_slot": 0,
+          "teams": [
+            null,
+            null
+          ],
+          "winner": null,
+          "final": false,
+          "date": "",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 302,
+          "contest_id": 6645256,
+          "round": 3,
+          "next": 401,
+          "next_slot": 1,
+          "teams": [
+            null,
+            null
+          ],
+          "winner": null,
+          "final": false,
+          "date": "",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 303,
+          "contest_id": 6645257,
+          "round": 3,
+          "next": 402,
+          "next_slot": 0,
+          "teams": [
+            null,
+            null
+          ],
+          "winner": null,
+          "final": false,
+          "date": "",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 304,
+          "contest_id": 6645258,
+          "round": 3,
+          "next": 402,
+          "next_slot": 1,
+          "teams": [
+            null,
+            null
+          ],
+          "winner": null,
+          "final": false,
+          "date": "",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 401,
+          "contest_id": 6645259,
+          "round": 4,
+          "next": 501,
+          "next_slot": 0,
+          "teams": [
+            null,
+            null
+          ],
+          "winner": null,
+          "final": false,
+          "date": "12/19/2026",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 402,
+          "contest_id": 6645260,
+          "round": 4,
+          "next": 501,
+          "next_slot": 1,
+          "teams": [
+            null,
+            null
+          ],
+          "winner": null,
+          "final": false,
+          "date": "12/19/2026",
+          "scores": [
+            null,
+            null
+          ]
+        },
+        {
+          "id": 501,
+          "contest_id": 6645261,
+          "round": 5,
+          "next": null,
+          "next_slot": 1,
+          "teams": [
+            null,
+            null
+          ],
+          "winner": null,
+          "final": false,
+          "date": "01/11/2027",
+          "scores": [
+            null,
+            null
+          ]
+        }
+      ],
+      "round_names": {
+        "1": "First Round",
+        "2": "Second Round",
+        "3": "Quarterfinals",
+        "4": "Semifinals",
+        "5": "Championship"
+      },
+      "source_url": "https://www.ncaa.com/brackets/football/fcs/2026",
+      "season": 2026,
+      "updated_at": "2026-11-24T14:59:13.555450+00:00",
+      "checked_at": "2026-11-24T14:59:13.555450+00:00",
+      "rounds": [
+        {
+          "name": "First Round",
           "games": [
             [
-              "Tarleton State",
+              "Harvard",
+              "Monmouth"
+            ],
+            [
+              "Idaho State",
+              "North Dakota"
+            ],
+            [
+              "UAlbany",
+              "Lehigh"
+            ],
+            [
+              "Austin Peay",
+              "Illinois State"
+            ],
+            [
+              "Incarnate Word",
+              "Montana"
+            ],
+            [
+              "Long Island University",
+              "Northern Arizona"
+            ],
+            [
+              "Dayton",
+              "Tennessee Tech"
+            ],
+            [
+              "Western Illinois",
+              "Weber State"
+            ]
+          ],
+          "winners": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "next_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "name": "Second Round",
+          "games": [
+            [
+              "Montana State",
               null
             ],
             [
@@ -3174,29 +3600,49 @@
               null
             ],
             [
+              "Stephen F. Austin",
+              null
+            ],
+            [
               "Lamar",
+              null
+            ],
+            [
+              "Tarleton State",
+              null
+            ],
+            [
+              "South Dakota",
+              null
+            ],
+            [
+              "Youngstown State",
               null
             ],
             [
               "South Dakota State",
               null
-            ],
-            [
-              "Stephen F. Austin",
-              null
-            ],
-            [
-              "Harvard",
-              null
-            ],
-            [
-              "Lehigh",
-              null
-            ],
-            [
-              "Montana State",
-              null
             ]
+          ],
+          "winners": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "next_indices": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3
           ]
         },
         {
@@ -3218,6 +3664,18 @@
               null,
               null
             ]
+          ],
+          "winners": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "next_indices": [
+            0,
+            0,
+            1,
+            1
           ]
         },
         {
@@ -3231,6 +3689,14 @@
               null,
               null
             ]
+          ],
+          "winners": [
+            null,
+            null
+          ],
+          "next_indices": [
+            0,
+            0
           ]
         },
         {
@@ -3240,21 +3706,17 @@
               null,
               null
             ]
+          ],
+          "winners": [
+            null
+          ],
+          "next_indices": [
+            null
           ]
         }
       ],
-      "unavailable": [
-        "South Carolina State",
-        "Alabama A&M",
-        "Prairie View A&M"
-      ],
-      "ineligible": [
-        "Florida A&M",
-        "Mercyhurst",
-        "New Haven",
-        "West Florida",
-        "West Georgia"
-      ]
+      "champion": null,
+      "completed_games": 0
     }
   },
   "team_logos": {
@@ -4978,7 +5440,7 @@
       }
     ]
   },
-  "recent_espn_checks": 74,
-  "refresh_mode": "live",
+  "recent_espn_checks": 0,
+  "refresh_mode": "frozen",
   "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/schedules/csv/cfb_schedules_2026.csv"
 }
