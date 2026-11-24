@@ -1,4 +1,5 @@
 import playoffs
+import official_playoffs
 """Build a validated static site. --refresh downloads current public results first."""
 import argparse, csv, hashlib, io, json, math, shutil, time
 from datetime import datetime, timedelta, timezone
@@ -219,7 +220,8 @@ def ranking_history(data, saved):
     return dict(current=current,previous=previous)
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--refresh',action='store_true');ap.add_argument('--snapshot',action='store_true');ap.add_argument('--as-of',help='ISO UTC time for reproducible offline build');args=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('--refresh',action='store_true');ap.add_argument('--snapshot',action='store_true');ap.add_argument('--as-of',help='ISO UTC time for reproducible offline build');ap.add_argument('--brackets-only',action='store_true',help='Update official brackets without refreshing rankings');args=ap.parse_args()
+    if args.brackets_only: args.snapshot=True
     now=datetime.fromisoformat(args.as_of) if args.as_of else datetime.now(timezone.utc)
     if args.snapshot:
         stamp=json.loads((ROOT/'latest.json').read_text())['generated_at'] if (ROOT/'latest.json').exists() else '2026-11-04T06:00:00+00:00'
@@ -237,11 +239,19 @@ def main():
     data,out,ledger=calculate(df,old,now)
     data['rank_history']=ranking_history(data,json.loads((ROOT/'latest.json').read_text()))
     data['conference_comparison']=conference_comparison(data)
-    data['playoffs']=playoffs.project(data)
+    bracket_path=ROOT/'official_playoffs.json'
+    bracket_cache=json.loads(bracket_path.read_text()) if bracket_path.exists() else {}
+    if args.refresh or args.brackets_only:
+        bracket_cache=official_playoffs.update(bracket_cache,fetch,datetime.now(timezone.utc))
+    data['playoffs']=official_playoffs.apply(playoffs.project(data),bracket_cache)
     data['team_logos']=json.loads((ROOT/'team_logos.json').read_text())
     data['conference_logos']=json.loads((ROOT/'conference_logos.json').read_text())
     data['fcs_coverage']=coverage
     data['recent_espn_checks']=reconciled;data['refresh_mode']='live' if args.refresh else 'frozen';data['source_url']=SOURCE
+    if args.brackets_only:
+        saved=json.loads((ROOT/'latest.json').read_text())
+        for key in ('conference_comparison','recent_espn_checks','refresh_mode'):
+            data[key]=saved[key]
     # Only write outputs after all checks succeed. Failed Actions runs preserve the live site.
     target=ROOT/'site';target.mkdir(exist_ok=True)
     encoded=json.dumps(data,allow_nan=False).replace('</','<\\/')
@@ -258,6 +268,7 @@ def main():
     df.to_csv(ROOT/'games_2026.csv',index=False);old.to_csv(ROOT/'games_2025.csv',index=False)
     (ROOT/'latest.json').write_text(json.dumps({k:v for k,v in data.items() if k not in ('teams','fcs_teams','all_teams')},indent=2))
     (ROOT/'fcs_coverage.json').write_text(json.dumps(coverage,indent=2))
+    bracket_path.write_text(json.dumps(bracket_cache,indent=2))
     print(f'Validated {len(out)} teams and {len(ledger)} team-game entries; {data["games_count"]} games. Built site/index.html')
 
 if __name__=='__main__':main()
